@@ -11,7 +11,7 @@
 }
 
 .main-section {
-  background: url(./Background.svg) no-repeat center center fixed;
+  background: url(./Background.svg) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -20,7 +20,7 @@
 }
 .myWork-section {
   height: 200vh;
-  background-color: turquoise
+  background-color: white
 }
 .workHistory-section {
   height: 100vh;
