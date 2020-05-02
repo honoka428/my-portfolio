@@ -1,0 +1,44 @@
+/* Global styles */
+
+#header {
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.0676924px;
+    
+    color: #3B3B3B;
+}
+
+#description {
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.0676924px;
+    color: #3B3B3B;    
+}
+
+/* Housie styles */
+.housieLogo {
+    position: relative;
+    height: 14vh;
+    left: 45%;
+    top: 8%;
+}
+
+.housieHeader {
+    width: 133px;
+    height: 49px;
+    left: 573px;
+    top: 148px;
+}
+
+.housieDescription {
+    width: 470px;
+    height: 30px;
+    left: 405px;
+    top: 210px;
+}

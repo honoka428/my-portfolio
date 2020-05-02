@@ -11,7 +11,7 @@
 }
 
 .main-section {
-  background: url(./Background.svg) no-repeat center center scroll;
+  background: url(./images/Background.svg) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -123,15 +123,15 @@
   height: 38px;
   width: 145px;
   left: 80%;
-  top: 9.3%;
+  top: 9.1%;
   background: transparent;
-  border: 2.5px solid #FFFFFF;
+  border: 2px solid #FFFFFF;
   box-sizing: border-box;
-  border-radius: 7px;
+  border-radius: 5px;
 
   font-weight: bold;
   font-size: 2.4vh;
-  line-height: 28px;  
+  line-height: 30px;  
   text-align: center;
   transition: 0.2s;  
   -webkit-transition:0.3s;
@@ -146,7 +146,7 @@
   top: 9.3%;
   background: transparent;
   border: none;
-  border-radius: 7px;
+  border-radius: 5px;
 
   font-style: normal;
   font-weight: bold;
@@ -158,13 +158,13 @@
 .resumeButton:hover:before { transition-delay: .2s; }
 .resumeButton:before {  width: 0%; height:100%;  z-index: 3;   content:'';  position: absolute;  bottom:-1px;   left:0;  box-sizing: border-box;  transition: 0.1s;}
 .resumeButton:hover:before {  width: 100% !important;  transition: 0.7s; }
-.resumeButton:before { border-bottom: 3px solid #FFFFFF;}
+.resumeButton:before { border-bottom: 2px solid #FFFFFF;}
 
 .titleLight{
   position: absolute;
   left: 15%;
   right: 65%;
-  top: 33%;
+  top: 38%;
   font-weight: 310;
   font-size: 9.13vh;
   line-height: 11.09vh;
@@ -176,7 +176,7 @@
   position: absolute;
   left: 33%;
   right: 48%;
-  top: 33%;
+  top: 38%;
   font-weight: bold;
   font-size: 9.13vh;
   line-height: 11.09vh;
@@ -188,7 +188,7 @@
   position: absolute;
   left: 18.5%;
   right: 0%;
-  top: 47.5%;
+  top: 50%;
   bottom: 87.62%;
   
   font-style: normal;
@@ -202,7 +202,7 @@
   position: absolute;
   left: 18.5%;
   right: 27%;
-  top: 57%;
+  top: 58%;
   bottom: 84.39%;
   
   font-weight: normal;
