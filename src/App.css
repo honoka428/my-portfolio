@@ -40,109 +40,94 @@
   top: 6%;
 }
 
-.navButtons{
+#navButton{
   list-style-type: none;
-  font-style: normal;  
-  text-align: center;  
+  font-weight: bold;
+  font-size: 2.3vh;
+  cursor: pointer;   
+  color: white;
 }
 
 .myWorkButton{
   position: absolute;
   width: 9.448vw;
   height: 3.133vh;
-  left: 50%;
+  left: 60.5%;
   top: 10%;
-  font-weight: bold;
-  font-size: 2.4vh;
   line-height: 3.133vh;
-  cursor: pointer;   
 }
 
 .myWorkButton:hover{
   position: absolute;
   width: 9.448vw;
   height: 3.133vh;
-  left: 50%;
-  top: 9.8%;
-  font-weight: bold;
-  font-size: 2.4vh;
+  left: 60.5%;
+  top: 9.8%;  
   line-height: 3.133vh;
-  cursor: pointer;   
+
 }
 
 .workHistoryButton{
   position: absolute;
   width: 9.448vw;
   height: 3.133vh;
-  left: 59%;
-  top: 10%;
-  font-weight: bold;
-  font-size: 2.4vh;
+  left: 68%;
+  top: 10%;  
   line-height: 3.133vh;
-  cursor: pointer;   
+
 }
 
 .workHistoryButton:hover{
   position: absolute;
   width: 9.448vw;
   height: 3.133vh;
-  left: 59%;
-  top: 9.8%;
-  font-weight: bold;
-  font-size: 2.4vh;
+  left: 68%;
+  top: 9.8%;   
   line-height: 3.133vh;
-  cursor: pointer;   
+
 }
 
 .contactButton{
   position: absolute;
   width: 8.549vw;
   height: 3.133vh;
-  left: 71%;
-  top: 10%;
-  font-weight: bold;
-  font-size: 2.4vh;
-  line-height: 3.133vh;  
-  cursor: pointer;   
+  left: 78%;
+  top: 10.119%;
+  line-height: 3.133vh;
+
 }
 
 .contactButton:hover{
   position: absolute;
   width: 8.549vw;
   height: 3.133vh;
-  left: 71%;
-  top: 9.8%;
-  font-weight: bold;
-  font-size: 2.4vh;
-  line-height: 3.133vh;  
-  cursor: pointer;   
+  left: 78%;
+  top: 9.8%;  
+  line-height: 3.133vh;
 }
 
 .resumeButton{
   position: absolute;
   height: 38px;
   width: 145px;
-  left: 80%;
+  left: 85%;
   top: 9.1%;
   background: transparent;
   border: 2px solid #FFFFFF;
   box-sizing: border-box;
   border-radius: 5px;
 
-  font-weight: bold;
-  font-size: 2.4vh;
-  line-height: 30px;  
+  line-height: 34px;  
   text-align: center;
   transition: 0.2s;  
   -webkit-transition:0.3s;
-  cursor: pointer;   
 }
 
 .resumeButton:hover {
   position: absolute;
   height: 38px;
   width: 145px;
-  left: 80%;
+  left: 85%;
   top: 9.3%;
   background: transparent;
   border: none;
@@ -150,8 +135,8 @@
 
   font-style: normal;
   font-weight: bold;
-  font-size: 2.4vh;
-  line-height: 28px;  
+  font-size: 2.3vh;
+  line-height: 34px;  
   text-align: center;
 }
 
@@ -170,6 +155,7 @@
   line-height: 11.09vh;
   text-align: center;
   letter-spacing: 0.03vw;
+  color: white;
 }
 
 .titleBold{
@@ -182,6 +168,7 @@
   line-height: 11.09vh;
   text-align: center;
   letter-spacing: 0.03vw;  
+  color: white;
 }
 
 .titleSubtext{
@@ -196,6 +183,8 @@
   font-size: 5.22vh;
   line-height: 49px;
   letter-spacing: 0.03vw;
+  color: white
+
 }
 
 .titleDescription{
@@ -209,4 +198,5 @@
   font-size: 3.6vh;
   line-height: 36px;
   letter-spacing: 0.0676924px; 
+  color: white;
 }
