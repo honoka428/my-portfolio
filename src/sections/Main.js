@@ -1,13 +1,11 @@
 import React from 'react'
 import '../App.css';
-import logo from '../logo.svg';
-import Navbar from '../components/Navbar'
+import Header from '../components/Header'
 import Title from '../components/Title'
 
 const Main = () =>
-    <div className='main-section'> 
-        <img src={logo} className="headerLogo"/>
-        <Navbar /> 
+    <div className='main-section' id="main"> 
+        <Header /> 
         <Title />
 
     </div>

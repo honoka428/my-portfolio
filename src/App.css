@@ -1,19 +1,26 @@
+/* css reset to account for default settings in different browsers */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  font-family: 'Helvetica Neue', sans-serif, 'Arial';
+}
+
 .main-section {
-  /* position: absolute; */
-  /* width: 129.58vw;
-  height: 91.38vh; */
-  /* background-image: url(./Background.svg); */
-  /* width: 100%;
-  height: 100%;
-  background-size: cover;  
-  font-family: Helvetica Neue;
-  color: #FFFFFF; */
+  background: url(./Background.svg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   height: 100vh;
-  background-color: turquoise
 }
 .myWork-section {
-  height: 100vh;
-  background-color: blue
+  height: 200vh;
+  background-color: turquoise
 }
 .workHistory-section {
   height: 100vh;
@@ -25,8 +32,8 @@
 }
 
 .headerLogo {
-  pointer-events: none;
-  position: absolute;
+  cursor: pointer;
+  position: fixed;
   width: 9.226vw; 
   height: 7.729vh;
   left: 86px;
@@ -39,54 +46,79 @@
   text-align: center;  
 }
 
-.ScrollToWork{
+.myWorkButton{
   position: absolute;
   width: 9.448vw;
   height: 3.133vh;
-  left: 60%;
+  left: 50%;
   top: 10%;
   font-weight: bold;
-  font-size: 2.6vh;
-  line-height: 3.133vh;
-  cursor: pointer;   
-}
-.ScrollToWork:hover{
-  position: absolute;
-  width: 9.448vw;
-  height: 3.133vh;
-  left: 60%;
-  top: 9.8%;
-  font-weight: bold;
-  font-size: 2.6vh;
+  font-size: 2.4vh;
   line-height: 3.133vh;
   cursor: pointer;   
 }
 
-.ScrollToContact{
+.myWorkButton:hover{
   position: absolute;
-  width: 8.549vw;
+  width: 9.448vw;
   height: 3.133vh;
-  left: 70%;
-  top: 10%;
-  font-weight: bold;
-  font-size: 2.6vh;
-  line-height: 3.133vh;  
-  cursor: pointer;   
-}
-
-.ScrollToContact:hover{
-  position: absolute;
-  width: 8.549vw;
-  height: 3.133vh;
-  left: 70%;
+  left: 50%;
   top: 9.8%;
   font-weight: bold;
-  font-size: 2.6vh;
+  font-size: 2.4vh;
+  line-height: 3.133vh;
+  cursor: pointer;   
+}
+
+.workHistoryButton{
+  position: absolute;
+  width: 9.448vw;
+  height: 3.133vh;
+  left: 59%;
+  top: 10%;
+  font-weight: bold;
+  font-size: 2.4vh;
+  line-height: 3.133vh;
+  cursor: pointer;   
+}
+
+.workHistoryButton:hover{
+  position: absolute;
+  width: 9.448vw;
+  height: 3.133vh;
+  left: 59%;
+  top: 9.8%;
+  font-weight: bold;
+  font-size: 2.4vh;
+  line-height: 3.133vh;
+  cursor: pointer;   
+}
+
+.contactButton{
+  position: absolute;
+  width: 8.549vw;
+  height: 3.133vh;
+  left: 71%;
+  top: 10%;
+  font-weight: bold;
+  font-size: 2.4vh;
   line-height: 3.133vh;  
   cursor: pointer;   
 }
 
-.ResumeLink{
+.contactButton:hover{
+  position: absolute;
+  width: 8.549vw;
+  height: 3.133vh;
+  left: 71%;
+  top: 9.8%;
+  font-weight: bold;
+  font-size: 2.4vh;
+  line-height: 3.133vh;  
+  cursor: pointer;   
+}
+
+.resumeButton{
   position: absolute;
   height: 38px;
   width: 145px;
@@ -98,7 +130,7 @@
   border-radius: 7px;
 
   font-weight: bold;
-  font-size: 20px;
+  font-size: 2.4vh;
   line-height: 28px;  
   text-align: center;
   transition: 0.2s;  
@@ -106,7 +138,7 @@
   cursor: pointer;   
 }
 
-.ResumeLink:hover {
+.resumeButton:hover {
   position: absolute;
   height: 38px;
   width: 145px;
@@ -116,18 +148,17 @@
   border: none;
   border-radius: 7px;
 
-  font-family: Helvetica Neue;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 2.4vh;
   line-height: 28px;  
   text-align: center;
 }
 
-.ResumeLink:hover:before { transition-delay: .2s; }
-.ResumeLink:before {  width: 0%; height:100%;  z-index: 3;   content:'';  position: absolute;  bottom:-1px;   left:0;  box-sizing: border-box;  transition: 0.1s;}
-.ResumeLink:hover:before {  width: 100% !important;  transition: 0.7s; }
-.ResumeLink:before { border-bottom: 3px solid #FFFFFF;}
+.resumeButton:hover:before { transition-delay: .2s; }
+.resumeButton:before {  width: 0%; height:100%;  z-index: 3;   content:'';  position: absolute;  bottom:-1px;   left:0;  box-sizing: border-box;  transition: 0.1s;}
+.resumeButton:hover:before {  width: 100% !important;  transition: 0.7s; }
+.resumeButton:before { border-bottom: 3px solid #FFFFFF;}
 
 .titleLight{
   position: absolute;
@@ -178,15 +209,4 @@
   font-size: 3.6vh;
   line-height: 36px;
   letter-spacing: 0.0676924px; 
-}
-
-.housiePage{
-  display: none;
-  width: 129.58vw;
-  height: 91.38vh;
-  width: 100%;
-  height: 100%;
-  background-size: cover;  
-  font-family: Helvetica Neue;
-  color: #FFFFFF;
 }

@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-
 import Main from './sections/Main'
 import MyWork from './sections/MyWork'
 import WorkHistory from './sections/WorkHistory'
