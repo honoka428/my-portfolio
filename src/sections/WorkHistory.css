@@ -1,0 +1,116 @@
+.historyHeader {
+    top: 308.5%;
+    left: 13%;
+    color: #361671;
+}
+
+.historyDescription {
+    position: absolute;
+    top: 314%;
+    left: 13%;
+    font-weight: 500;
+    font-size: 2vh;
+    line-height: 24px;
+    letter-spacing: 0.0676924px;
+    color: #646464;   
+}
+
+#dash {
+    position: absolute;
+    width: 15vw; 
+    border: 2px dashed #DADADA;
+}
+
+.curiaDash {
+    top: 331.3%;
+    left: 34%;
+}
+
+.ORDash {
+    top: 351%;
+    left: 53.5%;
+}
+
+.workHistoryLine {
+    position: absolute;
+    top: 313%;
+    left: 50%
+}
+
+#companyHeader {
+    position: absolute;
+    font-weight: bold;
+    font-size: 3.5vh;
+    letter-spacing: 0.0676924px;
+    color: #434343;
+}
+
+#companyRole {
+    position: absolute;
+    font-weight: 300;
+    font-size: 2.5vh;
+    letter-spacing: 0.0676924px;
+    color: #434343;
+}
+
+.curiaHeader {
+    top: 329%;
+    left: 28%;
+}
+
+.curiaRole {
+    top: 333.5%;
+    left: 24.1%;
+}
+
+.curiaTools {
+    top: 337.5%;
+    left: 20.4%;
+}
+
+.ORHeader {
+    top: 348.5%;
+    left: 70%;
+}
+
+.ORRole {
+    top: 353%;
+    left: 70%;
+}
+.ORTools {
+    top: 357%;
+    left: 70%;
+}
+
+#locationIcon {
+    position: absolute;
+    height: 3vh;
+}
+
+.curiaIcon {
+    top: 360%;
+    left: 30%;
+}
+
+.ORIcon {
+    top: 360%;
+    left: 50%;
+}
+
+#location {
+    position: absolute;
+    font-weight: 300;
+    font-size: 2vh;
+    letter-spacing: 0.0676924px;
+    color: #BCBCBC;
+}
+
+.curiaLocation {
+    top: 364%;
+    left: 30%;
+}
+
+.ORLocation {
+    top: 364%;
+    left: 50%;
+}

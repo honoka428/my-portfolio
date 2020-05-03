@@ -1,16 +1,4 @@
 /* Global styles */
-
-#header {
-    position: absolute;
-    font-family: Helvetica Neue;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 4vh;
-    line-height: 5vh;
-    letter-spacing: 0.0676924px;
-    color: #3B3B3B;
-}
-
 #description {
     position: absolute;
     font-family: Helvetica Neue;
@@ -53,6 +41,7 @@
     width: 133px;
     top: 123%;
     left: 46.5%;
+    color: #3B3B3B;
 }
 
 .housieDescription {
@@ -99,50 +88,52 @@
 .qualcatLogo {
     position: absolute;
     height: 15vh;
-    left: 11%;
+    left: 13%;
     top: 253%; 
 }
 
 .qualcatHeader {
     top: 245%; 
-    left: 22%;
+    left: 24%;
+    color: #3B3B3B;
 }
 
 .qualcatDescription {
     top: 250.5%; 
     width: 20vw;
-    left: 22%;
+    left: 24%;
 }
 
 .devTagQualcat {
     top: 263%;
     width: 16vw;
-    left: 22%;
+    left: 24%;
     background: #ACD3F1;    
 }
 .designTagQualcat {
     top: 268%;
     width: 10vw;
-    left: 22%;
+    left: 24%;
     background: #EFAFE7;
 }
 
 .qualcatTools {
     top: 273.5%;
-    left: 22%;
+    left: 24%;
 }
 
 /* Portfolio */
 .portfolioLogo {
     position: absolute;
     height: 15vh;
-    left: 55%;
+    left: 56%;
     top: 253%;
 }
 
 .portfolioHeader {
     top: 245%; 
-    left: 66%;    
+    left: 66%; 
+    color: #3B3B3B;
 }
 
 .portfolioDescription {

@@ -10,6 +10,16 @@
   font-family: 'Helvetica Neue', sans-serif, 'Arial';
 }
 
+#header {
+  position: absolute;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4vh;
+  line-height: 5vh;
+  letter-spacing: 0.0676924px;
+}
+
 .main-section {
   background: url(./images/Background.svg) no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -24,7 +34,7 @@
 }
 .workHistory-section {
   height: 100vh;
-  background-color: green
+  background-color: white
 }
 .contact-section {
   height: 100vh;
