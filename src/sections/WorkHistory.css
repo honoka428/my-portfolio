@@ -6,10 +6,10 @@
 
 .historyDescription {
     position: absolute;
-    top: 312%;
+    top: 313%;
     left: 13%;
     font-weight: 500;
-    font-size: 2vh;
+    font-size: 2.5vh;
     line-height: 24px;
     letter-spacing: 0.0676924px;
     color: #646464;   
@@ -47,7 +47,7 @@
 
 #companyRole {
     position: absolute;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 2.5vh;
     letter-spacing: 0.0676924px;
     color: #434343;
@@ -60,7 +60,7 @@
 
 .curiaRole {
     top: 331.5%;
-    left: 24.1%;
+    left: 23.5%;
 }
 
 .curiaTools {
@@ -89,7 +89,7 @@
 
 .curiaIcon {
     top: 342%;
-    left: 22.1%;
+    left: 21.3%;
 }
 
 .ORIcon {
@@ -99,15 +99,15 @@
 
 #location {
     position: absolute;
-    font-weight: 300;
+    font-weight: 350;
     font-size: 2vh;
     letter-spacing: 0.0676924px;
-    color: #BCBCBC;
+    color: #989898;
 }
 
 .curiaLocation {
     top: 342.2%;
-    left: 24%;
+    left: 23.2%;
 }
 
 .ORLocation {

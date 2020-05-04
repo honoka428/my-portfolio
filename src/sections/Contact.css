@@ -59,6 +59,26 @@
     color: #000000;    
 }
 
+.hireMeButton:hover {
+    top: 409.5%;
+    left: 13%;
+    position: absolute;
+    border: 1vh solid;
+    border-radius: 5px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, rgba(193,230,240,1) 0%, rgba(233,200,235,1) 100%);
+    background: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+
+    font-size: 2.5vh;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;    
+    letter-spacing: 0.0676924px;
+    color: #000000;    
+}
+
 .linkedInLogo {
     position: absolute;
     top: 422%;

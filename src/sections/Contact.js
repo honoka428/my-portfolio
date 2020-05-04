@@ -6,6 +6,16 @@ import linkedIn from '../images/linkedIn.svg'
 import github from '../images/github.svg'
 import portrait from '../images/portrait.svg'
 
+const Logo = ({link, source, name, alt}) =>
+    <a href={link} target="_blank" rel="noopener noreferrer">
+        <img src={source} className={name} alt={alt} />
+    </a>
+
+const Button = ({link, name, text}) =>
+    <a href={link} target="_blank" rel="noopener noreferrer">
+        <button className={name}> {text} </button>
+    </a>
+
 const Contact = () =>
     <div className='contact-section' id="contact"> 
         <img src={pattern} alt="background pattern shapes" className="pattern"/>
@@ -13,10 +23,9 @@ const Contact = () =>
         <h1 id="header" className="contactHeader">Contact</h1>
         <p id="contactDescription" className="description1">Interested in working together?</p>
         <p id="contactDescription" className="description2">I’m currently available for freelance work and full time positions.</p>
-        <button className="hireMeButton"> Hire Me </button>
-        <img src={linkedIn} className="linkedInLogo" alt="linkedIn logo" />
-        <img src={github} className="githubLogo" alt="github logo" />
-    
+        <Button link={"mailto: watanabehonoka428@gmail.com"} name={"hireMeButton"} text={"Hire Me"}/>
+        <Logo link={"https://linkedin.com/in/honokawatanabe"} source={linkedIn} name={"linkedInLogo"} alt={"linkedIn logo"}/>
+        <Logo link={"https://github.com/honoka428"} source={github} name={"githubLogo"} alt={"github logo"}/>
     </div>
 
 export default Contact
