@@ -1,12 +1,12 @@
 .historyHeader {
-    top: 308.5%;
+    top: 306.5%;
     left: 13%;
     color: #361671;
 }
 
 .historyDescription {
     position: absolute;
-    top: 314%;
+    top: 312%;
     left: 13%;
     font-weight: 500;
     font-size: 2vh;
@@ -22,18 +22,18 @@
 }
 
 .curiaDash {
-    top: 331.3%;
+    top: 329.3%;
     left: 34%;
 }
 
 .ORDash {
-    top: 351%;
+    top: 349%;
     left: 53.5%;
 }
 
 .workHistoryLine {
     position: absolute;
-    top: 313%;
+    top: 311%;
     left: 50%
 }
 
@@ -54,31 +54,31 @@
 }
 
 .curiaHeader {
-    top: 329%;
+    top: 327%;
     left: 28%;
 }
 
 .curiaRole {
-    top: 333.5%;
+    top: 331.5%;
     left: 24.1%;
 }
 
 .curiaTools {
-    top: 337.5%;
+    top: 335.5%;
     left: 20.4%;
 }
 
 .ORHeader {
-    top: 348.5%;
+    top: 346.5%;
     left: 70%;
 }
 
 .ORRole {
-    top: 353%;
+    top: 351%;
     left: 70%;
 }
 .ORTools {
-    top: 357%;
+    top: 355%;
     left: 70%;
 }
 
@@ -88,12 +88,12 @@
 }
 
 .curiaIcon {
-    top: 344%;
+    top: 342%;
     left: 22.1%;
 }
 
 .ORIcon {
-    top: 363.5%;
+    top: 361.5%;
     left: 70%;
 }
 
@@ -106,11 +106,11 @@
 }
 
 .curiaLocation {
-    top: 344.2%;
+    top: 342.2%;
     left: 24%;
 }
 
 .ORLocation {
-    top: 363.7%;
+    top: 361.7%;
     left: 71.9%;
 }

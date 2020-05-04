@@ -33,12 +33,12 @@
   background-color: white
 }
 .workHistory-section {
-  height: 100vh;
+  height: 90vh;
   background-color: white
 }
 .contact-section {
-  height: 100vh;
-  background-color: pink
+  height: 60vh;
+  background-color: white
 }
 
 .headerLogo {
