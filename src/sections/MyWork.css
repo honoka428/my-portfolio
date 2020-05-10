@@ -208,3 +208,137 @@
     top: 273.5%;
     left: 66%;
 }
+
+@media(max-width: 700px) {
+    #description {
+        font-size: 4vw;
+    }
+
+    #tools {
+        height: 9vw;
+    }
+
+    /* Housie styles */
+    .housieLogo {
+        height: 25vw;
+        left: 34%;
+        top: 99%;    
+    }
+
+    .housieHeader {
+        width: 133px;
+        top: 112%;
+        left: 40%;
+    }
+
+    .housieDescription {
+        width: 470px;
+        top: 119%;
+        left: 17%;
+    }
+
+    .iosTag {
+        top: 125%;
+        width: 37vw;
+        left: 33%;
+    }
+
+    .designTagHousie {
+        top: 130%;
+        width: 27vw;
+        left: 38%;
+    }
+
+    .uxuiTag {
+        top: 135%;
+        width: 15vw;
+        left: 44%;
+    }
+
+    .housieTools {
+        left: 41%;
+        top: 141%;
+    }
+
+    .housieApp {
+        top: 143%;
+        width: 100vw;
+        height: 50vh;
+    }
+
+    /* Qualcat */
+    .qualcatLogo {
+        height: 15vh;
+        left: 40%;
+        top: 192%; 
+    }
+
+    .qualcatHeader {
+        top: 209%; 
+        left: 40%;
+    }
+
+    .qualcatDescription {
+        top: 215%; 
+        width: 70vw;
+        left: 17%;
+    }
+
+    .devTagQualcat {
+        top: 222%;
+        width: 45vw;
+        left: 30%;
+    }
+
+    .designTagQualcat {
+        top: 227%;
+        width: 27vw;
+        left: 38.5%;
+    }
+
+    .qualcatTools {
+        top: 233%;
+        left: 33%;
+    }
+
+    /* Portfolio */
+    .portfolioLogo {
+        height: 15vh;
+        left: 43.5%;
+        top: 248%;
+    }
+
+    .portfolioHeader {
+        top: 265%; 
+        left: 40%; 
+    }
+
+    .portfolioDescription {
+        top: 271%; 
+        width: 70vw;;
+        left: 20%;
+    }
+
+    .devTagPortfolio {
+        top: 278%;
+        width: 37vw;
+        left: 34%;
+    }
+
+    .designTagPortfolio{
+        top: 283%;
+        width: 28vw;
+        left: 38%;
+    }
+
+    .uxuiTagPortfolio {
+        top: 288%;
+        width: 16vw;
+        left: 44%;
+    }
+
+    .portfolioTools {
+        top: 294%;
+        left: 38%;
+    }    
+}

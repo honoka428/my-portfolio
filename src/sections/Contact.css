@@ -110,3 +110,68 @@
     height: 6vh;
     opacity: 100%;
 }
+
+@media(max-width: 700px) {
+    .contactHeader {
+        top: 385%;
+        left: 13%;
+    }
+    
+    #contactDescription {
+        left: 13%;
+        font-size: 2.8vw;
+    }
+    
+    .description1 {
+        top: 394%;
+    }
+    
+    .description2 {
+        top: 399%;
+        width: 45vw;
+    }
+    
+    .pattern {
+        top: 380%;
+        left: 35%;
+        height: 75vw;
+        opacity: 0.4;
+    }
+    
+    .portrait {
+        top: 397%;
+        height: 43vw;
+    }
+    
+    .hireMeButton {
+        top: 410%;
+        left: 13%;
+        border: 0.8vh solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(90deg, rgba(193,230,240,1) 0%, rgba(233,200,235,1) 100%);
+        padding: 1rem 2rem;
+        font-size: 2.5vw;
+    }
+    
+    .linkedInLogo {
+        top: 420%;
+        left: 11%;
+        height: 6vh;
+        opacity: 50%;
+    }
+    
+    .githubLogo {
+        top: 420.7%;
+        left: 19.9%;
+        height: 4.8vh;
+        opacity: 50%;
+    }
+    
+    .githubLogo:hover {
+        position: absolute;
+        top: 423.2%;
+        left: 17.5%;
+        height: 6vh;
+        opacity: 100%;
+    }    
+}

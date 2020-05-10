@@ -66,6 +66,7 @@
   top: 10%;
 } */
 
+
 .headerLogo {
   cursor: pointer;
   position: fixed;
@@ -247,56 +248,30 @@
   }
 
   .titleLight{
-    position: absolute;
     left: 7.5%;
     top: 32%;
-    font-weight: 310;
     width: 30vw;
     font-size: 8.5vw;
     line-height: 6vw;
-    text-align: center;
-    letter-spacing: 0.03vw;
-    color: white;
   }
   
   .titleBold{
-    position: absolute;
     left: 36.5%;
     top: 32%;
-    font-weight: bold;
     font-size: 8.5vw;
     line-height: 6vw;
-    text-align: center;
-    letter-spacing: 0.03vw;  
-    color: white;
   }
   
   .titleSubtext{
-    position: absolute;
     left: 11.5%;
-    right: 0%;
-    top: 39%;
-    bottom: 87.62%;
-    
-    font-style: normal;
-    font-weight: bold;
+    top: 41%;
     font-size: 4vw;
-    line-height: 4vw;
-    letter-spacing: 0.03vw;
-    color: white
-  
   }
   .titleDescription{
-    position: absolute;
     left: 11.5%;
-    right: 27%;
-    top: 44%;
-    bottom: 84.39%;
+    top: 47%;
     width: 80vw;
-    font-weight: 400;
     font-size: 4vw;
     line-height: 4vw;
-    letter-spacing: 0.0676924px; 
-    color: white;
   }
 }
