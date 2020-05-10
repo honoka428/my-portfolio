@@ -56,6 +56,12 @@
     left: 35%;
     background: #ACD3F1;
 }
+.iosTag:hover {
+    top: 132.4%;
+    width: 210px;
+    left: 35%;
+    background: #ACD3F1;
+}
 
 .designTagHousie {
     top: 132.5%;
@@ -64,8 +70,22 @@
     background: #EFAFE7;
 }
 
+.designTagHousie:hover {
+    top: 132.4%;
+    width: 10vw;
+    left: 49%;
+    background: #EFAFE7;
+}
+
 .uxuiTag {
     top: 132.5%;
+    width: 6vw;
+    left: 59.5%;
+    background: #EFAFE7;
+}
+
+.uxuiTag:hover {
+    top: 132.4%;
     width: 6vw;
     left: 59.5%;
     background: #EFAFE7;
@@ -110,8 +130,15 @@
     left: 24%;
     background: #ACD3F1;    
 }
+
 .designTagQualcat {
     top: 268%;
+    width: 10vw;
+    left: 24%;
+    background: #EFAFE7;
+}
+.designTagQualcat:hover {
+    top: 267.9%;
     width: 10vw;
     left: 24%;
     background: #EFAFE7;
@@ -149,6 +176,13 @@
     background: #ACD3F1;  
 }
 
+.devTagPortfolio:hover {
+    top: 262.9%;
+    width: 13vw;
+    left: 66%;
+    background: #ACD3F1;  
+}
+
 .designTagPortfolio{
     top: 268%;
     width: 10vw;
@@ -158,6 +192,13 @@
 
 .uxuiTagPortfolio {
     top: 268%;
+    width: 6vw;
+    left: 76.5%;
+    background: #EFAFE7;
+}
+
+.uxuiTagPortfolio:hover {
+    top: 267.9%;
     width: 6vw;
     left: 76.5%;
     background: #EFAFE7;
