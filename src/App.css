@@ -231,7 +231,7 @@
 }
 
 /* mobile views */
-@media(max-width: 1600px) {
+@media(max-width: 1000px) {
   #nav {
     display: none;
   }
