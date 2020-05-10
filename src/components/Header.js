@@ -16,9 +16,9 @@ const Header = () =>
         <Link id="navButton" className="contactButton" activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration= {500}>
             Contact
         </Link>
-        <Link id="navButton" className="resumeButton" activeClass="active" to="resume" spy={true} smooth={true} offset={0} duration= {500}>
+        <a href="files/HWatanabe_Resume.pdf" target="_blank" rel="noopener noreferrer" style={{textDecoration:"none", color: "white"}} id="navButton" className="resumeButton" activeClass="active" to="resume" spy={true} smooth={true} offset={0} duration= {500}>
             My resume
-        </Link>
+        </a>
     </div>
 
 
