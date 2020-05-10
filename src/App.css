@@ -20,7 +20,7 @@
   letter-spacing: 0.0676924px;
 }
 
-.main-section {
+#main-section {
   background: url(./images/Background.svg) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -28,25 +28,50 @@
   background-size: cover;
   height: 100vh;
 }
-.myWork-section {
+#myWork-section {
   height: 200vh;
   background-color: white
 }
-.workHistory-section {
+#workHistory-section {
   height: 90vh;
   background-color: white
 }
-.contact-section {
+#contact-section {
   height: 60vh;
   background-color: white
 }
+
+#hamburger {
+  position: absolute;
+  left: 85%;
+  top: 8.5%;
+}
+
+/* .nav {
+  width: 20wv;
+  box-shadow: 1px 1px #888;
+  position: absolute;
+  z-index: 999;
+  background-color: #FFFFFF;
+  left: 20%;
+  top: 10%;
+}
+.nav.show {
+  width: 20wv;
+  box-shadow: 1px 1px #888;
+  position: absolute;
+  z-index: 999;
+  background-color: #FFFFFF;
+  left: 70%;
+  top: 10%;
+} */
 
 .headerLogo {
   cursor: pointer;
   position: fixed;
   width: 9.226vw; 
   height: 7.729vh;
-  left: 86px;
+  left: 10%;
   top: 6%;
 }
 
@@ -60,8 +85,7 @@
 
 .myWorkButton{
   position: absolute;
-  width: 9.448vw;
-  height: 3.133vh;
+  height: 3.133vw;
   left: 60.5%;
   top: 10%;
   line-height: 3.133vh;
@@ -69,8 +93,7 @@
 
 .myWorkButton:hover{
   position: absolute;
-  width: 9.448vw;
-  height: 3.133vh;
+  height: 3.133vw;
   left: 60.5%;
   top: 9.8%;  
   line-height: 3.133vh;
@@ -79,8 +102,7 @@
 
 .workHistoryButton{
   position: absolute;
-  width: 9.448vw;
-  height: 3.133vh;
+  height: 3.133vw;
   left: 68%;
   top: 10%;  
   line-height: 3.133vh;
@@ -89,8 +111,7 @@
 
 .workHistoryButton:hover{
   position: absolute;
-  width: 9.448vw;
-  height: 3.133vh;
+  height: 3.133vw;
   left: 68%;
   top: 9.8%;   
   line-height: 3.133vh;
@@ -99,8 +120,7 @@
 
 .contactButton{
   position: absolute;
-  width: 8.549vw;
-  height: 3.133vh;
+  height: 3.133vw;
   left: 78%;
   top: 10.119%;
   line-height: 3.133vh;
@@ -109,8 +129,7 @@
 
 .contactButton:hover{
   position: absolute;
-  width: 8.549vw;
-  height: 3.133vh;
+  height: 3.133vw;
   left: 78%;
   top: 9.8%;  
   line-height: 3.133vh;
@@ -118,10 +137,10 @@
 
 .resumeButton{
   position: absolute;
-  height: 38px;
-  width: 145px;
+  height: 4.5vh;
+  width: 10vw;
   left: 85%;
-  top: 9.1%;
+  top: 9.2%;
   background: transparent;
   border: 2px solid #FFFFFF;
   box-sizing: border-box;
@@ -135,10 +154,10 @@
 
 .resumeButton:hover {
   position: absolute;
-  height: 38px;
-  width: 145px;
+  height: 4.5vh;
+  width: 10vw;
   left: 85%;
-  top: 9.3%;
+  top: 9.2%;
   background: transparent;
   border: none;
   border-radius: 5px;
@@ -161,8 +180,8 @@
   right: 65%;
   top: 38%;
   font-weight: 310;
-  font-size: 9.13vh;
-  line-height: 11.09vh;
+  font-size: 5vw;
+  line-height: 6vw;
   text-align: center;
   letter-spacing: 0.03vw;
   color: white;
@@ -174,8 +193,8 @@
   right: 48%;
   top: 38%;
   font-weight: bold;
-  font-size: 9.13vh;
-  line-height: 11.09vh;
+  font-size: 5vw;
+  line-height: 6vw;
   text-align: center;
   letter-spacing: 0.03vw;  
   color: white;
@@ -190,8 +209,8 @@
   
   font-style: normal;
   font-weight: bold;
-  font-size: 5.22vh;
-  line-height: 49px;
+  font-size: 3vw;
+  line-height: 4vw;
   letter-spacing: 0.03vw;
   color: white
 
@@ -203,10 +222,81 @@
   right: 27%;
   top: 58%;
   bottom: 84.39%;
-  
   font-weight: normal;
-  font-size: 3.6vh;
-  line-height: 36px;
+  font-size: 2vw;
+  line-height: 3vw;
   letter-spacing: 0.0676924px; 
   color: white;
+}
+
+/* mobile views */
+@media(max-width: 1600px) {
+  #nav {
+    display: none;
+  }
+
+}
+@media(max-width: 700px) {
+  #main-section {
+    background: url(./images/backgroundRespond.svg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 90vh;
+  }
+
+  .titleLight{
+    position: absolute;
+    left: 7.5%;
+    top: 32%;
+    font-weight: 310;
+    width: 30vw;
+    font-size: 8.5vw;
+    line-height: 6vw;
+    text-align: center;
+    letter-spacing: 0.03vw;
+    color: white;
+  }
+  
+  .titleBold{
+    position: absolute;
+    left: 36.5%;
+    top: 32%;
+    font-weight: bold;
+    font-size: 8.5vw;
+    line-height: 6vw;
+    text-align: center;
+    letter-spacing: 0.03vw;  
+    color: white;
+  }
+  
+  .titleSubtext{
+    position: absolute;
+    left: 11.5%;
+    right: 0%;
+    top: 39%;
+    bottom: 87.62%;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4vw;
+    line-height: 4vw;
+    letter-spacing: 0.03vw;
+    color: white
+  
+  }
+  .titleDescription{
+    position: absolute;
+    left: 11.5%;
+    right: 27%;
+    top: 44%;
+    bottom: 84.39%;
+    width: 80vw;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 4vw;
+    letter-spacing: 0.0676924px; 
+    color: white;
+  }
 }

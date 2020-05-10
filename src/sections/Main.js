@@ -4,7 +4,7 @@ import Header from '../components/Header'
 import Title from '../components/Title'
 
 const Main = () =>
-    <div className='main-section' id="main"> 
+    <div id='main-section'> 
         <Header /> 
         <Title />
     </div>

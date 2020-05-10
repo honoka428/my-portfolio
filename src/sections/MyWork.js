@@ -6,7 +6,7 @@ import Qualcat from '../components/Qualcat.js';
 import Portfolio from '../components/Portfolio.js';
 
 const MyWork = () =>
-    <div className='myWork-section' id="myWork"> 
+    <div id='myWork-section'> 
         <Housie />
         <Qualcat />
         <Portfolio />

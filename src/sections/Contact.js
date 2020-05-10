@@ -17,7 +17,7 @@ const Button = ({link, name, text}) =>
     </a>
 
 const Contact = () =>
-    <div className='contact-section' id="contact"> 
+    <div id='contact-section'> 
         <img src={pattern} alt="background pattern shapes" className="pattern"/>
         <img src={portrait} className="portrait" alt="honoka" />
         <h1 id="header" className="contactHeader">Contact</h1>
