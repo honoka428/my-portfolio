@@ -28,15 +28,15 @@
   background-size: cover;
   height: 100vh;
 }
-#myWork-section {
+#myWork {
   height: 200vh;
   background-color: white
 }
-#workHistory-section {
+#workHistory {
   height: 90vh;
   background-color: white
 }
-#contact-section {
+#contact {
   height: 60vh;
   background-color: white
 }

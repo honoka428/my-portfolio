@@ -28,7 +28,7 @@ const Company = ({name, role, location, tools, alt, refHeader, refRole, refTools
 
 const WorkHistory = () => {
     return (
-        <div id='workHistory-section'> 
+        <div id='workHistory'> 
             <h1 id="header" className="historyHeader">Work History</h1>
             <p className="historyDescription">A couple of the companies I used to work at.</p>
             <img src={workHistory} alt="work timeline" className="workHistoryLine" />
