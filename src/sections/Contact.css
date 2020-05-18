@@ -175,3 +175,18 @@
         opacity: 100%;
     }    
 }
+
+@media(max-height: 700px) {
+    .githubLogo {
+        top: 421.7%;
+        left: 15.5%;
+        height: 4.8vh;
+        opacity: 50%;
+    }    
+    .linkedInLogo {
+        top: 421%;
+        left: 12.5%;
+        height: 6vh;
+        opacity: 50%;
+    }
+}
