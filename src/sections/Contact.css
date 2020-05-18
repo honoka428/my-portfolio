@@ -25,7 +25,7 @@
     width: 25vw;
 }
 
-.pattern {
+#pattern {
     top: 373%;
     position: absolute;
     left: 42%;
@@ -131,10 +131,10 @@
         width: 45vw;
     }
     
-    .pattern {
-        top: 380%;
-        left: 35%;
-        height: 75vw;
+    #pattern {
+        top: 382%;
+        left: 37%;
+        height: 60vw;
         opacity: 0.4;
     }
     
@@ -159,7 +159,14 @@
         height: 6vh;
         opacity: 50%;
     }
-    
+
+    .linkedInLogo:hover {
+        top: 420%;
+        left: 11%;
+        height: 6vh;
+        opacity: 100%;
+    }    
+
     .githubLogo {
         top: 420.7%;
         left: 19.9%;
@@ -168,10 +175,10 @@
     }
     
     .githubLogo:hover {
-        position: absolute;
-        top: 423.2%;
-        left: 17.5%;
-        height: 6vh;
+        top: 420.7%;
+        left: 19.9%;
+        height: 4.8vh;
+        opacity: 50%;
         opacity: 100%;
     }    
 }
