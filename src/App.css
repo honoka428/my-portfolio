@@ -141,13 +141,13 @@
   height: 4.5vh;
   width: 10vw;
   left: 85%;
-  top: 9.2%;
+  top: 9.4%;
   background: transparent;
   border: 2px solid #FFFFFF;
   box-sizing: border-box;
   border-radius: 5px;
 
-  line-height: 34px;  
+  line-height: 4.2vh;  
   text-align: center;
   transition: 0.2s;  
   -webkit-transition:0.3s;
@@ -158,15 +158,14 @@
   height: 4.5vh;
   width: 10vw;
   left: 85%;
-  top: 9.2%;
+  top: 9.4%;
   background: transparent;
   border: none;
   border-radius: 5px;
 
   font-style: normal;
   font-weight: bold;
-  font-size: 2.3vh;
-  line-height: 34px;  
+  line-height: 4.5vh;  
   text-align: center;
 }
 

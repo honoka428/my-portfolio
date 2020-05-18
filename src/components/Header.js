@@ -11,16 +11,16 @@ const Header = () => {
             <img src={logo} className="headerLogo" alt="site logo" onClick={() => {scrollToTop()}}/>
             <div id="nav">
                 <Link id="navButton" className="myWorkButton" to="myWork" activeClass="active" spy={true} smooth={true}>
-                    My work 
+                    My Work 
                 </Link>
                 <Link id="navButton" className="workHistoryButton" to="workHistory" activeClass="active" spy={true} smooth={true}>
-                    Work history 
+                    Work History 
                 </Link>
                 <Link id="navButton" className="contactButton" to="contact" activeClass="active" spy={true} smooth={true}>
                     Contact
                 </Link>
                 <a href="files/HWatanabe_Resume.pdf" target="_blank" rel="noopener noreferrer" style={{textDecoration:"none", color: "white"}} id="navButton" className="resumeButton">
-                    My resume
+                    My Resume
                 </a>
             </div>
         </div>
