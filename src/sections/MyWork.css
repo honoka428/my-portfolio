@@ -211,11 +211,18 @@
 
 @media(max-width: 1000px) {
     #description {
-        font-size: 4vw;
+        font-size: 3vw;
+        line-height: 4vw;
+        text-align: center;
     }
 
     #tools {
         height: 9vw;
+    }
+
+    #tag {
+        height: 5vw;
+        font-size: 2.5vw;
     }
 
     /* Housie styles */
@@ -234,30 +241,30 @@
     .housieDescription {
         width: 470px;
         top: 119%;
-        left: 17%;
+        left: 10%;
     }
 
     .iosTag {
         top: 125%;
-        width: 37vw;
-        left: 33%;
+        width: 31vw;
+        left: 35%;
     }
 
     .designTagHousie {
-        top: 130%;
-        width: 27vw;
-        left: 38%;
+        top: 129%;
+        width: 24vw;
+        left: 39%;
     }
 
     .uxuiTag {
-        top: 135%;
-        width: 15vw;
+        top: 133%;
+        width: 14vw;
         left: 44%;
     }
 
     .housieTools {
         left: 41%;
-        top: 141%;
+        top: 139%;
     }
 
     .housieApp {
@@ -280,24 +287,24 @@
 
     .qualcatDescription {
         top: 215%; 
-        width: 70vw;
-        left: 17%;
+        width: 55vw;
+        left: 24%;
     }
 
     .devTagQualcat {
         top: 222%;
-        width: 45vw;
-        left: 30%;
+        width: 38vw;
+        left: 32%;
     }
 
     .designTagQualcat {
-        top: 227%;
-        width: 27vw;
-        left: 38.5%;
+        top: 226%;
+        width: 24vw;
+        left: 39%;
     }
 
     .qualcatTools {
-        top: 233%;
+        top: 232%;
         left: 33%;
     }
 
@@ -315,30 +322,30 @@
 
     .portfolioDescription {
         top: 271%; 
-        width: 70vw;;
-        left: 20%;
+        width: 60vw;;
+        left: 23%;
     }
 
     .devTagPortfolio {
         top: 278%;
-        width: 37vw;
-        left: 34%;
+        width: 33vw;
+        left: 36%;
     }
 
     .designTagPortfolio{
-        top: 283%;
-        width: 28vw;
-        left: 38%;
+        top: 282%;
+        width: 25vw;
+        left: 40%;
     }
 
     .uxuiTagPortfolio {
-        top: 288%;
-        width: 16vw;
-        left: 44%;
+        top: 286%;
+        width: 15vw;
+        left: 45%;
     }
 
     .portfolioTools {
-        top: 294%;
+        top: 292%;
         left: 38%;
     }    
 }

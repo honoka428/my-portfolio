@@ -120,9 +120,16 @@
 }
 
 @media(max-width: 700px) {
+    #companyHeader {
+        font-size: 3vh;  
+    }
+    
+    #companyRole {
+        font-size: 2vh;  
+    }    
     .historyHeader {
         top: 312%;
-        left: 20%;
+        left: 32%;
     }
     
     .historyDescription {
@@ -139,69 +146,69 @@
   
     .workHistoryLine {
         top: 321%;
-        left: 18%;
+        left: 25%;
         height: 100vw;
     }    
     
     .curiaDash {
         top: 338%;
-        left: 25%;
+        left: 32%;
     }
     
     .ORDash {
-        top: 355.5%;
-        left: 25%;
+        top: 355.8%;
+        left: 32%;
     }
     
     .curiaHeader {
-        top: 332.5%;
-        left: 42%;
+        top: 333%;
+        left: 49%;
     }
     
     .curiaRole {
         top: 337%;
-        left: 42%;
+        left: 49%;
     }
     
     .curiaTools {
         top: 343.5%;
-        left: 42%;
+        left: 49%;
     
     }
 
     .curiaIcon {
         top: 340%;
-        left: 41%;
+        left: 48%;
     }
 
     .curiaLocation {
         top: 340.2%;
-        left: 46%;
+        left: 53%;
     }
     
     .ORHeader {
-        top: 349.5%;
-        left: 42%;
+        top: 350%;
+        left: 49%;
         width: 50vw;
     }
     
     .ORRole {
         top: 354%;
-        left: 42%;
+        left: 49%;
     }
 
     .ORTools {
         top: 360%;
-        left: 42%;
+        left: 49%;
     }
 
     .ORIcon {
         top: 357%;
-        left: 41%;
+        left: 48%;
     }
    
     .ORLocation {
         top: 357.5%;
-        left: 46%;
+        left: 53%;
     }
 }
