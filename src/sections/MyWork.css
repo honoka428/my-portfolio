@@ -233,42 +233,42 @@
     }
 
     .housieHeader {
-        width: 133px;
+        width: auto;
         top: 112%;
-        left: 40%;
+        left: 38%;
     }
 
     .housieDescription {
-        width: 470px;
+        width: auto;
         top: 119%;
-        left: 10%;
+        left: 24%;
     }
 
     .iosTag {
-        top: 125%;
+        top: 124%;
         width: 31vw;
         left: 35%;
     }
 
     .designTagHousie {
-        top: 129%;
+        top: 127.55%;
         width: 24vw;
         left: 39%;
     }
 
     .uxuiTag {
-        top: 133%;
+        top: 131%;
         width: 14vw;
         left: 44%;
     }
 
     .housieTools {
         left: 41%;
-        top: 139%;
+        top: 137%;
     }
 
     .housieApp {
-        top: 143%;
+        top: 137%;
         width: 100vw;
         height: 50vh;
     }
@@ -276,76 +276,76 @@
     /* Qualcat */
     .qualcatLogo {
         height: 15vh;
-        left: 40%;
-        top: 192%; 
+        left: 36.5%;
+        top: 185%; 
     }
 
     .qualcatHeader {
-        top: 209%; 
-        left: 40%;
+        top: 202%; 
+        left: 36%;
     }
 
     .qualcatDescription {
-        top: 215%; 
+        top: 209%; 
         width: 55vw;
-        left: 24%;
+        left: 23%;
     }
 
     .devTagQualcat {
-        top: 222%;
+        top: 216%;
         width: 38vw;
-        left: 32%;
+        left: 30.5%;
     }
 
     .designTagQualcat {
-        top: 226%;
+        top: 219.5%;
         width: 24vw;
-        left: 39%;
+        left: 37.5%;
     }
 
     .qualcatTools {
-        top: 232%;
-        left: 33%;
+        top: 225%;
+        left: 31%;
     }
 
     /* Portfolio */
     .portfolioLogo {
         height: 15vh;
-        left: 43.5%;
-        top: 248%;
+        left: 40%;
+        top: 246%;
     }
 
     .portfolioHeader {
-        top: 265%; 
-        left: 40%; 
+        top: 264%; 
+        left: 36.5%; 
     }
 
     .portfolioDescription {
         top: 271%; 
         width: 60vw;;
-        left: 23%;
+        left: 21%;
     }
 
     .devTagPortfolio {
         top: 278%;
         width: 33vw;
-        left: 36%;
+        left: 33.5%;
     }
 
     .designTagPortfolio{
         top: 282%;
         width: 25vw;
-        left: 40%;
+        left: 38%;
     }
 
     .uxuiTagPortfolio {
         top: 286%;
         width: 15vw;
-        left: 45%;
+        left: 43%;
     }
 
     .portfolioTools {
-        top: 292%;
-        left: 38%;
+        top: 291%;
+        left: 36%;
     }    
 }
