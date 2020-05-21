@@ -270,4 +270,7 @@
     font-size: 4vw;
     line-height: 4vw;
   }
+  #contact {
+    height: 45vh;
+  }  
 }
