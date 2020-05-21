@@ -72,6 +72,10 @@
     left: 20.4%;
 }
 
+.curiaToolsMobile {
+    display: none;
+}
+
 .ORHeader {
     top: 346.5%;
     left: 70%;
@@ -84,6 +88,10 @@
 .ORTools {
     top: 359%;
     left: 70%;
+}
+
+.ORToolsMobile {
+    display: none;
 }
 
 #locationIcon {
@@ -119,7 +127,8 @@
     left: 71.9%;
 }
 
-@media(max-width: 700px) {
+
+@media only screen and (max-width: 768px) {
     #companyHeader {
         font-size: 3vh;  
     }
@@ -129,25 +138,24 @@
     }    
     .historyHeader {
         top: 312%;
-        left: 32%;
+        left: 29%;
     }
     
     .historyDescription {
         top: 318%;
-        left: 17%;
-        font-size: 18px;
+        left: 23%;
+        font-size: 4vw;
+        line-height: 3vh;
+        width: 180px;
+        text-align: center;
     }
     
     #dash {
-        position: absolute;
-        width: 15vw; 
-        border: 2px dashed #DADADA;
+        display: none;
     }
   
     .workHistoryLine {
-        top: 321%;
-        left: 25%;
-        height: 100vw;
+        display: none;
     }    
     
     .curiaDash {
@@ -162,53 +170,57 @@
     
     .curiaHeader {
         top: 333%;
-        left: 49%;
+        left: 42%;
     }
     
     .curiaRole {
         top: 337%;
-        left: 49%;
+        left: 37%;
     }
     
-    .curiaTools {
+    .curiaToolsMobile {
+        display: block;
         top: 343.5%;
-        left: 49%;
-    
+        left: 32%;
     }
 
     .curiaIcon {
         top: 340%;
-        left: 48%;
+        left: 31%;
     }
 
     .curiaLocation {
         top: 340.2%;
-        left: 53%;
+        left: 37%;
     }
     
     .ORHeader {
-        top: 350%;
-        left: 49%;
+        top: 354%;
+        left: 36%;
         width: 50vw;
     }
     
     .ORRole {
-        top: 354%;
-        left: 49%;
+        top: 358%;
+        left: 32%;
     }
 
     .ORTools {
-        top: 360%;
-        left: 49%;
+        display: none;
     }
 
+    .ORToolsMobile{
+        display: block;
+        top: 365.5%;
+        left: 36%;
+    }
     .ORIcon {
-        top: 357%;
-        left: 48%;
+        top: 361.5%;
+        left: 36%;
     }
    
     .ORLocation {
-        top: 357.5%;
-        left: 53%;
+        top: 361.6%;
+        left: 42%;
     }
 }

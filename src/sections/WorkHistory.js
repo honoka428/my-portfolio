@@ -6,7 +6,7 @@ import locationIcon from '../images/locationIcon.svg'
 import openRoomTools from '../images/openRoomTools.svg'
 import workHistory from '../images/workHistory.svg'
 
-const Company = ({name, role, location, tools, alt, refHeader, refRole, refTools, refIcon, refLocation }) => {
+const Company = ({name, role, location, tools, alt, refHeader, refRole, refTools, refToolsMobile, refIcon, refLocation }) => {
     
     const [isShown, setIsShown] = useState(false);
 
@@ -16,6 +16,7 @@ const Company = ({name, role, location, tools, alt, refHeader, refRole, refTools
                 <h1 id="companyHeader" className={refHeader}>{name}</h1>
                 <p id="companyRole" className={refRole}>{role}</p>
                 <p id="location" className={refLocation}>{location}</p>
+                <img src={tools} alt={alt} className={refToolsMobile} id="tools"/>
                 <img src={locationIcon} alt="location icon" id="locationIcon" className={refIcon}/>
             </div>
             {isShown && (
@@ -34,8 +35,8 @@ const WorkHistory = () => {
             <img src={workHistory} alt="work timeline" className="workHistoryLine" />
             <div id="dash" className="curiaDash" />
             <div id="dash" className="ORDash" />
-            <Company name={"Curia"} role={"UX/UI Designer"} location={"Frankfurt, Germany"} tools={curiaTools} alt={"tools used at Curia"} refTools={"curiaTools"} refHeader={"curiaHeader"} refRole={"curiaRole"} refIcon={"curiaIcon"} refLocation={"curiaLocation"}/>
-            <Company name={"Open Room"} role={"Software Engineer, intern"} location={"Tokyo, Japan"} tools={openRoomTools} alt={"tools used at OR"} refTools={"ORTools"} refHeader={"ORHeader"} refRole={"ORRole"} refIcon={"ORIcon"} refLocation={"ORLocation"}/>
+            <Company name={"Curia"} role={"UX/UI Designer"} location={"Frankfurt, Germany"} tools={curiaTools} alt={"tools used at Curia"} refTools={"curiaTools"} refToolsMobile={"curiaToolsMobile"} refHeader={"curiaHeader"} refRole={"curiaRole"} refIcon={"curiaIcon"} refLocation={"curiaLocation"}/>
+            <Company name={"Open Room"} role={"Software Engineer, intern"} location={"Tokyo, Japan"} tools={openRoomTools} alt={"tools used at OR"} refTools={"ORTools"} refToolsMobile={"ORToolsMobile"} refHeader={"ORHeader"} refRole={"ORRole"} refIcon={"ORIcon"} refLocation={"ORLocation"}/>
         </div>
     )
 }
