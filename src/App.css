@@ -7,12 +7,11 @@
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
-  font-family: 'Helvetica Neue', sans-serif, 'Arial';
+  font-family: 'Poppins', 'Helvetica Neue', sans-serif, 'Arial';
 }
 
 #header {
   position: absolute;
-  font-family: Helvetica Neue;
   font-style: normal;
   font-weight: bold;
   font-size: 4vh;
@@ -21,23 +20,21 @@
 }
 
 #main-section {
-  background: url(./images/Background.svg) no-repeat center center scroll;
+  background: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
-}
-#myWork {
-  height: 200vh;
-  background-color: white
-}
-#workHistory {
-  height: 90vh;
-  background-color: white
-}
-#contact {
   height: 60vh;
+}
+
+#myWork {
+  height: 50vh;
+  background-color: white;
+}
+
+#contact {
+  height: 70vh;
   background-color: white
 }
 
@@ -46,26 +43,6 @@
   left: 85%;
   top: 8.5%;
 }
-
-/* .nav {
-  width: 20wv;
-  box-shadow: 1px 1px #888;
-  position: absolute;
-  z-index: 999;
-  background-color: #FFFFFF;
-  left: 20%;
-  top: 10%;
-}
-.nav.show {
-  width: 20wv;
-  box-shadow: 1px 1px #888;
-  position: absolute;
-  z-index: 999;
-  background-color: #FFFFFF;
-  left: 70%;
-  top: 10%;
-} */
-
 
 .headerLogo {
   cursor: pointer;
@@ -78,141 +55,74 @@
 
 #navButton{
   list-style-type: none;
-  font-weight: bold;
-  font-size: 2.3vh;
+  font-weight: 600;
+  font-size: 2vh;
   cursor: pointer;   
-  color: white;
-}
-
-.myWorkButton{
-  position: absolute;
-  height: 3.133vw;
-  left: 60.5%;
-  top: 10%;
-  line-height: 3.133vh;
-}
-
-.myWorkButton:hover{
-  position: absolute;
-  height: 3.133vw;
-  left: 60.5%;
-  top: 9.8%;  
-  line-height: 3.133vh;
-
-}
-
-.workHistoryButton{
-  position: absolute;
-  height: 3.133vw;
-  left: 68%;
-  top: 10%;  
-  line-height: 3.133vh;
-
-}
-
-.workHistoryButton:hover{
-  position: absolute;
-  height: 3.133vw;
-  left: 68%;
-  top: 9.8%;   
-  line-height: 3.133vh;
-
+  color: rgb(99, 99, 99);
 }
 
 .contactButton{
   position: absolute;
   height: 3.133vw;
-  left: 78%;
-  top: 10.119%;
+  left: 44%;
+  top: 40.119%;
   line-height: 3.133vh;
-
 }
 
 .contactButton:hover{
-  position: absolute;
-  height: 3.133vw;
-  left: 78%;
-  top: 9.8%;  
-  line-height: 3.133vh;
+  top: 39.8%;  
 }
 
 .resumeButton{
   position: absolute;
-  height: 4.5vh;
-  width: 10vw;
-  left: 85%;
-  top: 9.4%;
-  background: transparent;
-  border: 2px solid #FFFFFF;
-  box-sizing: border-box;
-  border-radius: 5px;
-
-  line-height: 4.2vh;  
-  text-align: center;
-  transition: 0.2s;  
-  -webkit-transition:0.3s;
+  height: 3.133vw;
+  left: 51%;
+  top: 40.119%;
+  line-height: 3.133vh;
 }
 
 .resumeButton:hover {
-  position: absolute;
-  height: 4.5vh;
-  width: 10vw;
-  left: 85%;
-  top: 9.4%;
-  background: transparent;
-  border: none;
-  border-radius: 5px;
-
-  font-style: normal;
-  font-weight: bold;
-  line-height: 4.5vh;  
-  text-align: center;
+  top: 39.8%;  
 }
-
-.resumeButton:hover:before { transition-delay: .2s; }
-.resumeButton:before {  width: 0%; height:100%;  z-index: 3;   content:'';  position: absolute;  bottom:-1px;   left:0;  box-sizing: border-box;  transition: 0.1s;}
-.resumeButton:hover:before {  width: 100% !important;  transition: 0.7s; }
-.resumeButton:before { border-bottom: 2px solid #FFFFFF;}
 
 .titleLight{
   position: absolute;
-  left: 15%;
-  right: 65%;
-  top: 38%;
+  left: 37%;
+  top: 20%;
   font-weight: 310;
-  font-size: 5vw;
+  font-size: 4vw;
   line-height: 6vw;
   text-align: center;
   letter-spacing: 0.03vw;
-  color: white;
+  color: black;
 }
 
 .titleBold{
   position: absolute;
-  left: 33%;
+  left: 49%;
   right: 48%;
-  top: 38%;
+  top: 20%;
   font-weight: bold;
-  font-size: 5vw;
+  font-size: 4vw;
   line-height: 6vw;
   text-align: center;
   letter-spacing: 0.03vw;  
-  color: white;
+  color: black;
 }
 
 .titleSubtext{
   position: absolute;
-  left: 18.5%;
+  left: 43%;
   right: 0%;
-  top: 50%;
+  top: 31%;
   bottom: 87.62%;
   
   font-style: normal;
-  font-weight: bold;
-  font-size: 3vw;
+  font-weight: lighter;
+  font-size: 2vw;
   line-height: 4vw;
   letter-spacing: 0.03vw;
-  color: white
+  color: black;
 
 }
 
@@ -233,14 +143,6 @@
 @media only screen and (max-width: 768px) {
   #nav {
     display: none;
-  }
-
-  #main-section {
-    background: url(./images/backgroundRespond.svg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
   }
 
   .titleLight{

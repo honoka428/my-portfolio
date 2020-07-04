@@ -1,47 +1,25 @@
 .contactHeader {
-    top: 380%;
-    left: 13%;
-    color: #361671;
+    top: 130%;
+    left: 45%;
+    color:black;
 }
 
 #contactDescription {
     position: absolute;
     font-family: Helvetica Neue;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 2.6vh;
     letter-spacing: 0.0676924px;    
-    color: #646464;
-}
-
-.description1 {
-    top: 390%;
-    left: 13%;
-}
-
-.description2 {
-    top: 398%;
-    left: 13%;
-    width: 25vw;
-}
-
-#pattern {
-    top: 373%;
-    position: absolute;
-    left: 42%;
-    height: 70vh;
-}
-
-.portrait {
-    position: absolute;
-    top: 380%;
-    right: 0%;
-    height: 34vw;
+    color: black;
+    text-align: center;
+    top: 138%;
+    left: 40%;    
 }
 
 .hireMeButton {
-    top: 410%;
-    left: 13%;
+    top: 145%;
+    left: 44.2%;
     position: absolute;
     border: 1vh solid;
     border-radius: 5px;
@@ -60,8 +38,8 @@
 }
 
 .hireMeButton:hover {
-    top: 409.5%;
-    left: 13%;
+    top: 144.8%;
+    left: 44.2%;
     position: absolute;
     border: 1vh solid;
     border-radius: 5px;
@@ -81,35 +59,39 @@
 
 .linkedInLogo {
     position: absolute;
-    top: 422%;
-    left: 12.2%;
-    height: 8vh;
-    opacity: 30%;
+    top: 156%;
+    left: 43.5%;
+    height: 7.5vh;
+    opacity: 100%;
 }
 
 .linkedInLogo:hover {
-    position: absolute;
-    top: 422%;
-    left: 12.2%;
-    height: 8vh;
-    opacity: 100%;
+    top: 155.8%;
 }
 
 .githubLogo {
     position: absolute;
-    top: 423.2%;
-    left: 17.5%;
-    height: 6vh;
-    opacity: 30%;
+    top: 157.2%;
+    left: 48%;
+    height: 5.3vh;
+    opacity: 100%;
 }
 
 .githubLogo:hover {
-    position: absolute;
-    top: 423.2%;
-    left: 17.5%;
-    height: 6vh;
-    opacity: 100%;
+    top: 157%;
 }
+
+.dribbbleLogo {
+    position: absolute;
+    top: 157.5%;
+    left: 52%;
+    height: 4.87vh;
+}
+
+.dribbbleLogo:hover {
+    top: 157.3%;
+}
+
 
 @media only screen and (max-width: 768px) {
     .contactHeader {
@@ -129,19 +111,6 @@
     .description2 {
         display: none;
     }
-    
-    #pattern {
-        top: 381%;
-        left: 29%;
-        height: 75vw;
-        opacity: 0.4;
-    }
-    
-    .portrait {
-        top: 397%;
-        height: 42vw;
-    }
-    
     .hireMeButton {
         top: 405%;
         left: 9%;
