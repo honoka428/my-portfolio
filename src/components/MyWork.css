@@ -1,22 +1,64 @@
 .projectWrapper {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+}
+
+.projectsTitle {
+    font-size: 2vw;
+    padding-bottom: 3%;
 }
 
 .project {
-    text-align: center;
-    background: #FFFFFF;
-    border-radius: 10px;
-    margin: 3% 1% 1% 1%;    
-    padding: 3%;
-    width: 20vw;;
-    box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.1);
-    left: 35%;
     cursor: pointer;
 }
 
-.projectName {
-    font-size: 4vh;
-    font-weight: 600;
-    letter-spacing: -1px;
+.curiaThumbnail {
+    position: absolute;
+    height: 65vh;
+    left: 12%;
+    margin-top: 3%;
+}
+
+.curiaThumbnail:hover {
+    opacity: 70%;
+}
+
+.projectDescription {
+    display: flex;
+    flex-direction: column;
+    margin-top: 28%;    
+}
+
+.projectTitle {
+    font-weight: bold;
+    font-size: 3vw;
+    text-decoration: none;
+    color: black;
+}
+
+.projectTitle:hover {
+    color: rgb(82, 82, 82);
+}
+
+.projectSubtitle {
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 4vh;
+
+}
+.projectRole {
+    font-weight: 300;
+    font-size: 1.5vw;
+    line-height: 7vh;
+}
+
+.readCS {
+    font-weight: bold;
+    color: #361671;
+    text-decoration: none;
+}
+
+.readCS:hover {
+    position: absolute;
+    top: 105.5%;
 }

@@ -1,6 +1,9 @@
+.contactWrapper {
+    display: flex;
+    justify-content: center;
+}
 .contactHeader {
-    top: 130%;
-    left: 45%;
+    top: 150%;
     color:black;
 }
 
@@ -13,18 +16,15 @@
     letter-spacing: 0.0676924px;    
     color: black;
     text-align: center;
-    top: 138%;
-    left: 40%;    
+    top: 156%;
 }
 
 .hireMeButton {
-    top: 145%;
-    left: 44.2%;
+    top: 163%;
+    left: 44.5%;
     position: absolute;
-    border: 1vh solid;
+    border: 0.5vh solid #361671;
     border-radius: 5px;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(90deg, rgba(193,230,240,1) 0%, rgba(233,200,235,1) 100%);
     background: none;
     padding: 1rem 2rem;
     cursor: pointer;
@@ -34,62 +34,46 @@
     font-style: normal;
     font-weight: 500;    
     letter-spacing: 0.0676924px;
-    color: #000000;    
+    color: #361671;    
 }
 
 .hireMeButton:hover {
-    top: 144.8%;
-    left: 44.2%;
-    position: absolute;
-    border: 1vh solid;
-    border-radius: 5px;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(90deg, rgba(193,230,240,1) 0%, rgba(233,200,235,1) 100%);
-    background: none;
-    padding: 1rem 2rem;
-    cursor: pointer;
-
-    font-size: 2.5vh;
-    font-family: 'Helvetica Neue';
-    font-style: normal;
-    font-weight: 500;    
-    letter-spacing: 0.0676924px;
-    color: #000000;    
+    top: 162.8%;
 }
 
 .linkedInLogo {
     position: absolute;
-    top: 156%;
+    top: 176%;
     left: 43.5%;
     height: 7.5vh;
     opacity: 100%;
 }
 
 .linkedInLogo:hover {
-    top: 155.8%;
+    top: 175.8%;
 }
 
 .githubLogo {
     position: absolute;
-    top: 157.2%;
+    top: 177.2%;
     left: 48%;
     height: 5.3vh;
     opacity: 100%;
 }
 
 .githubLogo:hover {
-    top: 157%;
+    top: 177%;
 }
 
 .dribbbleLogo {
     position: absolute;
-    top: 157.5%;
+    top: 177.5%;
     left: 52%;
     height: 4.87vh;
 }
 
 .dribbbleLogo:hover {
-    top: 157.3%;
+    top: 177.3%;
 }
 
 

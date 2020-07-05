@@ -29,8 +29,8 @@
 .MainTitle {
     font-weight: 300;
     font-size: 2.9vw;
-    line-height: 6vh;
-    padding-bottom: 5%;
+    line-height: 7vh;
+    padding-bottom: 2%;
 }
 
 .Subtitle {
@@ -63,6 +63,7 @@ li {
 
 .SectionTitle {
     font-size: 1.7vw;
+    color: #361671;
 }
 
 .SectionDescription {

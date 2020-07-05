@@ -16,13 +16,15 @@ const Button = ({link, name, text}) =>
     </a>
 
 const Contact = () =>
-    <div id='contact'> 
+    <div id='contact' className="contactWrapper"> 
         <h1 id="header" className="contactHeader">Contact</h1>
         <h2 id="contactDescription">Interested in working together?</h2>
         <Button link={"mailto: watanabehonoka428@gmail.com"} name={"hireMeButton"} text={"Hire Me"}/>
-        <Logo link={"https://linkedin.com/in/honokawatanabe"} source={linkedIn} name={"linkedInLogo"} alt={"linkedIn logo"}/>
-        <Logo link={"https://github.com/honoka428"} source={github} name={"githubLogo"} alt={"github logo"}/>
-        <Logo link={"https://dribbble.com/honokawatanabe"} source={dribbble} name={"dribbbleLogo"} alt={"dribbble logo"}/>
+        <div>
+            <Logo link={"https://linkedin.com/in/honokawatanabe"} source={linkedIn} name={"linkedInLogo"} alt={"linkedIn logo"}/>
+            <Logo link={"https://github.com/honoka428"} source={github} name={"githubLogo"} alt={"github logo"}/>
+            <Logo link={"https://dribbble.com/honokawatanabe"} source={dribbble} name={"dribbbleLogo"} alt={"dribbble logo"}/>
+        </div>
     </div>
 
 export default Contact
