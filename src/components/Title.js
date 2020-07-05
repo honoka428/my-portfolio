@@ -1,10 +1,12 @@
 import React from 'react'
+import '../App.css'
+import Header from '../components/Header'
+import GreetingText from '../components/GreetingText'
 
 const Title = () =>
-    <div>
-        <h1 className="titleLight">Hi, I'm </h1>
-        <h1 className="titleBold">Honoka.</h1>
-        <h2 className="titleSubtext">UX/UI Designer</h2>
+    <div id='main-section'> 
+        <Header /> 
+        <GreetingText />
     </div>
-
+    
 export default Title

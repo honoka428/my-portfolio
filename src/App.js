@@ -1,20 +1,21 @@
 import React from 'react';
 import './App.css';
-import Main from './sections/Main'
-import MyWork from './sections/MyWork'
-import Contact from './sections/Contact'
+import Main from './pages/Main'
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import CuriaSite from './pages/CuriaWebsite.js';
+import Error from './pages/Error.js';
 
 
 function App() {
   return (
-    <div>
-      <Main />
-      <MyWork />
-      <Contact />
-    </div>
-
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Main}/>
+        <Route path="/curiaWebsite" component={CuriaSite}/>
+        <Route component={Error} />
+      </Switch>
+    </Router>
   );
 }
-
 
 export default App;

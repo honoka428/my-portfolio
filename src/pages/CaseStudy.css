@@ -1,0 +1,80 @@
+.CSWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 8% 20% 5% 20%;
+}
+
+.HomeLink {
+    text-decoration: none; 
+    color: black;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.3vw;
+    padding: 0 0 5% 0;
+}
+
+.CSItem {
+    padding-bottom: 2%;
+    padding-top: 5%;
+}
+
+.Logo {
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    height: 5vw;
+}
+
+.MainTitle {
+    font-weight: 300;
+    font-size: 2.9vw;
+    line-height: 6vh;
+    padding-bottom: 5%;
+}
+
+.Subtitle {
+    font-weight: 700;
+    font-size: 2vw;
+}
+
+.Description {
+    font-weight: 400;
+    font-size: 1.2vw;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 5%;
+    padding-top: 2%;
+}
+
+p {
+    padding-top: 2%;
+}
+
+li {
+    padding: 1% 0 1% 0;
+}
+
+.ProcessItem {
+    padding-top: 3%;
+}
+
+.SectionTitle {
+    font-size: 1.7vw;
+}
+
+.SectionDescription {
+    font-size: 1.2vw;
+}
+
+.flowchart {
+    height: 50vh;
+    padding-top: 5%;
+}
+
+.wireframes {
+    height: 82vh;
+    padding-top: 5%;
+}
