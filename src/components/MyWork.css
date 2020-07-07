@@ -70,10 +70,6 @@
         display: flex;
         flex-direction: column;
     }
-    .projectsTitle {
-        font-size: 2vw;
-        padding-bottom: 3%;
-    }
     
     .curiaThumbnail {
         position: relative;
@@ -109,4 +105,38 @@
         background-color: white;
         padding: 14px 28px;                
     }
+
+    .readCS:hover {
+        position: relative;
+        margin-top: -25%;
+    }
   }
+
+
+  /* mobile views */
+@media only screen and (max-device-width: 480px){
+
+    .curiaThumbnail {
+        position: relative;
+        height: 75vw;
+        left: 11%;
+        margin-top: 0%;
+    }
+    
+    .projectTitle {
+        font-size: 8vw;
+    }
+    
+    .projectSubtitle {
+        font-size: 5vw;  
+    }
+
+    .projectRole {
+        font-size: 4vw;
+    }
+    
+    .readCS {
+        font-size: 4vw; 
+        position: relative;          
+    }
+}

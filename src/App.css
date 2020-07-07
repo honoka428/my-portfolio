@@ -96,48 +96,6 @@
   letter-spacing: 0.03vw;
 }
 
-/* mobile views */
-@media only screen and (max-width: 425px) {
-  #main-section {
-    height: 60vh;
-  }
-
-  #myWork {
-    height: 120vh;
-  }
-  
-  #contact {
-    height: 70vh;
-  }
-    
-  #navButton{
-    font-size: 3vw;
-  }
-  .contactButton{
-    left: 35%;
-    top: 44%;
-  }  
-  .resumeButton{
-    left: 53%;
-    top: 44%;
-  }  
-  .titleLight{
-    font-size: 7vw;
-    left: 26%;
-    top: 20%;
-  }   
-  .titleBold{
-    font-size: 7vw;
-    left: 47%;
-    top: 20%;
-  }   
-  .titleSubtext {
-    font-size: 4vw;
-    left: 37%;
-    top: 32%;
-  }
-}
-
 /* ipad views */
 @media only screen and (max-width: 768px) {
   #main-section {
@@ -167,6 +125,11 @@
     padding: 12px 28px;       
     border-radius: 2px; 
   }  
+
+  .contactButton:hover{
+    top: 43%;
+  }
+    
   .resumeButton{
     left: 53%;
     top: 43%;
@@ -176,6 +139,10 @@
     border-radius: 2px;     
   }  
 
+  .resumeButton:hover{
+    top: 43%;
+  }
+  
   .titleLight{
     font-size: 7vw;
     left: 26%;
@@ -190,5 +157,62 @@
     font-size: 4vw;
     left: 37%;
     top: 32%;
+  }
+}
+
+  /* mobile views */
+@media only screen and (max-device-width: 480px){
+  #main-section {
+    height: 55vh;
+  }
+
+  #myWork {
+    height: 95vh;
+  }
+  
+  #contact {
+    height: 65vh;
+  }
+  
+  #header {
+    font-size: 7vw;
+  }
+
+  #navButton{
+    font-size: 3vw;
+  }
+
+  .contactButton{
+    left: 20%;
+    top: 38%;
+  }  
+
+  .contactButton:hover{
+    top: 38%;
+  }
+  
+  .resumeButton{
+    left: 52%;
+    top: 38%;  
+  }  
+
+  .resumeButton:hover{
+    top: 38%;
+  }
+
+  .titleLight{
+    font-size: 9vw;
+    left: 18%;
+    top: 17%;
+  }   
+  .titleBold{
+    font-size: 9vw;
+    left: 45%;
+    top: 17%;
+  }   
+  .titleSubtext {
+    font-size: 6vw;
+    left: 29%;
+    top: 28%;
   }
 }
