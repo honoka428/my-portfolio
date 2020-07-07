@@ -58,3 +58,55 @@
     position: absolute;
     top: 105.5%;
 }
+
+/* mobile views */
+@media only screen and (max-width: 425px) {
+
+}
+  
+  /* ipad views */
+  @media only screen and (max-width: 768px) {
+    .projectWrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .projectsTitle {
+        font-size: 2vw;
+        padding-bottom: 3%;
+    }
+    
+    .curiaThumbnail {
+        position: relative;
+        height: 70vw;
+        left: 13%;
+        margin-top: 0%;
+    }
+    
+    .projectDescription {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%; 
+        text-align: center;   
+    }
+    
+    .projectTitle {
+        font-size: 5.5vw;
+    }
+    
+    .projectSubtitle {
+        font-size: 3vw;  
+        margin: 1% 0 2% 0;
+    }
+
+    .projectRole {
+        font-size: 3vw;
+    }
+    
+    .readCS {
+        font-size: 2vw;
+        margin-top: 3%;
+        border: 2px solid #e7e7e7;
+        background-color: white;
+        padding: 14px 28px;                
+    }
+  }

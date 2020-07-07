@@ -1,28 +1,25 @@
 .contactWrapper {
     display: flex;
-    justify-content: center;
-}
-.contactHeader {
-    top: 150%;
-    color:black;
+    flex-direction: column;
 }
 
-#contactDescription {
-    position: absolute;
-    font-family: Helvetica Neue;
-    font-style: normal;
+.contactHeader {
+    align-self: center;
+    margin-top: 10%;
+}
+
+.contactDescription {
+    align-self: center;    
     font-weight: 400;
-    font-size: 2.6vh;
-    letter-spacing: 0.0676924px;    
-    color: black;
-    text-align: center;
-    top: 156%;
+    font-size: 2.6vh;  
+    margin-top: 14%;
 }
 
 .hireMeButton {
-    top: 163%;
-    left: 45.2%;
     position: absolute;
+    left: 44.8%;
+    margin-top: 2%;
+
     border: 0.5vh solid #361671;
     border-radius: 5px;
     background: none;
@@ -30,7 +27,6 @@
     cursor: pointer;
 
     font-size: 2.5vh;
-    font-family: 'Helvetica Neue';
     font-style: normal;
     font-weight: 500;    
     letter-spacing: 0.0676924px;
@@ -38,98 +34,82 @@
 }
 
 .hireMeButton:hover {
-    top: 162.8%;
+    margin-top: 1.8%;    
 }
 
-.linkedInLogo {
+.linkedInLogo {    
     position: absolute;
-    top: 176%;
-    left: 44%;
-    height: 7.5vh;
+    left: 42.5%;
+    margin-top: 8.7%;
+    height: 4.5vw;
 }
 
 .linkedInLogo:hover {
-    top: 175.8%;
+    margin-top: 8.5%;
 }
 
-.githubLogo {
+.githubLogo {  
     position: absolute;
-    top: 177.2%;
-    left: 48.5%;
-    height: 5.3vh;
+    left: 48.3%;
+    margin-top: 9.4%;
+    height: 3.2vw;
 }
 
 .githubLogo:hover {
-    top: 177%;
+    margin-top: 9.2%;
 }
 
 .dribbbleLogo {
     position: absolute;
-    top: 177.5%;
-    left: 52.5%;
-    height: 4.87vh;
+    left: 53.4%;
+    margin-top: 9.5%;
+    height: 3.1vw;
 }
 
 .dribbbleLogo:hover {
-    top: 177.3%;
+    margin-top: 9.3%;
 }
-
 
 @media only screen and (max-width: 768px) {
+
     .contactHeader {
-        top: 385%;
-        left: 37%;
+        align-self: center;
+        margin-top: 8%;
     }
     
-    #contactDescription {
-        left: 9%;
-        font-size: 2.8vw;
-    }
-        
-    .description1 {
-        top: 400%;
+    .contactDescription {
+        font-size: 3vh;  
+        margin-top: 16%;
     }
     
-    .description2 {
-        display: none;
-    }
     .hireMeButton {
-        top: 405%;
-        left: 9%;
-        border: 0.8vh solid;
-        border-image-slice: 1;
-        border-image-source: linear-gradient(90deg, rgba(193,230,240,1) 0%, rgba(233,200,235,1) 100%);
-        padding: 0.5rem 1.5rem;
-        font-size: 3vw;
+        position: absolute;
+        left: 40.5%;
+        margin-top: 5%;
+        border: 0.7vh solid #361671;
+    
+        font-size: 3vh;
+        font-weight: 600;    
     }
     
-    .linkedInLogo {
-        top: 413%;
-        left: 8%;
-        height: 10vw;
-        opacity: 60%;
+    .linkedInLogo {    
+        position: absolute;
+        left: 36.2%;
+        margin-top: 18.5%;
+        height: 8.3vw;
     }
 
-    .githubLogo {
-        top: 413.7%;
-        left: 19.9%;
-        height: 8vw;
-        opacity: 60%;
+    .githubLogo {  
+        position: absolute;
+        left: 47%;
+        margin-top: 19.5%;
+        height: 6.3vw;
     }
-      
+    
+    .dribbbleLogo {
+        position: absolute;
+        left: 57%;
+        margin-top: 19.85%;
+        height: 5.7vw;
+    }
 }
-/* 
-@media(max-height: 700px) {
-    .githubLogo {
-        top: 421.7%;
-        left: 18.5%;
-        height: 4.8vh;
-        opacity: 50%;
-    }    
-    .linkedInLogo {
-        top: 421%;
-        left: 12.5%;
-        height: 6vh;
-        opacity: 50%;
-    }
-} */

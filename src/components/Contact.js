@@ -18,7 +18,7 @@ const Button = ({link, name, text}) =>
 const Contact = () =>
     <div id='contact' className="contactWrapper"> 
         <h1 id="header" className="contactHeader">Contact</h1>
-        <h2 id="contactDescription">Interested in working together?</h2>
+        <h2 className="contactDescription">Interested in working together?</h2>
         <Button link={"mailto: watanabehonoka428@gmail.com"} name={"hireMeButton"} text={"Hire Me"}/>
         <div>
             <Logo link={"https://linkedin.com/in/honokawatanabe"} source={linkedIn} name={"linkedInLogo"} alt={"linkedIn logo"}/>

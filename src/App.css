@@ -25,7 +25,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 70vh;
+  height: 65vh;
 }
 
 #myWork {
@@ -48,10 +48,8 @@
 
 .contactButton{
   position: absolute;
-  height: 3.133vw;
   left: 43%;
   top: 45.119%;
-  line-height: 3.133vh;
 }
 
 .contactButton:hover{
@@ -60,10 +58,8 @@
 
 .resumeButton{
   position: absolute;
-  height: 3.133vw;
   left: 52%;
   top: 45.119%;
-  line-height: 3.133vh;
 }
 
 .resumeButton:hover {
@@ -103,41 +99,17 @@
 /* mobile views */
 @media only screen and (max-width: 425px) {
   #main-section {
-    height: 50vh;
+    height: 60vh;
   }
-  #navButton{
-    font-size: 4.5vw;
-  }
-  .contactButton{
-    left: 27%;
-    top: 39%;
-  }  
-  .resumeButton{
-    left: 53%;
-    top: 39%;
-  }  
-  .titleLight{
-    font-size: 9vw;
-    left: 19%;
-    top: 17%;
-  }   
-  .titleBold{
-    font-size: 9vw;
-    left: 46%;
-    top: 17%;
-  }   
-  .titleSubtext {
-    font-size: 6vw;
-    left: 30%;
-    top: 28%;
-  }
-}
 
-/* ipad views */
-@media only screen and (max-width: 768px) {
-  #main-section {
+  #myWork {
+    height: 120vh;
+  }
+  
+  #contact {
     height: 70vh;
   }
+    
   #navButton{
     font-size: 3vw;
   }
@@ -149,6 +121,61 @@
     left: 53%;
     top: 44%;
   }  
+  .titleLight{
+    font-size: 7vw;
+    left: 26%;
+    top: 20%;
+  }   
+  .titleBold{
+    font-size: 7vw;
+    left: 47%;
+    top: 20%;
+  }   
+  .titleSubtext {
+    font-size: 4vw;
+    left: 37%;
+    top: 32%;
+  }
+}
+
+/* ipad views */
+@media only screen and (max-width: 768px) {
+  #main-section {
+    height: 60vh;
+  }
+
+  #myWork {
+    height: 140vh;
+  }
+  
+  #contact {
+    height: 80vh;
+  }
+  
+  #header {
+    font-size: 6vw;
+  }
+
+  #navButton{
+    font-size: 2.6vw;
+  }
+  .contactButton{
+    left: 30%;
+    top: 43%;
+    border: 2px solid #e7e7e7;
+    background-color: white;
+    padding: 12px 28px;       
+    border-radius: 2px; 
+  }  
+  .resumeButton{
+    left: 53%;
+    top: 43%;
+    border: 2px solid #e7e7e7;
+    background-color: white;
+    padding: 12px 28px;       
+    border-radius: 2px;     
+  }  
+
   .titleLight{
     font-size: 7vw;
     left: 26%;
