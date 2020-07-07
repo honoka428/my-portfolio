@@ -3,8 +3,10 @@ import './App.css';
 import Main from './pages/Main'
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import CuriaSite from './pages/CuriaWebsite.js';
+import AboutHonoka from './pages/AboutHonoka.js';
 import Error from './pages/Error.js';
 import ScrollToTop from '../src/components/ScrollTop.js'
+
 function App() {
   return (
     <Router>
@@ -12,6 +14,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Main}/>
         <Route path="/curiaWebsite" component={CuriaSite}/>
+        <Route path="/aboutHonoka" component={AboutHonoka}/>
         <Route component={Error} />
       </Switch>
     </Router>

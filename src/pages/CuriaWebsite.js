@@ -11,8 +11,8 @@ import AppScreens from '../images/curiaScreens.svg';
 const curiaWebsite = () => 
     <div className="CSWrapper">
         <Link exact="true" to="/" className="HomeLink"> <IoIosArrowBack/> Back </Link>
-        <h1 className="MainTitle"> <b>Curia’s website redesign</b> <br/>for upcoming app launch. </h1>
-        <a href="https://curia.app" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none", color: "#361671"}}> curia.app <FiExternalLink/> </a>
+        <h1 className="MainTitle"> <b style={{color: '#000000'}}>Curia’s website redesign</b> <br/>for upcoming app launch. </h1>
+        <a href="https://curia.app" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none", color: "#361671"}} className="curiaLink"> curia.app <FiExternalLink/> </a>
         <img src={Logo} alt="curia logo" className="Logo"/>
         <img src={AppScreens} alt="curia app screens" className="AppScreens" />
         <div className="CSItem">
@@ -26,17 +26,19 @@ const curiaWebsite = () =>
             <h2 className="Subtitle">The Goal</h2>
             <p className="Description"> <i>To get more users to download the app upon product launch.</i> <br/> <br/> The high level goals of this project were to:</p>
             <ul>
-                <li><b style={{color: '#000000'}}>1.</b> Illustrate how the app <b>benefits cancer patients</b></li>
-                <li><b style={{color: '#000000'}}>2.</b> Convey the <b>trustworthiness of the company</b></li>
-                <li><b style={{color: '#000000'}}>3.</b> Increase traffic to the company's <b>social media channels</b></li>
+                <li>Illustrate how the app <b>benefits cancer patients</b></li>
+                <li>Convey the <b>trustworthiness of the company</b></li>
+                <li>Increase traffic to the company's <b>social media channels</b></li>
             </ul> 
         </div>
 
         <div className="CSItem">
             <h2 className="Subtitle" >Who are the users?</h2>
             <div className="Description">
-                <p> <b> Cancer patients and caretakers</b> <br/> The company’s target audience for the mobile app.</p>
-                <p> <b> Clinical trial coordinators</b> <br/> Curia also offers a dashboard to help coordinators recruit more patients for their clinical trial. This product is also featured on the website.</p>
+                <ul>
+                    <li> <b> Cancer patients and caretakers</b> <br/> The company’s target audience for the mobile app.</li>
+                    <li> <b> Clinical trial coordinators</b> <br/> Curia also offers a dashboard to help coordinators recruit more patients for their clinical trial. This product is also featured on the website.</li>
+                </ul>
             </div>
         </div>
 
@@ -88,8 +90,8 @@ const curiaWebsite = () =>
                 <div className="SectionDescription"> 
                     <p>Once the information architecture was finalized, I dove into creating the wireframes. <br/> <br/> My main challenges at this stage were:</p>
                     <ul>
-                        <li><b>• Deciding where to place information about the clinical trial dashboards.</b> This was a significant pain point because the dashboards target a different audience group than the mobile app. Therefore I needed to display the dashboards such that it’s easy to find for potential dashboard users, yet not too prominent that it confuses potential app users.</li>
-                        <li><b>• Deciding what information should be placed on the landing page, have its own dedicated section, or both.</b></li>
+                        <li><b>Deciding where to place information about the clinical trial dashboards.</b> This was a significant pain point because the dashboards target a different audience group than the mobile app. Therefore I needed to display the dashboards such that it’s easy to find for potential dashboard users, yet not too prominent that it confuses potential app users.</li>
+                        <li><b>Deciding what information should be placed on the landing page, have its own dedicated section, or both.</b></li>
                     </ul>
                 </div>
             </div>
@@ -101,7 +103,7 @@ const curiaWebsite = () =>
             </div>
 
             <div className="CSItem">
-            <h2 className="Subtitle">The Outcome and Lessons Learned</h2>
+            <h2 className="Subtitle">Outcome and Lessons</h2>
             <p className="Description">The app launch was successful in hitting the target number of app downloads. We saw an increases in new website visitors parallel to the number app downloads which makes me optimistic for the role the website played in the company's launch success. With that being said, next time-if time allows-I definitely would like to dedicate time to <b>outline quantifiable KPIs</b> to measure the project's success more precisely.</p>
         </div>
 
