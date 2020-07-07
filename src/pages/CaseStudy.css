@@ -21,9 +21,14 @@
 
 .Logo {
     position: absolute;
-    top: 25%;
+    top: 27%;
     left: 70%;
-    height: 5vw;
+    height: 4vw;
+}
+
+.AppScreens {
+    height: 35vw;
+    margin-top: 5%;
 }
 
 .MainTitle {
@@ -31,6 +36,10 @@
     font-size: 2.9vw;
     line-height: 7vh;
     padding-bottom: 2%;
+}
+
+b {
+    color: #361671;
 }
 
 .Subtitle {
@@ -71,11 +80,11 @@ li {
 }
 
 .flowchart {
-    height: 50vh;
+    height: 28vw;
     padding-top: 5%;
 }
 
-.wireframes {
-    height: 82vh;
+.Prototype {
+    height: 45vw;
     padding-top: 5%;
 }

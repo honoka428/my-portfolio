@@ -14,13 +14,9 @@
 
 .curiaThumbnail {
     position: absolute;
-    height: 65vh;
+    height: 37vw;
     left: 12%;
     margin-top: 3%;
-}
-
-.curiaThumbnail:hover {
-    opacity: 70%;
 }
 
 .projectDescription {

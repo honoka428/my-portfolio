@@ -6,6 +6,7 @@ import Logo from '../images/curiaLogo.svg'
 import {Link} from 'react-router-dom';
 import {IoIosArrowBack} from 'react-icons/io'
 import {FiExternalLink} from 'react-icons/fi';
+import AppScreens from '../images/curiaScreens.svg';
 
 const curiaWebsite = () => 
     <div className="CSWrapper">
@@ -13,52 +14,53 @@ const curiaWebsite = () =>
         <h1 className="MainTitle"> <b>Curia’s website redesign</b> <br/>for upcoming app launch. </h1>
         <a href="https://curia.app" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none", color: "#361671"}}> curia.app <FiExternalLink/> </a>
         <img src={Logo} alt="curia logo" className="Logo"/>
+        <img src={AppScreens} alt="curia app screens" className="AppScreens" />
         <div className="CSItem">
-            <h2 className="Subtitle"> Introduction</h2>
+            <h2 className="Subtitle"> Project Background</h2>
             <div className="Description" >
-                <p>Curia is a <b style={{color: '#361671'}}>health tech</b> company that helps cancer patients find information on treatments, clinical trials and experts. The pre-launch website included an overview of the product, a couple of blog posts, and a contact form.</p>           
+                <p>Curia is a <b>health tech</b> company that helps cancer patients find information on treatments, clinical trials and experts. The pre-launch website included an overview of the product, a couple of blog posts, and a contact form.</p>           
             </div>        
         </div>
 
         <div className="CSItem">
-            <h2 className="Subtitle">Business Goal</h2>
-            <p className="Description">To get more users to download the app upon product launch. <br/> <br/> Therefore the high level goals of this project were to:</p>
+            <h2 className="Subtitle">The Goal</h2>
+            <p className="Description"> <i>To get more users to download the app upon product launch.</i> <br/> <br/> The high level goals of this project were to:</p>
             <ul>
-                <li><b>1.</b> Illustrate how the app <b style={{color: '#361671'}}>benefits cancer patients</b></li>
-                <li><b>2.</b> Convey the <b style={{color: '#361671'}}>trustworthiness of the company</b></li>
-                <li><b>3.</b> Increase traffic to the company's <b style={{color: '#361671'}}>social media channels</b></li>
+                <li><b style={{color: '#000000'}}>1.</b> Illustrate how the app <b>benefits cancer patients</b></li>
+                <li><b style={{color: '#000000'}}>2.</b> Convey the <b>trustworthiness of the company</b></li>
+                <li><b style={{color: '#000000'}}>3.</b> Increase traffic to the company's <b>social media channels</b></li>
             </ul> 
         </div>
 
         <div className="CSItem">
-            <h2 className="Subtitle" >Users and Audience </h2>
+            <h2 className="Subtitle" >Who are the users?</h2>
             <div className="Description">
-                <p> <b style={{color: '#361671'}}> Cancer patients and caretakers</b> <br/> The company’s target audience for the mobile app.</p>
-                <p> <b style={{color: '#361671'}}> Clinical trial coordinators</b> <br/> Curia also offers a dashboard to help coordinators recruit more patients for their clinical trial. This product is also featured on the website.</p>
+                <p> <b> Cancer patients and caretakers</b> <br/> The company’s target audience for the mobile app.</p>
+                <p> <b> Clinical trial coordinators</b> <br/> Curia also offers a dashboard to help coordinators recruit more patients for their clinical trial. This product is also featured on the website.</p>
             </div>
         </div>
 
         <div className="CSItem">
-            <h2 className="Subtitle">Role and Responsibility</h2>
-            <p className="Description">Wireframes, UI Design, Prototypes, Copywriting, Information Architecture, Developer Handoff.</p>
+            <h2 className="Subtitle">My Role</h2>
+            <p className="Description"> I was responsible for the entire lifecycle of this project, from <b> Defining the Scope</b> with my manager, to creating <b>User Flows</b> and <b>Wireframes</b>, <b>Copywriting</b>, designing the <b>UI</b> and making the <b>prototypes</b>, and working iteratively in the <b>Developer Handoff</b> to implement the designs.</p>
         </div>
 
         <div className="CSItem">
-            <h2 className="Subtitle">Tools</h2>
-            <p className="Description">Sketch, Invision</p>
+            <h2 className="Subtitle">Tools Used</h2>
+            <p className="Description">Sketch & Invision</p>
         </div>
 
         <div className="CSItem">
-            <h2 className="Subtitle">Timeline</h2>
-            <p className="Description">Approx. 2 weeks</p>
+            <h2 className="Subtitle">The Timeline</h2>
+            <p className="Description">Approx. 2 weeks (Not including development)</p>
         </div>
 
         <div className="CSItem">
             <h2 className="Subtitle">Scope and Constraints</h2>
-            <p className="Description"> <b style={{color: '#361671'}}>Short Timeline</b> It was important to the company to launch the new landing page simultaneous to the app launch. This meant I had 2 weeks to finalize the designs and 2 weeks to work with a developer to make the website live.</p>
+            <p className="Description"> <b> Short Timeline</b> It was important to the company to launch the new landing page simultaneous to the app launch. This meant I had 2 weeks to finalize the designs and 2 weeks to work with a developer to make the website live.</p>
         </div>
         <div className="CSItem">
-            <h2 className="Subtitle">Process</h2>
+            <h2 className="Subtitle">The Process</h2>
             <div className="ProcessItem">
                 <h3 className="SectionTitle">1. Research</h3>
                 <div className="SectionDescription"> 
@@ -84,7 +86,7 @@ const curiaWebsite = () =>
             <div className="ProcessItem">
                 <h3 className="SectionTitle">3. Wireframes </h3>
                 <div className="SectionDescription"> 
-                    <p>Once the information architecture was finalized, I dove into creating the wireframes. <br/> My main challenges at this stage were:</p>
+                    <p>Once the information architecture was finalized, I dove into creating the wireframes. <br/> <br/> My main challenges at this stage were:</p>
                     <ul>
                         <li><b>• Deciding where to place information about the clinical trial dashboards.</b> This was a significant pain point because the dashboards target a different audience group than the mobile app. Therefore I needed to display the dashboards such that it’s easy to find for potential dashboard users, yet not too prominent that it confuses potential app users.</li>
                         <li><b>• Deciding what information should be placed on the landing page, have its own dedicated section, or both.</b></li>
@@ -94,9 +96,14 @@ const curiaWebsite = () =>
 
             <div className="ProcessItem">
                 <h3 className="SectionTitle">4. UI and Prototypes </h3>
-                <p>After iterating over the wireframes with my team, I created the UI prototype on Invision and worked closely with the developer to make the website live. The website can be visited at <a href="https://curia.app" style={{textDecoration: 'none', color: '#361671', fontWeight:'bold'}}>curia.app</a></p>
-                <img src={UI} alt="site wireframes" className="wireframes"/>
+                <p className="Description">After iterating over the wireframes with my team, I created the UI prototype on Invision and worked closely with the developer to make the website live. The website can be visited at <a href="https://curia.app" style={{textDecoration: 'none', color: '#361671', fontWeight:'bold'}}>curia.app</a></p>
+                <img src={UI} alt="site UI" className="Prototype"/>
             </div>
+
+            <div className="CSItem">
+            <h2 className="Subtitle">The Outcome and Lessons Learned</h2>
+            <p className="Description">The app launch was successful in hitting the target number of app downloads. We saw an increases in new website visitors parallel to the number app downloads which makes me optimistic for the role the website played in the company's launch success. With that being said, next time-if time allows-I definitely would like to dedicate time to <b>outline quantifiable KPIs</b> to measure the project's success more precisely.</p>
+        </div>
 
         </div>             
     </div>

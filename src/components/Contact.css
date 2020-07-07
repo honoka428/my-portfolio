@@ -21,7 +21,7 @@
 
 .hireMeButton {
     top: 163%;
-    left: 44.5%;
+    left: 45.2%;
     position: absolute;
     border: 0.5vh solid #361671;
     border-radius: 5px;
@@ -44,9 +44,8 @@
 .linkedInLogo {
     position: absolute;
     top: 176%;
-    left: 43.5%;
+    left: 44%;
     height: 7.5vh;
-    opacity: 100%;
 }
 
 .linkedInLogo:hover {
@@ -56,9 +55,8 @@
 .githubLogo {
     position: absolute;
     top: 177.2%;
-    left: 48%;
+    left: 48.5%;
     height: 5.3vh;
-    opacity: 100%;
 }
 
 .githubLogo:hover {
@@ -68,7 +66,7 @@
 .dribbbleLogo {
     position: absolute;
     top: 177.5%;
-    left: 52%;
+    left: 52.5%;
     height: 4.87vh;
 }
 

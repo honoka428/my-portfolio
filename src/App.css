@@ -25,7 +25,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 60vh;
+  height: 70vh;
 }
 
 #myWork {
@@ -38,25 +38,10 @@
   background-color: white
 }
 
-#hamburger {
-  position: absolute;
-  left: 85%;
-  top: 8.5%;
-}
-
-.headerLogo {
-  cursor: pointer;
-  position: fixed;
-  width: 9.226vw; 
-  height: 7.729vh;
-  left: 10%;
-  top: 6%;
-}
-
 #navButton{
   list-style-type: none;
   font-weight: 600;
-  font-size: 2.3vh;
+  font-size: 1.5vw;
   cursor: pointer;   
   color:#361671;
 }
@@ -64,104 +49,119 @@
 .contactButton{
   position: absolute;
   height: 3.133vw;
-  left: 44%;
-  top: 40.119%;
+  left: 43%;
+  top: 45.119%;
   line-height: 3.133vh;
 }
 
 .contactButton:hover{
-  top: 39.8%;  
+  top: 44.8%;  
 }
 
 .resumeButton{
   position: absolute;
   height: 3.133vw;
-  left: 51%;
-  top: 40.119%;
+  left: 52%;
+  top: 45.119%;
   line-height: 3.133vh;
 }
 
 .resumeButton:hover {
-  top: 39.8%;  
+  top: 44.8%;  
 }
 
 .titleLight{
   position: absolute;
-  left: 37%;
+  left: 30.55%;
   top: 20%;
   font-weight: 310;
-  font-size: 4vw;
+  font-size: 5.8vw;
   line-height: 6vw;
   letter-spacing: 0.03vw;
 }
 
 .titleBold{
   position: absolute;
-  left: 49%;
+  left: 48%;
   top: 20%;
   font-weight: bold;
-  font-size: 4vw;
+  font-size: 5.8vw;
   line-height: 6vw;
   letter-spacing: 0.03vw;  
 }
 
 .titleSubtext{
   position: absolute;
-  left: 43%;
-  top: 31%;
+  left: 41%;
+  top: 34%;
   font-weight: lighter;
-  font-size: 2.3vw;
+  font-size: 2.7vw;
   line-height: 4vw;
   letter-spacing: 0.03vw;
 }
 
-.titleDescription{
-  position: absolute;
-  left: 18.5%;
-  right: 27%;
-  top: 58%;
-  bottom: 84.39%;
-  font-weight: normal;
-  font-size: 2vw;
-  line-height: 3vw;
-  letter-spacing: 0.0676924px; 
-  color: white;
+/* mobile views */
+@media only screen and (max-width: 425px) {
+  #main-section {
+    height: 50vh;
+  }
+  #navButton{
+    font-size: 4.5vw;
+  }
+  .contactButton{
+    left: 27%;
+    top: 39%;
+  }  
+  .resumeButton{
+    left: 53%;
+    top: 39%;
+  }  
+  .titleLight{
+    font-size: 9vw;
+    left: 19%;
+    top: 17%;
+  }   
+  .titleBold{
+    font-size: 9vw;
+    left: 46%;
+    top: 17%;
+  }   
+  .titleSubtext {
+    font-size: 6vw;
+    left: 30%;
+    top: 28%;
+  }
 }
 
-/* mobile views */
+/* ipad views */
 @media only screen and (max-width: 768px) {
-  #nav {
-    display: none;
+  #main-section {
+    height: 70vh;
   }
-
-  .titleLight{
-    left: 7.5%;
-    top: 32%;
-    width: 30vw;
-    font-size: 8.5vw;
-    line-height: 6vw;
+  #navButton{
+    font-size: 3vw;
   }
-  
-  .titleBold{
-    left: 36.5%;
-    top: 32%;
-    font-size: 8.5vw;
-    line-height: 6vw;
-  }
-  
-  .titleSubtext{
-    left: 11.5%;
-    top: 41%;
-    font-size: 4vw;
-  }
-  .titleDescription{
-    left: 11.5%;
-    top: 47%;
-    width: 80vw;
-    font-size: 4vw;
-    line-height: 4vw;
-  }
-  #contact {
-    height: 45vh;
+  .contactButton{
+    left: 35%;
+    top: 44%;
   }  
+  .resumeButton{
+    left: 53%;
+    top: 44%;
+  }  
+  .titleLight{
+    font-size: 7vw;
+    left: 26%;
+    top: 20%;
+  }   
+  .titleBold{
+    font-size: 7vw;
+    left: 47%;
+    top: 20%;
+  }   
+  .titleSubtext {
+    font-size: 4vw;
+    left: 37%;
+    top: 32%;
+  }
 }
