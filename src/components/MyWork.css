@@ -54,11 +54,6 @@
     text-decoration: none;
 }
 
-.readCS:hover {
-    position: absolute;
-    top: 105.5%;
-}
-
 /* mobile views */
 @media only screen and (max-width: 425px) {
 
@@ -104,11 +99,6 @@
         border: 2px solid #e7e7e7;
         background-color: white;
         padding: 14px 28px;                
-    }
-
-    .readCS:hover {
-        position: relative;
-        margin-top: -25%;
     }
   }
 
