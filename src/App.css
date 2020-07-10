@@ -111,39 +111,90 @@
   letter-spacing: 0.03vw;
 }
 
-/* ipad views */
-@media only screen and (max-width: 768px) {
+/* ipad Pro Landscape*/
+@media only screen and (max-width: 1366px) and (orientation: landscape) {
   #main-section {
-    height: 60vh;
+    height: 55vh;
   }
 
   #myWork {
-    height: 140vh;
+    height: 180vh;
   }
   
   #contact {
-    height: 80vh;
+    height: 60vh;
   }
   
   #header {
-    font-size: 6vw;
+    font-size: 5vw;
   }
 
   #navButton{
-    font-size: 1.5vw;
+    top: 44%;
+    font-size: 2.2vw;
     padding: 10px 26px;   
     border: 2px solid #e7e7e7;
     background-color: white; 
-    border-radius: 2px; 
-    top: 43%;
+    border-radius: 2px;     
   }
-
   .contactButton{
-    left: 22%;
+    left: 23%;
   }  
 
   .contactButton:hover{
-    top: 43%;
+    top: 44%;
+  }
+    
+  .aboutButton{
+    left: 45%;
+  }  
+
+  .aboutButton:hover{
+    top: 44%;
+  }
+
+  .resumeButton{
+    left: 64%;
+  }  
+
+  .resumeButton:hover{
+    top: 44%;
+  }
+}
+
+/* ipad Pro Portait*/
+@media only screen and (max-width: 1024px) {
+  #main-section {
+    height: 55vh;
+  }
+
+  #myWork {
+    height: 90vh;
+  }
+  
+  #contact {
+    height: 60vh;
+  }
+  
+  #header {
+    font-size: 5vw;
+  }
+
+  #navButton{
+    top: 40%;
+    font-size: 2.5vw;
+    padding: 10px 26px;   
+    border: 2px solid #e7e7e7;
+    background-color: white; 
+    border-radius: 2px;     
+  }
+
+  .contactButton{
+    left: 23%;
+  }  
+
+  .contactButton:hover{
+    top: 40%;
   }
     
   .aboutButton{
@@ -151,16 +202,15 @@
   }  
 
   .aboutButton:hover{
-    top: 43%;
+    top: 40%;
   }
-    
 
   .resumeButton{
     left: 61%;
   }  
 
   .resumeButton:hover{
-    top: 43%;
+    top: 40%;
   }
   
   .titleLight{
@@ -176,11 +226,221 @@
   .titleSubtext {
     font-size: 4vw;
     left: 37%;
-    top: 32%;
+    top: 30%;
   }
 }
 
-  /* mobile views */
+/* iPad Landscape */
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+  #main-section {
+    height: 65vh;
+  }
+
+  #myWork {
+    height: 150vh;
+  }
+  #contact {
+    height: 80vh;
+  }
+}
+
+/* iPhone X  and Pixel 2 Landscape */
+@media only screen and (max-width: 823px) and (orientation: landscape) {
+  #main-section {
+    height: 90vh;
+  }
+
+  #myWork {
+    height: 270vh;
+  }
+  #contact {
+    height: 130vh;
+  }
+
+  #header {
+    font-size: 6vw;
+  }
+
+  #navButton{
+    font-size: 2vw;
+    padding: 8px 24px;   
+    top: 58%;
+  }
+
+  .contactButton{
+    left: 23%;
+  }  
+
+  .contactButton:hover{
+    top: 58%;
+  }
+    
+  .aboutButton{
+    left: 43%;
+  }  
+
+  .aboutButton:hover{
+    top: 58%;
+  }
+
+  .resumeButton{
+    left: 60%;
+  }  
+
+  .resumeButton:hover{
+    top: 58%;
+  }
+  
+  .titleLight{
+    font-size: 6.5vw;
+    left: 26.5%;
+  }   
+
+  .titleBold{
+    font-size: 6.5vw;
+    left: 46%;
+    top: 20%;
+  }   
+  .titleSubtext {
+    font-size: 3.5vw;
+    left: 38%;
+    top: 38.5%;
+  }  
+}
+
+/* ipad portrait */
+@media only screen and (max-width: 768px) {
+  #main-section {
+    height: 60vh;
+  }
+
+  #myWork {
+    height: 100vh;
+  }
+  
+  #contact {
+    height: 60vh;
+  }
+  
+  #header {
+    font-size: 6vw;
+  }
+
+  #navButton{
+    font-size: 2.5vw;
+    padding: 10px 26px;   
+    border: 2px solid #e7e7e7;
+    background-color: white; 
+    border-radius: 2px; 
+    top: 41%;
+  }
+
+  .contactButton{
+    left: 20%;
+  }  
+
+  .contactButton:hover{
+    top: 43%;
+  }
+    
+  .aboutButton{
+    left: 41%;
+  }  
+
+  .aboutButton:hover{
+    top: 43%;
+  }
+
+  .resumeButton{
+    left: 59%;
+  }  
+
+  .resumeButton:hover{
+    top: 43%;
+  }
+  
+  .titleLight{
+    font-size: 8vw;
+    left: 23%;
+    top: 20%;
+  }   
+  .titleBold{
+    font-size: 8vw;
+    left: 45%;
+    top: 20%;
+  }   
+  .titleSubtext {
+    font-size: 4.5vw;
+    left: 34%;
+    top: 30%;
+  }
+}
+
+/* iPhone 6,7,8+, iPhone 5, 678 and Galaxy and Moto Landscape */
+@media only screen and (max-width: 736px) and (orientation: landscape) {
+  #main-section {
+    height: 80vh;
+  }
+
+  #myWork {
+    height: 200vh;
+  }
+  
+  #contact {
+    height: 100vh;
+  }
+  
+  #header {
+    font-size: 6vw;
+  }
+
+  #navButton{
+    font-size: 2.5vw;
+    top: 50%;
+  }
+
+  .contactButton{
+    left: 14%;
+  }  
+
+  .contactButton:hover{
+    top: 50%;
+  }
+
+  .aboutButton {
+    left: 42%;
+  }
+
+  .aboutButton:hover{
+    top: 50%;
+  }
+  
+  .resumeButton{
+    left: 66%;
+  }  
+
+  .resumeButton:hover{
+    top: 50%;
+  }
+
+  .titleLight{
+    font-size: 8vw;
+    left: 22%;
+    top: 17%;
+  }   
+  .titleBold{
+    font-size: 8vw;
+    left: 46%;
+    top: 17%;
+  }   
+  .titleSubtext {
+    font-size: 4vw;
+    left: 37%;
+    top: 35%;
+  }
+}
+
+/* iPhone 6,7,8+ to X Portrait */
 @media only screen and (max-device-width: 480px){
   #main-section {
     height: 55vh;
@@ -245,7 +505,14 @@
   }
 }
 
-/* mobile views M */
+/* Pixel Portait */
+@media only screen and (max-device-width: 411px){
+  #contact {
+    height: 55vh;
+  }
+}
+
+/* iPhone 6,7,8 and Galaxy and Moto Portait */
 @media only screen and (max-device-width: 375px){
   #main-section {
     height: 50vh;
@@ -264,8 +531,7 @@
   }
 }
 
-
-/* mobile views S */
+/* iPhone 5 Portait */
 @media only screen and (max-device-width: 320px){
   #main-section {
     height: 47vh;

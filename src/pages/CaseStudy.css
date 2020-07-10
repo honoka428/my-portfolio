@@ -54,7 +54,7 @@ b {
 
 ul {
     list-style-type: none;
-    margin-left: 5%;
+    margin-left: 3%;
     padding-top: 2%;
 }
 
@@ -89,7 +89,94 @@ li {
     padding-top: 5%;
 }
 
-  /* ipad views */
+
+/* ipad Pro, ipad Landscape*/
+@media only screen and (max-width: 1366px) and (orientation: landscape) {
+    .CSWrapper{
+        margin: 8% 10% 5% 10%;
+    }
+    
+    .HomeLink {
+        font-size: 2.5vw;
+    }
+    
+    .CSItem {
+        padding-bottom: 2%;
+        padding-top: 5%;
+    }
+    
+    .Logo {
+        top: 23%;
+        left: 80%;
+        height: 5.5vw;
+    }
+    
+    .AppScreens {
+        height: 50vw;
+        margin-top: 5%;
+    }
+    
+    .MainTitle {
+        font-size: 4vw;
+        line-height: 6vh;   
+    }
+
+    ul {
+        font-size: 2vw;
+    }
+
+    .Subtitle {
+        font-size: 3.5vw;
+    }
+    
+    .Description {
+        font-size: 2vw;
+    }
+    
+    .SectionTitle {
+        font-size: 3vw;
+        color: #361671;
+    }
+    
+    .SectionDescription {
+        font-size: 2vw;
+    }
+    
+    .flowchart {
+        height: 39vw;
+        padding-top: 5%;
+    }
+    
+    .Prototype {
+        height: 60vw;
+        padding-top: 5%;
+    }
+}
+
+/* ipad Pro Portait*/
+@media only screen and (max-width: 1024px) {
+
+}
+
+
+/* iPhone X  and Pixel 2 Landscape */
+@media only screen and (max-width: 823px) and (orientation: landscape) {
+
+    .Logo {
+        top: 37%;
+    }
+    
+    .AppScreens {
+        height: 50vw;
+        margin-top: 5%;
+    }
+    
+    .MainTitle {
+        line-height: 10vh;   
+    }
+}
+
+/* ipad portrait */
 @media only screen and (max-width: 768px) {
     .CSWrapper{
         margin: 8% 10% 5% 10%;
@@ -118,7 +205,7 @@ li {
     b {
         color: #361671;
     }
-    
+
     .Subtitle {
         font-size: 4vw;
     }
@@ -146,7 +233,17 @@ li {
     }    
 }
 
-/* mobile views */
+/* iPhone 6,7,8+, iPhone 5, 678 and Galaxy and Moto Landscape */
+@media only screen and (max-width: 736px) and (orientation: landscape) {
+    .Logo {
+        top: 35%;
+    }
+    .HomeLink {
+        font-size: 2.5vw;
+    }
+}
+
+/* iPhone 6,7,8+ to X Portrait */
 @media only screen and (max-device-width: 480px){
     .CSWrapper{
         text-align: center;
@@ -226,4 +323,27 @@ li {
         height: 61vw;
         padding-top: 5%;
     }      
+}
+
+/* iPhone X, 6,7,8 and Galaxy and Moto Portait */
+@media only screen and (max-device-width: 375px){
+    
+    .Logo {
+        top: 12%;
+    }
+
+    .Description {
+        width: 295px;
+    }
+}
+
+/* iPhone 5 Portait */
+@media only screen and (max-device-width: 320px){
+    .Logo {
+        top: 14%;
+    }
+
+    .Description {
+        width: 250px;
+    }
 }

@@ -35,10 +35,10 @@ const curiaWebsite = () =>
         <div className="CSItem">
             <h2 className="Subtitle" >Who are the users?</h2>
             <div className="Description">
-                <ul>
-                    <li> <b> Cancer patients and caretakers</b> <br/> The company’s target audience for the mobile app.</li>
-                    <li> <b> Clinical trial coordinators</b> <br/> Curia also offers a dashboard to help coordinators recruit more patients for their clinical trial. This product is also featured on the website.</li>
-                </ul>
+                <div>
+                    <p> <b> Cancer patients and caretakers</b> <br/> The company’s target audience for the mobile app.</p>
+                    <p> <b> Clinical trial coordinators</b> <br/> Curia also offers a dashboard to help coordinators recruit more patients for their clinical trial. This product is also featured on the website.</p>
+                </div>
             </div>
         </div>
 

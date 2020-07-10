@@ -54,12 +54,109 @@
     text-decoration: none;
 }
 
-/* mobile views */
-@media only screen and (max-width: 425px) {
 
+/* ipad Pro Landscape*/
+@media only screen and (max-width: 1366px) and (orientation: landscape) {
+    .projectWrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .curiaThumbnail {
+        position: relative;
+        height: 70vw;
+        left: 13%;
+        margin-top: 10%;
+    }
+    
+    .projectDescription {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%; 
+        text-align: center;   
+    }
+    
+    .projectTitle {
+        font-size: 5.5vw;
+    }
+    
+    .projectSubtitle {
+        font-size: 3.5vw;  
+        margin: 1% 0 2% 0;
+    }
+
+    .projectRole {
+        font-size: 3.5vw;
+    }
+    
+    .readCS {
+        font-size: 3vw;
+        margin-top: 3%;
+        border: 2px solid #e7e7e7;
+        background-color: white;
+        padding: 14px 28px;                
+    }
 }
-  
-  /* ipad views */
+
+/* ipad Pro Portrait & Ipad Landscape*/
+@media only screen and (max-width: 1024px) {
+    .projectWrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .curiaThumbnail {
+        position: relative;
+        height: 70vw;
+        left: 13%;
+        margin-top: 0%;
+    }
+    
+    .projectDescription {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%; 
+        text-align: center;   
+    }
+    
+    .projectTitle {
+        font-size: 5.5vw;
+    }
+    
+    .projectSubtitle {
+        font-size: 3.5vw;  
+        margin: 1% 0 2% 0;
+    }
+
+    .projectRole {
+        font-size: 3.5vw;
+    }
+    
+    .readCS {
+        font-size: 3vw;
+        margin-top: 3%;
+        border: 2px solid #e7e7e7;
+        background-color: white;
+        padding: 14px 28px;                
+    }
+}
+
+/* iPhone X and Pixel Landscape */
+@media only screen and (max-width: 823px) and (orientation: landscape) {
+    
+    .projectSubtitle {
+        line-height: 40px;
+    }
+
+    .projectRole {
+        font-size: 3.5vw;
+        margin: 2% 0 2% 0;
+    }
+    
+    .readCS {
+        font-size: 2.5vw;
+    }
+}
+
+  /* IPad portait */
   @media only screen and (max-width: 768px) {
     .projectWrapper {
         display: flex;
@@ -102,8 +199,34 @@
     }
   }
 
+/* iPhone 6,7,8+ Landscape */
+@media only screen and (max-width: 736px) and (orientation: landscape) {
+    .projectSubtitle {
+        line-height: 30px;
+    }
 
-  /* mobile views */
+    .projectRole {
+        font-size: 3.5vw;
+        margin: 2% 0 2% 0;
+    }
+    
+    .readCS {
+        font-size: 2.5vw;
+    }
+}
+
+/* iPhone 5 and Galaxy Landscape */
+@media only screen and (max-width: 640px) and (orientation: landscape) {
+    .projectSubtitle {
+        line-height: 25px;
+    }
+
+    .projectRole {
+        margin: 1% 0 1% 0;
+    }
+}
+
+/* mobile views */
 @media only screen and (max-device-width: 480px){
 
     .curiaThumbnail {

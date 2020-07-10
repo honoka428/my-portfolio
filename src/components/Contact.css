@@ -70,6 +70,187 @@
     margin-top: 9.3%;
 }
 
+/* ipad Pro Landscape*/
+@media only screen and (max-width: 1366px) and (orientation: landscape) {
+    .contactHeader {
+        margin-top: 0%;
+    }
+    .contactDescription {
+        font-size: 3vh;  
+        margin-top: 7%;
+    } 
+    .hireMeButton {
+        position: absolute;
+        left: 42%;
+        margin-top: 4%;
+        border: 0.6vh solid #361671;
+        font-size: 3.2vh;
+    }
+
+    .hireMeButton:hover {
+        margin-top: 4%;
+    }
+    
+    .linkedInLogo {    
+        position: absolute;
+        left: 35.2%;
+        margin-top: 14.5%;
+        height: 8.3vw;
+    }
+
+    .linkedInLogo:hover {    
+        margin-top: 14.5%;
+    }
+
+    .githubLogo {  
+        position: absolute;
+        left: 46%;
+        margin-top: 15.5%;
+        height: 6.3vw;
+    }
+    
+    .githubLogo:hover {  
+        margin-top: 15.5%;
+    }
+
+    .dribbbleLogo {
+        position: absolute;
+        left: 56%;
+        margin-top: 15.85%;
+        height: 5.7vw;
+    }
+
+    .dribbbleLogo:hover {
+        margin-top: 15.85%;
+    }         
+
+}
+
+/* iPad Pro views */
+@media only screen and (max-width: 1024px) {
+
+    .contactHeader {
+        margin-top: 17%;
+    }    
+
+    .contactDescription {
+        font-size: 2.5vh;  
+        margin-top: 27%;
+    }
+
+    .hireMeButton {
+        position: absolute;
+        left: 40.5%;
+        margin-top: 4%;
+        border: 0.5vh solid #361671;
+        font-size: 2.5vh;
+    }
+
+    .hireMeButton:hover {
+        margin-top: 4%;
+    }
+    
+    .linkedInLogo {    
+        position: absolute;
+        left: 36.2%;
+        margin-top: 17.5%;
+        height: 8.3vw;
+    }
+
+    .linkedInLogo:hover {    
+        margin-top: 17.5%;
+    }
+
+    .githubLogo {  
+        position: absolute;
+        left: 47%;
+        margin-top: 18.5%;
+        height: 6.3vw;
+    }
+    
+    .githubLogo:hover {  
+        margin-top: 18.5%;
+    }
+
+    .dribbbleLogo {
+        position: absolute;
+        left: 57%;
+        margin-top: 18.85%;
+        height: 5.7vw;
+    }
+
+    .dribbbleLogo:hover {
+        margin-top: 18.85%;
+    }  
+}
+
+/* iPad Landscape */
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+    .contactHeader {
+        margin-top: 13%;
+    }    
+
+    .contactDescription {
+        font-size: 3.5vh;  
+        margin-top: 20%;
+    }
+
+    .hireMeButton {
+        left: 41.5%;
+        border: 0.6vh solid #361671;
+        font-size: 3vh;
+    }
+    
+    .linkedInLogo {    
+        left: 34.7%;
+        margin-top: 14.5%;
+    }
+
+    .linkedInLogo:hover {    
+        margin-top: 14.5%;
+    }
+
+    .githubLogo {  
+        left: 45.5%;
+        margin-top: 15.5%;
+    }
+    
+    .githubLogo:hover {  
+        margin-top: 15.5%;
+    }
+
+    .dribbbleLogo {
+        left: 55.5%;
+        margin-top: 15.85%;
+    }
+
+    .dribbbleLogo:hover {
+        margin-top: 15.85%;
+    }  
+}
+
+
+/* iPhone X and Pixel 2 Landscape */
+@media only screen and (max-width: 823px) and (orientation: landscape) {
+
+    .contactDescription {
+        font-size: 6vh;  
+        margin-top: 19%;
+    }
+
+    .hireMeButton {
+        left: 40.5%;
+        margin-top: 3%;
+        border: 1vh solid #361671;
+        font-size: 5vh;
+    }
+
+    .hireMeButton:hover {
+        margin-top: 3%;
+    }    
+}
+
+/* iPad portrait view */
 @media only screen and (max-width: 768px) {
 
     .contactHeader {
@@ -79,13 +260,13 @@
     
     .contactDescription {
         font-size: 3vh;  
-        margin-top: 16%;
+        margin-top: 17%;
     }
     
     .hireMeButton {
         position: absolute;
-        left: 40.5%;
-        margin-top: 5%;
+        left: 37.5%;
+        margin-top: 4%;
         border: 0.7vh solid #361671;
     
         font-size: 3vh;
@@ -131,7 +312,60 @@
 }
 
 
-/* mobile views */
+/* iPhone 6,7,8, and 678+ Landscape */
+@media only screen and (max-width: 736px) and (orientation: landscape) {
+    .contactHeader{
+        margin-top: 14%;
+    }
+
+    .contactDescription {
+        font-size: 5vh;  
+        margin-top: 21%;
+    }
+
+    .hireMeButton {
+        left: 40%;
+        margin-top: 3%;
+        border: 1vh solid #361671;
+        font-size: 5vh;
+    }
+
+    .hireMeButton:hover {
+        margin-top: 3%;
+    }  
+    .linkedInLogo {    
+        margin-top: 15.5%;
+    }
+
+    .linkedInLogo:hover {    
+        margin-top: 15.5%;
+    }
+
+    .githubLogo {  
+        margin-top: 16.5%;
+    }
+    
+    .githubLogo:hover {  
+        margin-top: 16.5%;
+    }
+
+    .dribbbleLogo {
+        margin-top: 16.85%;
+    }
+
+    .dribbbleLogo:hover {
+        margin-top: 16.85%;
+    }        
+}
+
+/* iPhone 5 and Galaxy Landscape */
+@media only screen and (max-width: 640px) and (orientation: landscape) {
+    .hireMeButton {
+        left: 38.5%;
+    }
+}
+
+/* iPhone 6,7,8+ to X Portrait */
 @media only screen and (max-device-width: 480px){
     
     .contactDescription {
@@ -139,7 +373,7 @@
     }
     
     .hireMeButton {
-        left: 34.5%;
+        left: 33.5%;
         font-size: 2.5vh;
         margin-top: 7%;
     }
@@ -149,7 +383,7 @@
     }
     
     .linkedInLogo {    
-        left: 27.2%;
+        left: 26.2%;
         margin-top: 27.5%;
         height: 14.3vw;
     }
@@ -159,7 +393,7 @@
     }
 
     .githubLogo {  
-        left: 46%;
+        left: 45%;
         margin-top: 29.5%;
         height: 10.3vw;
     }
@@ -169,7 +403,7 @@
     }
 
     .dribbbleLogo {
-        left: 63%;
+        left: 62%;
         margin-top: 29.85%;
         height: 9.7vw;
     }
@@ -179,10 +413,24 @@
     }
 }
 
-/* mobile views M */
-@media only screen and (max-device-width: 375px){
+/* Pixel Portait */
+@media only screen and (max-device-width: 411px){
+    
+    .contactDescription {
+        font-size: 2.3vh;  
+    }
+
     .hireMeButton {
-        left: 32%;
+        border: 0.5vh solid #361671;
+        left: 32.5%;
+    }
+}
+
+/* iPhone 6,7,8 and Galaxy and Moto Portait */
+@media only screen and (max-device-width: 375px){
+
+    .hireMeButton {
+        left: 31%;
         margin-top: 6%;
     }
 
@@ -190,9 +438,21 @@
         font-size: 2.5vh;  
         margin-top: 20%;
     }
+
+    .linkedInLogo {    
+        left: 25.2%;
+    }
+
+    .githubLogo {  
+        left: 44%;
+    }
+
+    .dribbbleLogo {
+        left: 61%;
+    }
 }
   
-/* mobile views S */
+/* iPhone 5 Portait */
 @media only screen and (max-device-width: 320px){
 
     .hireMeButton {
