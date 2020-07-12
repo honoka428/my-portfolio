@@ -428,6 +428,9 @@
 
 /* iPhone 6,7,8 and Galaxy and Moto Portait */
 @media only screen and (max-device-width: 375px){
+    .contactHeader{
+        margin-top: 25%;
+    }
 
     .hireMeButton {
         left: 31%;
@@ -435,21 +438,36 @@
     }
 
     .contactDescription {
-        font-size: 2.5vh;  
-        margin-top: 20%;
+        font-size: 2.3vh;  
+        margin-top: 40%;
     }
 
-    .linkedInLogo {    
+    .linkedInLogo { 
+        margin-top: 32.5%;
         left: 25.2%;
     }
 
+    .linkedInLogo:hover { 
+        margin-top: 32.5%;
+    }    
+
     .githubLogo {  
         left: 44%;
+        margin-top: 34.5%;
+    }
+
+    .githubLogo:hover {  
+        margin-top: 34.5%;
     }
 
     .dribbbleLogo {
-        left: 61%;
+        left: 62%;
+        margin-top: 35%;    
     }
+
+    .dribbbleLogo:hover {
+        margin-top: 35%;    
+    }    
 }
   
 /* iPhone 5 Portait */

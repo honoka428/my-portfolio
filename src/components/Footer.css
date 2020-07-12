@@ -1,0 +1,11 @@
+.footerWrapper {
+    background-color: rgb(220, 220, 220);
+}
+
+#footerNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 5%;
+    padding-top: 3%;
+}
