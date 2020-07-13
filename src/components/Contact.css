@@ -365,7 +365,7 @@
     }
 }
 
-/* iPhone 6,7,8+ to X Portrait */
+/* iPhone X Portrait */
 @media only screen and (max-device-width: 480px){
     
     .contactDescription {
@@ -413,21 +413,8 @@
     }
 }
 
-/* Pixel Portait */
-@media only screen and (max-device-width: 411px){
-    
-    .contactDescription {
-        font-size: 2.3vh;  
-    }
-
-    .hireMeButton {
-        border: 0.5vh solid #361671;
-        left: 32.5%;
-    }
-}
-
-/* iPhone 6,7,8 and Galaxy and Moto Portait */
-@media only screen and (max-device-width: 375px){
+/* iPhone 678+ and Pixel Portait */
+@media only screen and (max-device-width: 414px){
     .contactHeader{
         margin-top: 25%;
     }
@@ -469,19 +456,44 @@
         margin-top: 35%;    
     }    
 }
+
   
 /* iPhone 5 Portait */
 @media only screen and (max-device-width: 320px){
 
+    .contactHeader{
+        margin-top: 6%;
+    }
+
     .hireMeButton {
-        border: 0.6vh solid #361671;
-        font-size: 2.5vh;
-        left: 29%;
         margin-top: 5%;
     }
-    
+
     .contactDescription {
-        font-size: 2.3vh;  
-        margin-top: 21%;
+        margin-top: 19%;
     }
+
+    .linkedInLogo { 
+        margin-top: 28.5%;
+    }
+
+    .linkedInLogo:hover { 
+        margin-top: 28.5%;
+    }    
+
+    .githubLogo {  
+        margin-top: 30.5%;
+    }
+
+    .githubLogo:hover {  
+        margin-top: 30.5%;
+    }
+
+    .dribbbleLogo {
+        margin-top: 31%;    
+    }
+
+    .dribbbleLogo:hover {
+        margin-top: 31%;    
+    }    
 }
