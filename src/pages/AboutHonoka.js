@@ -4,6 +4,7 @@ import Profile from '../images/profilePic.svg';
 import './AboutHonoka.css';
 import {Link} from 'react-router-dom';
 import {IoIosArrowBack} from 'react-icons/io';
+import Footer from '../components/Footer.js';
 
 const About = () => 
     <div>
@@ -24,9 +25,9 @@ const About = () =>
                     <a href="https://www.dribbble.com/honokawatanabe" target="_blank" rel="noopener noreferrer" className="SocalLinks">Dribbble</a>
                     <a href="mailto:watanabehonoka428@gmail.com" className="SocalLinks">Email</a>                
                 </div>
-
             </div> 
         </div>
+        <Footer />
     </div>
 
 export default About;

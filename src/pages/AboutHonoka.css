@@ -80,15 +80,46 @@
 
 /* ipad Pro Portait*/
 @media only screen and (max-width: 1024px) {
+    
+    .AboutWrapper{
+        flex-direction: column;
+    }
+
+    .HomeLinkAbout {
+        margin: 0% 1% 0% 10%;
+        font-size: 3vw;
+    }
+    
+    .ProfilePic {
+        width: 45vw;
+        margin: 20% 0% 0% 12%;
+    }
+    
+    .Greeting {
+        font-size: 3vw;
+        text-align: center;
+    }
+
     .AboutText {
-        padding: 9% 0% 0% 8%;
-        line-height: 35px;
+        padding: 10% 0% 0% 1%;
+        line-height: 25px;
+    }
+    
+    .AboutDescription {
+        font-size: 2.3vw;
+        text-align: center;
     }
 
     .LinkWrapper {
-        font-size: 1.5vw;
-        line-height: 28px;
-    }
+        line-height: 21px;
+        text-align: center;
+    }      
+
+    .SocalLinks {
+        display: inline-block;
+        font-size: 2vw;
+        padding: 15px;
+    }        
         
 }
 
@@ -271,6 +302,7 @@
     .AboutDescription {
         width: 300px;
         margin-left: 9%;
+        font-size: 1vw;        
     }
 
     .LinkWrapper {
@@ -283,7 +315,7 @@
     
     .ProfilePic {
         width: 60vw;
-        margin: 25% 0% 0% 19%;
+        margin: 25% 0% 0% 22%;
     }
 
     .AboutWrapper{
@@ -301,6 +333,6 @@
 
     .ProfilePic {
         width: 69vw;
-        margin: 25% 0% 0% 14%;
+        margin: 25% 0% 0% 17%;
     }
 }
