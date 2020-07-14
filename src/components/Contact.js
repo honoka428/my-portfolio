@@ -11,7 +11,7 @@ const Logo = ({link, source, name, alt}) =>
     </a>
 
 const Button = ({link, name, text}) =>
-    <a href={link} target="_blank" rel="noopener noreferrer">
+    <a className="buttonWrapper" href={link} target="_blank" rel="noopener noreferrer">
         <button className={name}> {text} </button>
     </a>
 
@@ -20,7 +20,7 @@ const Contact = () =>
         <h1 id="header" className="contactHeader">Contact</h1>
         <h2 className="contactDescription">Interested in working together?</h2>
         <Button link={"mailto: watanabehonoka428@gmail.com"} name={"hireMeButton"} text={"Hire Me"}/>
-        <div>
+        <div className="socialLinks">
             <Logo link={"https://linkedin.com/in/honokawatanabe"} source={linkedIn} name={"linkedInLogo"} alt={"linkedIn logo"}/>
             <Logo link={"https://github.com/honoka428"} source={github} name={"githubLogo"} alt={"github logo"}/>
             <Logo link={"https://dribbble.com/honokawatanabe"} source={dribbble} name={"dribbbleLogo"} alt={"dribbble logo"}/>
