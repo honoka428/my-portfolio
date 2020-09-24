@@ -18,7 +18,6 @@
 .buttonWrapper {
     text-align: center;
     text-decoration: none;
-
 }
 
 .hireMeButton {
@@ -46,10 +45,6 @@
     height: 4.5vw;
 }
 
-.linkedInLogo:hover {
-    margin-top: 8.5%;
-}
-
 .githubLogo {  
     position: absolute;
     left: 48.3%;
@@ -57,19 +52,11 @@
     height: 3.2vw;
 }
 
-.githubLogo:hover {
-    margin-top: 9.2%;
-}
-
 .dribbbleLogo {
     position: absolute;
     left: 53.4%;
     margin-top: 9.5%;
     height: 3.1vw;
-}
-
-.dribbbleLogo:hover {
-    margin-top: 9.3%;
 }
 
 @media only screen and (max-width: 2711px) {
@@ -80,6 +67,7 @@
         font-size: 3vh;  
         margin-top: 11%;
     } 
+
     .hireMeButton {
         margin-top: 2%;
         font-size: 3.2vh;
@@ -91,29 +79,17 @@
         height: 4.4vw;
     }
 
-    .linkedInLogo:hover {    
-        margin-top: 14.5%;
-    }
-
     .githubLogo {  
         left: 48.3%;
         margin-top: 8.5%;
         height: 3.3vw;
-    }
-    
-    .githubLogo:hover {  
-        margin-top: 8%;
     }
 
     .dribbbleLogo {
         left: 54%;
         margin-top: 8.7%;
         height: 3vw;
-    }
-
-    .dribbbleLogo:hover {
-        margin-top: 15.85%;
-    }         
+    }     
 }
 
 /* ipad Pro Landscape*/
@@ -142,10 +118,6 @@
         height: 8.3vw;
     }
 
-    .linkedInLogo:hover {    
-        margin-top: 14.5%;
-    }
-
     .githubLogo {  
         position: absolute;
         left: 46%;
@@ -153,21 +125,12 @@
         height: 6.3vw;
     }
     
-    .githubLogo:hover {  
-        margin-top: 15.5%;
-    }
-
     .dribbbleLogo {
         position: absolute;
         left: 56%;
         margin-top: 15.85%;
         height: 5.7vw;
     }
-
-    .dribbbleLogo:hover {
-        margin-top: 15.85%;
-    }         
-
 }
 
 /* iPad Pro views */
@@ -199,19 +162,11 @@
         height: 8.3vw;
     }
 
-    .linkedInLogo:hover {    
-        margin-top: 17.5%;
-    }
-
     .githubLogo {  
         position: absolute;
         left: 47%;
         margin-top: 18.5%;
         height: 6.3vw;
-    }
-    
-    .githubLogo:hover {  
-        margin-top: 18.5%;
     }
 
     .dribbbleLogo {
@@ -220,10 +175,6 @@
         margin-top: 18.85%;
         height: 5.7vw;
     }
-
-    .dribbbleLogo:hover {
-        margin-top: 18.85%;
-    }  
 }
 
 /* iPad Landscape */
@@ -251,16 +202,8 @@
         margin-top: 14.5%;
     }
 
-    .linkedInLogo:hover {    
-        margin-top: 14.5%;
-    }
-
     .githubLogo {  
         left: 45.5%;
-        margin-top: 15.5%;
-    }
-    
-    .githubLogo:hover {  
         margin-top: 15.5%;
     }
 
@@ -268,10 +211,6 @@
         left: 55.5%;
         margin-top: 15.85%;
     }
-
-    .dribbbleLogo:hover {
-        margin-top: 15.85%;
-    }  
 }
 
 /* Responsive*/
@@ -298,25 +237,13 @@
         margin-top: 17.5%;
     }
 
-    .linkedInLogo:hover {    
-        margin-top: 17.5%;
-    }
-
     .githubLogo {  
-        margin-top: 18.5%;
-    }
-    
-    .githubLogo:hover {  
         margin-top: 18.5%;
     }
 
     .dribbbleLogo {
         margin-top: 18.85%;
-    }
-
-    .dribbbleLogo:hover {
-        margin-top: 15.85%;
-    }      
+    }  
 }
 
 /* iPhone X and Pixel 2 Landscape */
@@ -332,10 +259,6 @@
         border: 1vh solid #361671;
         font-size: 5vh;
     }
-
-    .hireMeButton:hover {
-        margin-top: 3%;
-    }    
 
     .socialLinks {
         margin-top: -14%;
@@ -374,10 +297,6 @@
         height: 8.3vw;
     }
 
-    .linkedInLogo:hover {    
-        margin-top: 18.5%;
-    }
-
     .githubLogo {  
         position: absolute;
         left: 47%;
@@ -385,20 +304,12 @@
         height: 6.3vw;
     }
     
-    .githubLogo:hover {  
-        margin-top: 19.5%;
-    }
-
     .dribbbleLogo {
         position: absolute;
         left: 57%;
         margin-top: 19.85%;
         height: 5.7vw;
-    }
-
-    .dribbbleLogo:hover {
-        margin-top: 19.85%;
-    }    
+    }  
 }
 
 
@@ -427,25 +338,13 @@
         margin-top: 15.5%;
     }
 
-    .linkedInLogo:hover {    
-        margin-top: 15.5%;
-    }
-
     .githubLogo {  
-        margin-top: 16.5%;
-    }
-    
-    .githubLogo:hover {  
         margin-top: 16.5%;
     }
 
     .dribbbleLogo {
         margin-top: 16.85%;
     }
-
-    .dribbbleLogo:hover {
-        margin-top: 16.85%;
-    }        
 }
 
 /* iPhone X Portrait */
@@ -470,28 +369,16 @@
         height: 14.3vw;
     }
 
-    .linkedInLogo:hover {    
-        margin-top: 27.5%;
-    }
-
     .githubLogo {  
         left: 45%;
         margin-top: 29.5%;
         height: 10.3vw;
     }
 
-    .githubLogo:hover {  
-        margin-top: 29.5%;
-    }
-
     .dribbbleLogo {
         left: 62%;
         margin-top: 29.85%;
         height: 9.7vw;
-    }
-
-    .dribbbleLogo:hover {
-        margin-top: 29.85%;
     }
 }
 
@@ -519,27 +406,15 @@
         left: 25.2%;
     }
 
-    .linkedInLogo:hover { 
-        margin-top: 32.5%;
-    }    
-
     .githubLogo {  
         left: 44%;
-        margin-top: 34.5%;
-    }
-
-    .githubLogo:hover {  
         margin-top: 34.5%;
     }
 
     .dribbbleLogo {
         left: 62%;
         margin-top: 35%;    
-    }
-
-    .dribbbleLogo:hover {
-        margin-top: 35%;    
-    }    
+    } 
 }
 
   
@@ -566,23 +441,11 @@
         margin-top: 28.5%;
     }
 
-    .linkedInLogo:hover { 
-        margin-top: 28.5%;
-    }    
-
     .githubLogo {  
-        margin-top: 30.5%;
-    }
-
-    .githubLogo:hover {  
         margin-top: 30.5%;
     }
 
     .dribbbleLogo {
         margin-top: 31%;    
     }
-
-    .dribbbleLogo:hover {
-        margin-top: 31%;    
-    }    
 }
