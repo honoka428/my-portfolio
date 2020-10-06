@@ -17,8 +17,9 @@ const About = () =>
             <div className="AboutText">
                 <h1 className="Greeting">Hi there. </h1>
                 <div className="AboutDescription">
-                    <p>I’m a self-taught UX/UI Designer and Web Developer from Japan. I mainly have experience working in the healthcare and education sector. </p>
-                    <p>Currently working as a UX/UI Designer for <b> <a href="https://curia.app" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', color:'#361671'}}>Curia</a></b>.</p>
+                    <p>I’m a freelance UX/UI Designer and Web Developer from Japan. 
+                        I specialize in the healthcare and education sector but have 
+                        also worked with restaurant and SaaS clients.</p>
                 </div>
                 <div className="LinkWrapper">
                     <a href="https://www.linkedin.com/in/honokawatanabe" target="_blank" rel="noopener noreferrer" className="SocalLinks">LinkedIn</a>
