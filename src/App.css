@@ -80,3 +80,12 @@ outline: none
 textarea {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* CODELINKS */
+#icon {
+    color: #C4C4C4;
+}
+
+#icon:hover {
+    color: #848484;
+}
