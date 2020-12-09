@@ -11,25 +11,25 @@ const Projects = () => {
             <Project
                 name="Curia"
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
-                tagText="DESIGN"
+                tagText={['DESIGN']}
                 img={curiaCover}
             />
             <Project
                 name="Synd.AI"
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
-                tagText="DESIGN, DEV"
+                tagText={['DESIGN', 'DEV']}
                 img={syndAICover}
             />
             <Project
                 name="Electrum"
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
-                tagText="DESIGN, DEV"
+                tagText={['DESIGN', 'DEV']}
                 img={electrumCover}
             />
             <Project
                 name="Qualcat"
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
-                tagText="DESIGN"
+                tagText={['DESIGN']}
                 img={qualcatCover}
             />                     
         </div>

@@ -30,6 +30,7 @@ const Contact = (props) => {
 
     return (
         <div className="section" id="contact">
+            <h1 style={{fontWeight: '800', fontSize: '3em', color: '#E5E5E5'}}>Get In Touch</h1>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="form-item">
                     <label>Name <span style={{color: '#1575B4'}}>*</span></label>
@@ -64,7 +65,7 @@ const Contact = (props) => {
                     className="form-item"
                     type="submit"
                     value={buttonValue}
-                    style={{width: '148px', height: '33px', border: 'none', color: 'white', background: '#83AFC8', borderRadius: '30px'}}
+                    style={{width: '148px', height: '33px', padding: '7px', border: 'none', color: 'white', background: '#83AFC8', borderRadius: '30px'}}
                 />
             </form>
         </div>

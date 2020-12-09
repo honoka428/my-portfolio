@@ -21,3 +21,62 @@ a:hover {
 a:active {
     color: #848484;  
 }
+
+button {
+    cursor: pointer;
+    outline: none;
+}
+
+
+/* CONTACT */
+#contact {
+    text-align: center;
+}
+
+#contact h1 {
+    padding-top: 3em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+  
+.form-item {
+    display: grid;
+    width: 30%;
+    padding-top: 1em;
+    margin: 0;
+  }
+  
+.form-item p {
+    color: #bf1650;
+    font-size: 0.8em;
+    text-align: left;
+  }
+  
+.form-item p::before {
+    display: inline;
+    content: "⚠ ";
+  }
+  
+label {
+    padding-bottom: 2px;
+    font-weight: 700;
+    font-size: 0.8em;
+    color: #939393;
+}
+  
+input, textarea {
+font-size: 14px;
+border-radius: 5px;
+border: 1.5px solid #C4C4C4;
+padding: 10px 15px;
+outline: none
+}
+  
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
