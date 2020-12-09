@@ -15,7 +15,7 @@ const Project = (props) => {
                 </div>
             </div>
             
-            <img src={props.img} style={{width: '400px'}}/>
+            <img src={props.img} style={{width: '400px'}} alt="Project cover"/>
 
             <div>project nav circles go here</div>
 
