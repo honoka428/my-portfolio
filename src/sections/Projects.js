@@ -7,7 +7,7 @@ import qualcatCover from '../images/qualcatCover.png'
 
 const Projects = () => {
     return (
-        <div className="section">
+        <div className="section" id="projects">
             <Project
                 name="Curia"
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."

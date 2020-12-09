@@ -3,7 +3,6 @@ import { useForm } from "react-hook-form";
 import { useEffect, useState } from "react";
 import _ from "lodash/fp";
 import Notification from '../components/Notification'
-import './Contact.css'
 
 const Contact = (props) => {
     const { register, handleSubmit, errors } = useForm();
@@ -28,8 +27,9 @@ const Contact = (props) => {
 
         alert(contactInfo)
     }
+
     return (
-        <div className="section">
+        <div className="section" id="contact">
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="form-item">
                     <label>Name <span style={{color: '#1575B4'}}>*</span></label>
@@ -58,7 +58,7 @@ const Contact = (props) => {
                     <textarea rows="7" cols="1" wrap="soft" name="message" ref={register} />
                 </div>
 
-                <Notification message={errorMessage}/>                      
+                <Notification message={errorMessage}/>                   
 
                 <input 
                     className="form-item"

@@ -29,19 +29,19 @@ const Body = ({message}) =>
         <p>{message}</p>
         <Lottie 
             options={matchaOptions}
-            height={100}
-            width={100}
+            height={150}
+            width={150}
         />
         <Lottie
             options={scrollDownOptions}
             height={100}
             width={200}
-            style={{paddingTop: '14em'}}
+            style={{paddingTop: '10em'}}
         />
     </div>
 
 const Hello = () => {
-    const [text, setText] = useState('')
+    const [text, setText] = useState('Hi')
     const messages = ['Hi', 'Im Honoka', 'From Japan', 'Web Designer & Developer']
     var counter = 0
 
@@ -53,7 +53,7 @@ const Hello = () => {
     }, 2000)
 
     return (
-        <div className="section">
+        <div className="section" id="hello">
             <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', position: 'fixed', width: '100vw'}}>
                 <Navigation/>
                 <CodeLinks/>

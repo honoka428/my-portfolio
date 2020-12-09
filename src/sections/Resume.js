@@ -13,7 +13,7 @@ const defaultOptions = {
 
 const Resume = () => {
     return (
-        <div className="section" style={{display: 'flex', flexDirection: 'column', textAlign: 'center', justifyContent: 'center', alignItems: 'center'}}>
+        <div id="resume" className="section" style={{display: 'flex', flexDirection: 'column', textAlign: 'center', justifyContent: 'center', alignItems: 'center'}}>
             <Lottie 
                 options={defaultOptions}
                 height={300}
