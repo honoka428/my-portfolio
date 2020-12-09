@@ -10,7 +10,7 @@ const Project = (props) => {
                 <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr 2fr'}}>
                     { props.tagText.map( 
                         tag =>
-                            <div style={{ background: 'rgba(196, 196, 196, 0.19)', border: '2px solid #A7A8AC', boxSizing: 'border-box', borderRadius: '3px', width: '5vw', fontWeight: '700', fontSize: '0.9em', textAlign: 'center', color: '#A7A8AC', lineHeight: '2em'}}>{tag}</div>
+                            <div style={{ background: 'rgba(196, 196, 196, 0.19)', border: '2px solid #A7A8AC', boxSizing: 'border-box', borderRadius: '3px', width: '5vw', fontWeight: '700', fontSize: '0.7em', textAlign: 'center', color: '#A7A8AC', lineHeight: '2em'}}>{tag}</div>
                     )}
                 </div>
             </div>
