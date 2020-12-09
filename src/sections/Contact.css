@@ -1,0 +1,33 @@
+
+input, textarea {
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #C4C4C4;
+    padding: 10px 15px;
+    outline: none
+  }
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12em;
+  }
+  
+.form-item {
+    display: grid;
+    width: 30%;
+    margin: 1% 0 0 0;
+  }
+  
+.form-item p {
+    color: #bf1650;
+    font-size: 0.8em;
+    text-align: left;
+  }
+  
+.form-item p::before {
+    display: inline;
+    content: "⚠ ";
+  }
