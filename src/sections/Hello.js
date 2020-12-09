@@ -5,6 +5,8 @@ import Lottie from 'react-lottie'
 import matchaAnimation from '../lottie/matcha.json'
 import scrollDownAnimation from '../lottie/scrollDown.json'
 import { useState } from 'react'
+import TextLoop from "react-text-loop";
+
 
 const matchaOptions = {
     loop: true,
@@ -24,9 +26,17 @@ const scrollDownOptions = {
     }
 };
 
-const Body = ({message}) =>
-    <div style={{textAlign: 'center', paddingTop: '20%'}}>
-        <p>{message}</p>
+const Body = () => {
+
+    return(
+        <div style={{textAlign: 'center', paddingTop: '17%', fontSize: '1.5em'}}>
+        <TextLoop interval={2500} mask={true}>
+            <span>Hi</span>
+            <span>I'm Honoka</span>
+            <span>From Japan</span>
+            <span>Web Designer & Developer</span>
+        </TextLoop>
+
         <Lottie 
             options={matchaOptions}
             height={150}
@@ -39,28 +49,17 @@ const Body = ({message}) =>
             style={{paddingTop: '10em'}}
         />
     </div>
-
-const Hello = () => {
-    const [text, setText] = useState('Hi')
-    const messages = ['Hi', 'Im Honoka', 'From Japan', 'Web Designer & Developer']
-    var counter = 0
-
-    setTimeout(() => {
-        var messageToDisplay = messages[counter]
-        setText(messageToDisplay)
-        counter === 3 ? counter = 1 : counter += 1
-
-    }, 2000)
-
-    return (
-        <div className="section" id="hello">
-            <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', position: 'fixed', width: '100vw'}}>
-                <Navigation/>
-                <CodeLinks/>
-            </div>
-            <Body message={text}/>
-        </div>
     )
 }
+
+const Hello = () =>
+    <div className="section" id="hello">
+        <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', position: 'fixed', width: '100vw'}}>
+            <Navigation/>
+            <CodeLinks/>
+        </div>
+        <Body/>
+    </div>
+
 
 export default Hello
