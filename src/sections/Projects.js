@@ -16,7 +16,7 @@ const Projects = () => {
             />
             <Project
                 name="Synd.AI"
-                description=" "
+                description="A startup that uses an AI algorithm to rapidly gather insights from big data. Currently in progress."
                 tagText={['DESIGN', 'DEV']}
                 img={syndAICover}
             />
@@ -28,7 +28,7 @@ const Projects = () => {
             />
             <Project
                 name="Qualcat"
-                description="A startup that offers reserachers qualitative analyses of audio transcription to optimize their workflow."
+                description="A startup that offers researchers qualitative analyses of audio transcription to optimize their workflow."
                 tagText={['DESIGN']}
                 img={qualcatCover}
             />                     
