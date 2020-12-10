@@ -1,4 +1,4 @@
-A project to practice building a React app.
+Portfolio of past projects.
 
 ## Available Scripts
 ##### `npm start`
