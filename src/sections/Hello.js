@@ -50,9 +50,9 @@ const Body = () => {
 }
 
 const Hello = () =>
-    <div className="section" id="hello">
+    <section className="section" id="hello" >
         <Body/>
-    </div>
+    </section>
 
 
 export default Hello

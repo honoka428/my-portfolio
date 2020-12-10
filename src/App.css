@@ -27,10 +27,30 @@ button {
     outline: none;
 }
 
+/* NAVIGATION */
+
+.mainNavStyles {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 20vh;
+    padding-left: 20;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 1.2em;
+    list-style-type: none;
+}
+
+.is-active {
+    color: #848484;
+}
 
 /* CONTACT */
 #contact {
     text-align: center;
+}
+
+#contact h1 {
+    padding-top: 10%;
 }
 
 form {

@@ -7,7 +7,7 @@ import qualcatCover from '../images/qualcatCover.png'
 
 const Projects = () => {
     return (
-        <div className="section" id="projects">
+        <section className="section" id="projects">
             <Project
                 name="Curia"
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
@@ -32,7 +32,7 @@ const Projects = () => {
                 tagText={['DESIGN']}
                 img={qualcatCover}
             />                     
-        </div>
+        </section>
     )
 }
 

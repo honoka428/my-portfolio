@@ -13,14 +13,15 @@ const defaultOptions = {
 
 const Resume = () => {
     return (
-        <div id="resume" className="section" style={{textAlign: 'center'}} >
+        <section className="section" id="resume" style={{textAlign: 'center'}} >
             <Lottie 
                 options={defaultOptions}
                 height={300}
                 width={500}
+                style={{paddingTop: '10%'}}
             />
             <button style={{ width: '148px', height: '33px', border: 'none', color: 'white', background: '#83AFC8', borderRadius: '30px'}}>Resume</button>
-        </div>
+        </section>
     )
 }
 

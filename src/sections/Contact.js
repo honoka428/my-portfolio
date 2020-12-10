@@ -29,7 +29,7 @@ const Contact = (props) => {
     }
 
     return (
-        <div className="section" id="contact">
+        <section className="section" id="contact">
             <h1 style={{fontWeight: '800', fontSize: '3em', color: '#E5E5E5'}}>Get In Touch</h1>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="form-item">
@@ -68,7 +68,7 @@ const Contact = (props) => {
                     style={{width: '148px', height: '33px', padding: '7px', border: 'none', color: 'white', background: '#83AFC8', borderRadius: '30px'}}
                 />
             </form>
-        </div>
+        </section>
     )
 }
 
