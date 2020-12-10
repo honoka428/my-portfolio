@@ -5,7 +5,7 @@ const mainNavStyles = {
     display: 'grid',
     templateGridRow: '1fr 1fr 1fr 1fr',
     height: '20vh',
-    padding: '0',
+    paddingLeft: 40,
     cursor: 'pointer',
     fontWeight: '800'
 }

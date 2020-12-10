@@ -1,11 +1,8 @@
 import React from 'react'
-import Navigation from '../components/Navigation'
-import CodeLinks from '../components/CodeLinks'
 import Lottie from 'react-lottie'
 import matchaAnimation from '../lottie/matcha.json'
 import scrollDownAnimation from '../lottie/scrollDown.json'
 import TextLoop from "react-text-loop";
-
 
 const matchaOptions = {
     loop: true,
@@ -54,10 +51,6 @@ const Body = () => {
 
 const Hello = () =>
     <div className="section" id="hello">
-        <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', position: 'fixed', width: '100vw'}}>
-            <Navigation/>
-            <CodeLinks/>
-        </div>
         <Body/>
     </div>
 

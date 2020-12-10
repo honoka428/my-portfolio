@@ -33,10 +33,6 @@ button {
     text-align: center;
 }
 
-#contact h1 {
-    padding-top: 3em;
-}
-
 form {
     display: flex;
     flex-direction: column;

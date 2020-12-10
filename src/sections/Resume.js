@@ -13,14 +13,13 @@ const defaultOptions = {
 
 const Resume = () => {
     return (
-        <div id="resume" className="section" style={{display: 'flex', flexDirection: 'column', textAlign: 'center', justifyContent: 'center', alignItems: 'center'}}>
+        <div id="resume" className="section" style={{textAlign: 'center'}} >
             <Lottie 
                 options={defaultOptions}
-                height={500}
+                height={300}
                 width={500}
-                style={{ position: 'relative'}}
             />
-            <button style={{position: 'absolute', marginTop: '8em', width: '148px', height: '33px', border: 'none', color: 'white', background: '#83AFC8', borderRadius: '30px'}}>Resume</button>
+            <button style={{ width: '148px', height: '33px', border: 'none', color: 'white', background: '#83AFC8', borderRadius: '30px'}}>Resume</button>
         </div>
     )
 }
