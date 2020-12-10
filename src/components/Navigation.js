@@ -1,6 +1,6 @@
 import React from 'react'
 import ScrollspyNav from "react-scrollspy-nav";
-import '../App.css'
+import './Navigation.css'
 
 const Navigation = () => {
 

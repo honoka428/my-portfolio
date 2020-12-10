@@ -1,0 +1,45 @@
+#hello-body {
+    text-align: center;
+    padding-top: 17%;
+    font-size: 1.5em;
+}
+
+#lottie-scroll-animation {
+    padding-top: 9em;
+}
+
+/* MOBILE VIEW (425) */
+@media only screen and (max-width: 425px) {
+    #hello-body {
+        padding-top: 75%;
+        width: 115vw;
+    }
+
+    #lottie-scroll-animation {
+        padding-top: 8em;
+    }
+}
+
+/* MOBILE VIEW (375) */
+@media only screen and (max-width: 375px) {
+    #hello-body {
+        padding-top: 95%;
+        width: 130vw;
+    }
+
+    #lottie-scroll-animation {
+        padding-top: 10em;
+    }
+}
+
+/* MOBILE VIEW (320) */
+@media only screen and (max-width: 320px) {
+    #hello-body {
+        padding-top: 100%;
+        width: 155vw;
+    }
+
+    #lottie-scroll-animation {
+        padding-top: 7em;
+    }
+}

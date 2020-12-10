@@ -3,19 +3,12 @@ import {
     Code,
     Dribbble
 } from 'react-feather'
+import './CodeLinks.css'
 
 const CodeLinks = () => {
-    const styles = {
-        display: 'grid',
-        templateGridRow: '1fr 1fr',
-        height: '10vh',
-        paddingRight: 60,
-        cursor: 'pointer',
-        listStyleType: 'none'
-    }
 
     return(
-        <ul style={styles} >
+        <ul className="socialLinks" >
             <a href="https://github.com/honoka428/my-portfolio" target="_blank" rel="noopener noreferrer">
                 <Code id="icon"/>
             </a>

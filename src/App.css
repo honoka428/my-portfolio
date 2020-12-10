@@ -27,81 +27,41 @@ button {
     outline: none;
 }
 
-/* NAVIGATION */
-
-.mainNavStyles {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    height: 20vh;
-    padding-left: 20;
-    cursor: pointer;
-    font-weight: 800;
-    font-size: 1.2em;
-    list-style-type: none;
-}
-
-.is-active {
-    color: #848484;
-}
-
-/* CONTACT */
-#contact {
-    text-align: center;
-}
-
-#contact h1 {
-    padding-top: 10%;
-}
-
-form {
+.nav {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-}
-  
-.form-item {
-    display: grid;
-    width: 30%;
-    padding-top: 1em;
-    margin: 0;
-  }
-  
-.form-item p {
-    color: #bf1650;
-    font-size: 0.8em;
-    text-align: left;
-  }
-  
-.form-item p::before {
-    display: inline;
-    content: "⚠ ";
-  }
-  
-label {
-    padding-bottom: 2px;
-    font-weight: 700;
-    font-size: 0.8em;
-    color: #939393;
-}
-  
-input, textarea {
-font-size: 14px;
-border-radius: 5px;
-border: 1.5px solid #C4C4C4;
-padding: 10px 15px;
-outline: none
-}
-  
-textarea {
-    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    padding-top: 10;
+    width: 100vw;
 }
 
-/* CODELINKS */
-#icon {
-    color: #C4C4C4;
+/* DESKTOP VIEW (1024) */
+@media only screen and (max-width: 1024px) {
+
 }
 
-#icon:hover {
-    color: #848484;
+/*     TABLET VIEW     */
+@media only screen and (max-width: 768px) {
+}
+
+/* MOBILE VIEW (425) */
+@media only screen and (max-width: 425px) {
+    .nav {
+        width: 110vw;
+    }
+}
+
+/* MOBILE VIEW (375) */
+@media only screen and (max-width: 375px) {
+    .nav {
+        width: 130vw;
+    }
+}
+
+/* MOBILE VIEW (320) */
+@media only screen and (max-width: 320px) {
+    .nav {
+        width: 155vw;
+    }
 }

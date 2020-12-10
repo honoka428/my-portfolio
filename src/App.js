@@ -11,7 +11,7 @@ import Navigation from './components/Navigation'
 function App () {
   return (
     <div>
-      <div className="nav" style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', position: 'fixed', paddingTop: 10, width: '100vw'}}>
+      <div className="nav">
         <Navigation/>
         <CodeLinks/>
       </div>

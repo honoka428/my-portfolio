@@ -1,0 +1,37 @@
+#resume_btn {
+    width: 148px;
+    height: 33px;
+    border: none;
+    color: white;
+    background: #83AFC8;
+    border-radius: 30px;
+}
+
+#lottie-animation-resume {
+    padding-top: 10%;
+}
+
+/* MOBILE VIEW (425) */
+@media only screen and (max-width: 425px) {
+    #lottie-animation-resume {
+        padding-top: 40%;
+    }
+
+    #resume {
+        width: 115vw;
+    }
+}
+
+/* MOBILE VIEW (425) */
+@media only screen and (max-width: 375px) {
+    #resume {
+        width: 130vw;
+    }
+}
+
+/* MOBILE VIEW (320) */
+@media only screen and (max-width: 320px) {
+    #resume {
+        width: 155vw;
+    }
+}

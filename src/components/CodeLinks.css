@@ -1,0 +1,38 @@
+/* CODELINKS */
+.socialLinks {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 10vh;
+    padding-right: 6vw;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+#icon {
+    color: #C4C4C4;
+}
+
+#icon:hover {
+    color: #848484;
+}
+
+/* MOBILE VIEW (425) */
+@media only screen and (max-width: 425px) {
+    .socialLinks {
+        padding: 0;
+    }
+}
+
+/* MOBILE VIEW (375) */
+@media only screen and (max-width: 375px) {
+    .socialLinks {
+        padding-right: 2vw;
+    }
+}
+
+/* MOBILE VIEW (320) */
+@media only screen and (max-width: 320px) {
+    .socialLinks {
+        padding-right: 5vw;
+    }
+}
