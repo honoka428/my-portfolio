@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import _ from "lodash/fp";
 import Notification from '../components/Notification'
 
+var AWS = require('aws-sdk/dist/aws-sdk-react-native');
+
 const Contact = (props) => {
     const { register, handleSubmit, errors } = useForm();
     const [ errorMessage, setErrorMessage ] = useState('')
@@ -25,7 +27,31 @@ const Contact = (props) => {
             "message": data.message
         }
 
-        alert(contactInfo)
+        AWS.config.update({
+            accessKeyId: process.env.REACT_APP_ACCESS_KEY,
+            secretAccessKey: process.env.REACT_APP_SECRET_ACCESS_KEY,
+            region: 'eu-central-1',
+        });
+
+        var lambda = new AWS.Lambda();
+
+        var params = {
+            FunctionName: 'testNodemailerFunction',
+            Payload: JSON.stringify(contactInfo)
+        };
+
+        lambda.invoke(params, async(err, data) => {
+            if (err) {
+                console.log(err, err.stack, 'error')
+                setErrorMessage('There was a problem submitting your message. Please try again later.')
+            }
+            else {
+                console.log('Successfull!');
+                await setErrorMessage('Thank you for your message.')
+                e.target.reset()
+                setButtonValue('SEND')
+            }
+        });
     }
 
     return (
