@@ -10,25 +10,25 @@ const Projects = () => {
         <section className="section" id="projects">
             <Project
                 name="Curia"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+                description="A health tech company that offers an app for cancer patients to easily access treatment, clinical trial and physician information for their type of cancer."
                 tagText={['DESIGN']}
                 img={curiaCover}
             />
             <Project
                 name="Synd.AI"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+                description=" "
                 tagText={['DESIGN', 'DEV']}
                 img={syndAICover}
             />
             <Project
                 name="Electrum"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+                description="A lightweight wallet to securely store bitcoins (open source)."
                 tagText={['DESIGN', 'DEV']}
                 img={electrumCover}
             />
             <Project
                 name="Qualcat"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+                description="A startup that offers reserachers qualitative analyses of audio transcription to optimize their workflow."
                 tagText={['DESIGN']}
                 img={qualcatCover}
             />                     

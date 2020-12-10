@@ -20,7 +20,7 @@ const Resume = () => {
                 width={500}
                 style={{paddingTop: '10%'}}
             />
-            <button style={{ width: '148px', height: '33px', border: 'none', color: 'white', background: '#83AFC8', borderRadius: '30px'}}>Resume</button>
+            <button style={{ width: '148px', height: '33px', border: 'none', color: 'white', background: '#83AFC8', borderRadius: '30px'}}><a style={{color: 'white'}} href="/files/Honoka_Resume.pdf" target="_blank">Resume</a></button>
         </section>
     )
 }
