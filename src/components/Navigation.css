@@ -29,6 +29,10 @@
 
 /* MOBILE VIEW (425) */
 @media only screen and (max-width: 425px) {
+    .left {
+        display: block;
+    }
+
     .mainNavStyles {
         font-size: 1.2em;
     }

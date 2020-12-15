@@ -39,7 +39,7 @@ const Projects = () => {
                 timeline="1-2 weeks"
                 company="Small"
                 type="Open Source"
-                link="https://github.com/honoka428/electrum-web"            
+                link="shorturl.at/gyzN6"            
             />
             <Project
                 name="Qualcat"
