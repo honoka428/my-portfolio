@@ -46,6 +46,86 @@
     width: 32vw;
 }
 
+.popup-overlay {
+    background: rgba(0, 0, 0, 0.34);
+}
+
+.modal {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.25);
+    border-radius: 1em;
+    width: 75vw;
+    height: 90vh;
+}
+
+.modal h1, .modal p{
+    margin: 0;
+}
+
+.modal > .header {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0 2% 5%;
+}
+
+.modal > .header h1{
+    color: #21273C;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.modal > .header p{
+    color: #21273C;
+    font-weight: 300;
+    font-size: 1.2em;
+    width: 70%;
+}
+
+.modal > .content {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 2% 0 0 5%;
+}
+
+.modal > .content #content-info {
+    padding-top: 40%;
+}
+
+.modal > .content h2 {
+    margin: 0;
+    color: #CCCCCC;
+    opacity: 0.5;
+    font-weight: 800;
+    font-size: 1.8em;
+}
+
+.modal > .content p {
+    margin: 2% 0 10% 0;
+    color: #21273C;
+    font-weight: 400;
+    font-size: 1em;
+    word-break: break-word;
+}
+
+.modal > .content img{
+    width: 42vw;
+    padding-top: 5%;
+}
+
+.modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    right: 20px;
+    top: 10px;
+    font-size: 2.5em;
+    background: #ffffff;
+    border: none;
+    background: none;
+}
+
 /* DESKTOP VIEW (1024) */
 @media only screen and (max-width: 1024px) {
     .project #project-tags #tag {
