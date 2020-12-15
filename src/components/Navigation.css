@@ -1,5 +1,9 @@
 /* NAVIGATION */
 
+.left {
+    display: none;
+}
+
 .mainNavStyles {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -30,7 +34,7 @@
     }
     .desktop-nav {
         display: none;
-      }
+    }
       
     .bm-burger-bars {
         background-color: #CCCCCC;
