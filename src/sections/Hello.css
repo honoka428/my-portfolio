@@ -13,10 +13,14 @@
     #hello-body {
         padding-top: 75%;
         width: 115vw;
+        position: relative;
+        z-index: -100;
     }
 
     #lottie-scroll-animation {
         padding-top: 8em;
+        position: relative;
+        z-index: -100;
     }
 }
 

@@ -20,6 +20,13 @@
 @media only screen and (max-width: 425px) {
     .socialLinks {
         padding: 0;
+        padding-top: 3%;
+        height: 15vh;
+    }
+
+    .socialLinks svg {
+        height: 30px;
+        width: 30px;
     }
 }
 

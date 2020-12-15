@@ -78,8 +78,18 @@ textarea {
     }
 
     .form-item {
-        width: 65%;
+        width: 80%;
     }
+
+    label {
+        font-size: 1em;
+    }
+
+    #submit-btn {
+        width: 200px;
+        height: 50px;
+        font-size: 1.2em;
+    }    
 }
 
 /* MOBILE VIEW (425) */
