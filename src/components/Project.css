@@ -7,7 +7,7 @@
 
 .project #project-text {
     text-align: left;
-    padding-left: 20em;
+    padding-left: 16em;
 }
 
 .project #project-text h1 {
@@ -197,7 +197,7 @@
 @media only screen and (max-width: 425px) {
     .project {
         min-height: 100vh;
-        width: 115vw;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -209,18 +209,19 @@
     
     .project #project-text h1{
         text-align: center;
-        padding-top: 15vh;
+        padding-top: 5vh;
     }
 
     .project #project-text p{
-        font-size: 1.2em;
-        width: 100vw;
+        font-size: 0.8em;
+        width: 90vw;
+        padding-left: 5%;
         text-align: center;
     }
 
     .project #project-tags #tag {
-        width: 20vw;
-        font-size: 1em;
+        width: 15vw;
+        font-size: 0.8em;
     }
 
     .project #project-text #project-tags {
@@ -234,7 +235,7 @@
 
     .project img {
         padding-top: 5vh;
-        width: 100vw;
+        width: 90vw;
     }
 
     .modal {
@@ -248,10 +249,10 @@
     }
 }
 
-/* MOBILE VIEW (425) */
+/* MOBILE VIEW (375) */
 @media only screen and (max-width: 375px) {
     .project {
-        width: 130vw;
+        width: 100vw;
     }
 
     .modal {
@@ -279,7 +280,7 @@
 /* MOBILE VIEW (320) */
 @media only screen and (max-width: 320px) {
     .project {
-        width: 155vw;
+        width: 100vw;
     }
 
     .project #project-tags #tag {
@@ -287,7 +288,7 @@
     }
 
     .project img {
-        width: 120vw;
+        width: 90vw;
     }
 
     .modal {

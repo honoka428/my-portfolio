@@ -11,14 +11,14 @@
 /* MOBILE VIEW (425) */
 @media only screen and (max-width: 425px) {
     #hello-body {
-        padding-top: 75%;
-        width: 115vw;
+        padding-top: 55%;
+        width: 100vw;
         position: relative;
         z-index: -100;
     }
 
     #lottie-scroll-animation {
-        padding-top: 8em;
+        padding-top: 6em;
         position: relative;
         z-index: -100;
     }
@@ -26,24 +26,15 @@
 
 /* MOBILE VIEW (375) */
 @media only screen and (max-width: 375px) {
-    #hello-body {
-        padding-top: 95%;
-        width: 130vw;
-    }
 
     #lottie-scroll-animation {
-        padding-top: 10em;
+        padding-top: 7em;
     }
 }
 
 /* MOBILE VIEW (320) */
 @media only screen and (max-width: 320px) {
     #hello-body {
-        padding-top: 100%;
-        width: 155vw;
-    }
-
-    #lottie-scroll-animation {
-        padding-top: 7em;
+        padding-top: 70%;
     }
 }

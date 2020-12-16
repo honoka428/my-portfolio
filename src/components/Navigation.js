@@ -16,7 +16,7 @@ const Navigation = () => {
                 </Hamburger>
             </nav>
 
-            <nav className="desktop-nav">
+            {/* <nav className="desktop-nav">
                 <ScrollspyNav
                     // scrollTargetIds={["hello", "projects", "resume", "contact"]}
                     // Specifying section id here raises err (element returns null) *** to be fixed
@@ -33,7 +33,7 @@ const Navigation = () => {
                         <li><a href="#contact"  className="active">Contact</a></li>
                     </ul>
                 </ScrollspyNav>     
-            </nav>       
+            </nav>        */}
         </div>
     )
 }

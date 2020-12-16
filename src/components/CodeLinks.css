@@ -3,9 +3,13 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     height: 10vh;
-    padding-right: 6vw;
     cursor: pointer;
     list-style-type: none;
+    padding: 0;
+    justify-content: right;
+    position: fixed;
+    width: 97vw;
+    margin-top: 4%;
 }
 
 #icon {
@@ -20,13 +24,13 @@
 @media only screen and (max-width: 425px) {
     .socialLinks {
         padding: 0;
-        padding-top: 3%;
+        padding-top: 1.5%;
         height: 15vh;
     }
 
     .socialLinks svg {
-        height: 30px;
-        width: 30px;
+        height: 25px;
+        width: 25px;
     }
 }
 

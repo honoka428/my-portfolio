@@ -1,5 +1,4 @@
 html, body {
-    margin: 1%;
     height: 100%;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
@@ -27,29 +26,21 @@ button {
     outline: none;
 }
 
-.nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.desktop-nav {
+    margin: 0;
+    padding: 2%;
+    margin-top: 2%;
     position: fixed;
-    padding-top: 10;
-    width: 100vw;
-}
-
-/* DESKTOP VIEW (1024) */
-@media only screen and (max-width: 1024px) {
-
-}
-
-/*     TABLET VIEW     */
-@media only screen and (max-width: 768px) {
+    display: block;
+    width: 100%;
+    z-index: 100000;
 }
 
 /* MOBILE VIEW (425) */
 @media only screen and (max-width: 425px) {
-    .nav {
-        width: 110vw;
-    }
+    .desktop-nav {
+        display: none;
+    }    
 }
 
 /* MOBILE VIEW (375) */

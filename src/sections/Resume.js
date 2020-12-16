@@ -19,7 +19,7 @@ const Resume = () => {
                 <Lottie 
                     options={defaultOptions}
                     height={300}
-                    width={500}
+                    width={400}
                 />
             </div>
             <button id="resume_btn"><a style={{color: 'white'}} href="/files/Honoka_Resume.pdf" target="_blank">Resume</a></button>
