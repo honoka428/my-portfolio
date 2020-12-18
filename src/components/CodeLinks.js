@@ -1,7 +1,8 @@
 import React from 'react'
 import { 
     Code,
-    Dribbble
+    Dribbble,
+    Linkedin
 } from 'react-feather'
 import './CodeLinks.css'
 
@@ -15,6 +16,9 @@ const CodeLinks = () => {
             <a href="https://dribbble.com/honokawatanabe" target="_blank" rel="noopener noreferrer">
                 <Dribbble id="icon"/>
             </a>
+            <a href="https://www.linkedin.com/in/honokawatanabe/" target="_blank" rel="noopener noreferrer">
+                <Linkedin id="icon"/>
+            </a>            
         </ul>
     )
 }

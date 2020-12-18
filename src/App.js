@@ -59,9 +59,8 @@ export default class App extends React.Component {
       <React.Fragment>
         <Pager className="desktop-nav" bsSize="large">
               {pagesNumbers}
-        </Pager>        
-        <Navigation/>
-        <CodeLinks/>
+              <CodeLinks/>
+        </Pager>
 
         <ReactPageScroller
           pageOnChange={this.handlePageChange}
