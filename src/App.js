@@ -11,7 +11,7 @@ import Electrum from './sections/Electrum';
 import Qualcat from './sections/Qualcat';
 
 import CodeLinks from './components/CodeLinks'
-import Navigation from './components/Navigation'
+
 import ReactPageScroller from 'react-page-scroller';
 
 function isHidden(number) {
@@ -68,10 +68,10 @@ export default class App extends React.Component {
           customPageNumber={this.state.currentPage}
         >
           <Hello />
-          <Curia/>
           <SyndAI/>
-          <Electrum/>
+          <Curia/>
           <Qualcat/>
+          <Electrum/>
           <Resume />
           <Contact />
         </ReactPageScroller>

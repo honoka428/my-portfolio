@@ -46,10 +46,10 @@ const Project = (props) => {
                             </div>            
                             <div>
                                 <h2>See More</h2>
-                                <a href={props.link} target="_blank" rel="noopener noreferrer"><p>{props.link}</p></a>
-                            </div>                                                                                                                
+                                <a href={props.link} target="_blank" rel="noopener noreferrer"><p style={{cursor: 'pointer'}}>{props.link}</p></a>
+                            </div>                                                          
                         </div>
-                        <img src={props.img} alt="Project popup"/>
+                        <img src={props.img2} alt="Project popup"/>
                     </div>          
                 </div>
                 )}
