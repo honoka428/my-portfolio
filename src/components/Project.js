@@ -1,6 +1,5 @@
 import React from 'react'
 import './Project.css'
-import Popup from 'reactjs-popup';
 
 const Project = (props) => {
     return (
@@ -14,46 +13,12 @@ const Project = (props) => {
                             <div id="tag">{tag}</div>
                     )}
                 </div>
-            </div>
+                { props.link &&
+                    <a id="website-link-btn" href={props.link} rel="noopener noreferrer" target="_blank">Visit Site</a>
+                }
 
-            <Popup
-                trigger={<img src={props.img} alt="Project cover"/>}
-                modal
-                nested
-            >
-                {close => (
-                <div className="modal">
-                    <button className="close" onClick={close}>
-                    &times;
-                    </button>
-                    <div className="content">
-                        <div id="content-info">
-                            <div >
-                                <h2>Tools Used</h2>
-                                <p>{props.tools}</p>
-                            </div>
-                            <div>
-                                <h2>Timeline</h2>
-                                <p>{props.timeline}</p>
-                            </div>
-                            <div>
-                                <h2>Company</h2>
-                                <p>{props.company}</p>
-                            </div>
-                            <div>
-                                <h2>Type</h2>
-                                <p>{props.type}</p>
-                            </div>            
-                            <div>
-                                <h2>See More</h2>
-                                <a href={props.link} target="_blank" rel="noopener noreferrer"><p style={{cursor: 'pointer'}}>{props.link}</p></a>
-                            </div>                                                          
-                        </div>
-                        <img src={props.img2} alt="Project popup"/>
-                    </div>          
-                </div>
-                )}
-            </Popup>
+            </div>
+            <img src={props.img} alt="Project cover"/>
         </div>
     )
 }

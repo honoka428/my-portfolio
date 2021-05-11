@@ -12,8 +12,6 @@ import Qualcat from './sections/Qualcat';
 
 import CodeLinks from './components/CodeLinks'
 
-import ReactPageScroller from 'react-page-scroller';
-
 function isHidden(number) {
   if (number >= 3 && number <= 5) {
     return 'none'
@@ -61,22 +59,13 @@ export default class App extends React.Component {
               {pagesNumbers}
               <CodeLinks/>
         </Pager>
-
-        <ReactPageScroller
-          pageOnChange={this.handlePageChange}
-          onBeforePageScroll={this.handleBeforePageChange}
-          customPageNumber={this.state.currentPage}
-        >
-          <Hello />
-          <SyndAI/>
-          <Curia/>
-          <Qualcat/>
-          <Electrum/>
-          <Resume />
-          <Contact />
-        </ReactPageScroller>
-
-
+        <Hello />
+        <SyndAI/>
+        <Curia/>
+        <Qualcat/>
+        <Electrum/>
+        <Resume />
+        <Contact />
       </React.Fragment>
     );
   }

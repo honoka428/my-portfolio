@@ -44,15 +44,15 @@ button {
 }
 
 /* MOBILE VIEW (375) */
-@media only screen and (max-width: 375px) {
+/* @media only screen and (max-width: 425px) {
     .nav {
         width: 130vw;
     }
-}
+} */
 
 /* MOBILE VIEW (320) */
-@media only screen and (max-width: 320px) {
+/* @media only screen and (max-width: 320px) {
     .nav {
         width: 155vw;
     }
-}
+} */

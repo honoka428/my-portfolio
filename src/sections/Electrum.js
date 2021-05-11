@@ -9,14 +9,14 @@ const Electrum = () => {
             <Project
                 name="Electrum"
                 description="A lightweight wallet to securely store bitcoins (open source)."
-                tagText={['DESIGN', 'DEV']}
+                tagText={['DESIGN', 'DEV', 'WEBSITE']}
                 img={electrumCover}
                 img2={electrumPopup}
                 tools="ES6, HTML, CSS"
                 timeline="1-2 weeks"
                 company="Small"
                 type="Open Source"
-                link="shorturl.at/gyzN6"            
+                link="https://github.com/spesmilo/electrum-web/pull/8"            
             />                
         </section>
     )

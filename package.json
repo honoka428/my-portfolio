@@ -17,15 +17,12 @@
     "react-dom": "^16.13.1",
     "react-feather": "^2.0.9",
     "react-helmet": "^6.1.0",
-    "react-hook-form": "^6.12.2",
     "react-icons": "^3.10.0",
     "react-lottie": "^1.2.3",
-    "react-page-scroller": "^2.0.11-beta",
     "react-scripts": "3.4.1",
     "react-scroll": "^1.7.16",
     "react-scrollspy-nav": "^1.2.4",
-    "react-text-loop": "^2.3.0",
-    "reactjs-popup": "^2.0.4"
+    "react-text-loop": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",

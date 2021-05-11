@@ -9,7 +9,7 @@ const SyndAI = () => {
             <Project
                 name="Synd.AI"
                 description="A startup that uses an AI algorithm to rapidly gather insights from big data."
-                tagText={['DESIGN', 'DEV']}
+                tagText={['DESIGN', 'DEV', 'WEBSITE']}
                 img={syndAICover}
                 img2={syndAIPopup}
                 tools="Figma, React, AWS"

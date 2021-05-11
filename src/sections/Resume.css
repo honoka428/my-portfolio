@@ -5,6 +5,8 @@
     color: white;
     background: #83AFC8;
     border-radius: 30px;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 #lottie-animation-resume {
@@ -18,10 +20,6 @@
     }
 
     #lottie-animation-resume .animation {
-        width: 100vw;
-    }
-
-    #resume {
         width: 100vw;
     }
 

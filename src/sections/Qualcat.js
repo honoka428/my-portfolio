@@ -9,14 +9,13 @@ const Qualcat = () => {
             <Project
                 name="Qualcat"
                 description="A startup that offers researchers qualitative analyses of audio transcription to optimize their workflow."
-                tagText={['DESIGN']}
+                tagText={['DESIGN', 'DASHBOARD']}
                 img={qualcatCover}
                 img2={qualcatPopup}
                 tools="Figma"
                 timeline="2-3 weeks"
                 company="Small"
                 type="Freelance"
-                link="N/A"   
             />                     
         </section>
     )

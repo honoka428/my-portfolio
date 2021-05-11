@@ -9,7 +9,7 @@ const Curia = () => {
             <Project
                 name="Curia"
                 description="A health tech company that offers an app for cancer patients to easily access treatment, clinical trial and physician information for their type of cancer."
-                tagText={['DESIGN']}
+                tagText={['DESIGN', 'WEBSITE', 'MOBILE APP']}
                 img={curiaCover}
                 img2={curiaPopup}
                 tools="Sketch, Invision"

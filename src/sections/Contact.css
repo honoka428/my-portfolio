@@ -5,73 +5,25 @@
 
 #contact h1 {
     padding-top: 15%;
-    font-weight: 800;
-    font-size: 3em;
-    color: #E5E5E5;
+    font-weight: 700;
+    color: #21273C;
+    font-size: 40px;
+    margin: 0 0 10px 0;
 }
 
-#contactSubtext {
+.contactSubtext {
     font-weight: 500;
-    font-size: 1em;
+    font-size: 20px;
     margin: 0;
+    color: grey;
 }
 
-#qrCode {
+.qrCode {
     width: 10em;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-}
-  
-.form-item {
-    display: grid;
-    width: 30%;
-    padding-top: 1em;
-    margin: 0;
-}
-  
-.form-item p {
-    color: #bf1650;
-    font-size: 0.8em;
-    text-align: left;
-  }
-  
-.form-item p::before {
-    display: inline;
-    content: "⚠ ";
-  }
-  
-label {
-    padding-bottom: 2px;
-    font-weight: 700;
-    font-size: 0.8em;
-    color: #939393;
-}
-  
-input, textarea {
-    font-size: 14px;
-    border-radius: 5px;
-    border: 1.5px solid #C4C4C4;
-    padding: 10px 15px;
-    outline: none
-}
-
-#submit-btn {
-    width: 148px;
-    height: 33px;
-    padding: 7px;
-    border: none;
-    color: white;
-    background: #83AFC8;
-    border-radius: 30px
-}
-  
-textarea {
-    font-family: Arial, Helvetica, sans-serif;
+#emailOptionText {
+    font-size: 15px;
 }
 
 /* DESKTOP VIEW (1024) */
@@ -83,10 +35,6 @@ textarea {
 
 /* MOBILE VIEW (425) */
 @media only screen and (max-width: 425px) {    
-    #contact {
-        width: 100vw
-    }
-
     .form-item {
         width: 80%;
     }
