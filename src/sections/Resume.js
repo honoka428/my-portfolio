@@ -2,6 +2,7 @@ import React from 'react'
 import Lottie from 'react-lottie';
 import animationData from '../lottie/resume.json';
 import './Resume.css'
+import { FiDownload } from 'react-icons/fi'
 
 const defaultOptions = {
     loop: true,
@@ -22,7 +23,7 @@ const Resume = () => {
                     width={400}
                 />
             </div>
-            <button id="resume_btn"><a style={{color: 'white'}} href="/files/Honoka_Resume.pdf" target="_blank">Resume</a></button>
+            <button id="resume_btn"> <FiDownload/> <a style={{color: 'white', marginLeft: 10}} href="/files/Honoka_Resume.pdf" target="_blank">Resume</a></button>
         </section>
     )
 }

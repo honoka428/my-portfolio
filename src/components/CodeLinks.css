@@ -11,11 +11,11 @@
     position: fixed;
 }
 
-#icon {
+.icon {
     color: #C4C4C4;
 }
 
-#icon:hover {
+.icon:hover {
     color: #848484;
 }
 
@@ -23,6 +23,32 @@
     height: 20px;
     width: 20px;
 }
+
+.hidden {
+    display: none;
+}
+
+#sourceCode:hover + .hidden, #linkedIn:hover + .hidden {
+    display: block;
+    position: absolute;
+    background: #fafafa;
+    color: #848484;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    left: 30px;
+    width: auto;
+}
+
+#sourceCode:hover + .hidden {
+    top: 10px;
+    width: 80px;
+}
+
+#linkedIn:hover + .hidden {
+    top: 40px;
+}
+
 
 /* MOBILE VIEW (425) */
 @media only screen and (max-width: 425px) {

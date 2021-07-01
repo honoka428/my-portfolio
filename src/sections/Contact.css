@@ -1,29 +1,52 @@
 /* CONTACT */
 #contact {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #contact h1 {
-    padding-top: 15%;
     font-weight: 700;
     color: #21273C;
-    font-size: 40px;
-    margin: 0 0 10px 0;
+    font-size: 25px;
+    margin: 0 0 5px 0;
 }
 
-.contactSubtext {
+#contact p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#actionBtnWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.actionBtn {
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    display: flex;
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: white;
+    background: #83AFC8;
+    border-radius: 30px;
     font-weight: 500;
-    font-size: 20px;
-    margin: 0;
-    color: grey;
+    font-size: 16px;
+    padding: 5px 0px;
+    margin: 10px 10px;
 }
 
-.qrCode {
-    width: 10em;
+.actionBtn:hover {
+    background:rgb(148, 199, 228);
 }
 
-#emailOptionText {
-    font-size: 15px;
+.actionBtn > span {
+    margin-left: 10px;
 }
 
 /* DESKTOP VIEW (1024) */

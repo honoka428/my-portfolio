@@ -1,7 +1,9 @@
 import React from 'react'
 import Project from '../components/Project'
-import syndAICover from '../images/syndAICover.png'
-import syndAIPopup from '../images/syndAIPopup.png'
+import syndAICover from '../images/syndAICover.svg'
+import { FiFigma } from 'react-icons/fi';
+import { FaReact } from 'react-icons/fa';
+import { FaAws } from 'react-icons/fa';
 
 const SyndAI = () => {
     return (
@@ -9,15 +11,12 @@ const SyndAI = () => {
             <Project
                 name="Synd.AI"
                 description="A startup that uses an AI algorithm to rapidly gather insights from big data."
-                tagText={['DESIGN', 'DEV', 'WEBSITE']}
+                tagText={['DESIGN', 'DEVELOPMENT']}
                 img={syndAICover}
-                img2={syndAIPopup}
-                tools="Figma, React, AWS"
-                timeline="2-3 weeks"
-                company="Small"
-                type="Freelance"                
+                tools={[<FiFigma/>, <FaReact/>, <FaAws/>]}
+                type="Freelance"        
                 link="https://synd.ai"                
-            />               
+            />          
         </section>
     )
 }

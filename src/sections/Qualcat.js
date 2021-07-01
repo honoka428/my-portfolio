@@ -1,7 +1,7 @@
 import React from 'react'
 import Project from '../components/Project'
-import qualcatCover from '../images/qualcatCover.png'
-import qualcatPopup from '../images/qualcatPopup.png'
+import qualcatCover from '../images/qualcatCover.svg'
+import { FiFigma } from 'react-icons/fi';
 
 const Qualcat = () => {
     return (
@@ -9,12 +9,9 @@ const Qualcat = () => {
             <Project
                 name="Qualcat"
                 description="A startup that offers researchers qualitative analyses of audio transcription to optimize their workflow."
-                tagText={['DESIGN', 'DASHBOARD']}
+                tagText={['DESIGN']}
                 img={qualcatCover}
-                img2={qualcatPopup}
-                tools="Figma"
-                timeline="2-3 weeks"
-                company="Small"
+                tools={[<FiFigma/>]}
                 type="Freelance"
             />                     
         </section>

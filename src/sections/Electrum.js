@@ -1,7 +1,8 @@
 import React from 'react'
 import Project from '../components/Project'
-import electrumCover from '../images/electrumCover.png'
-import electrumPopup from '../images/electrumPopup.png'
+import electrumCover from '../images/electrumCover.svg'
+import { FiFigma } from 'react-icons/fi';
+import { SiJavascript } from 'react-icons/si';
 
 const Electrum = () => {
     return (
@@ -9,13 +10,10 @@ const Electrum = () => {
             <Project
                 name="Electrum"
                 description="A lightweight wallet to securely store bitcoins (open source)."
-                tagText={['DESIGN', 'DEV', 'WEBSITE']}
+                tagText={['DESIGN', 'DEVELOPMENT']}
                 img={electrumCover}
-                img2={electrumPopup}
-                tools="ES6, HTML, CSS"
-                timeline="1-2 weeks"
-                company="Small"
-                type="Open Source"
+                tools={[<FiFigma/>, <SiJavascript/>]}
+                type="Open Source (non-merged)"
                 link="https://github.com/spesmilo/electrum-web/pull/8"            
             />                
         </section>

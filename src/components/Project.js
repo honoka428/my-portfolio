@@ -3,7 +3,7 @@ import './Project.css'
 
 const Project = (props) => {
     return (
-        <div className="project" >
+        <div className="project">
             <div id="project-text">
                 <h1>{props.name}</h1>
                 <p>{props.description}</p>
@@ -13,12 +13,18 @@ const Project = (props) => {
                             <div id="tag">{tag}</div>
                     )}
                 </div>
+                <div id="project-tools">
+                    Technologies used:
+                    { props.tools.map(tool => 
+                        <div className="tech-icon">{tool}</div>
+                    )}
+                </div>
                 { props.link &&
-                    <a id="website-link-btn" href={props.link} rel="noopener noreferrer" target="_blank">Visit Site</a>
+                    <a id="website-link-btn" href={props.link} rel="noopener noreferrer" target="_blank">VISIT SITE</a>
                 }
 
             </div>
-            <img src={props.img} alt="Project cover"/>
+                <img src={props.img} alt="Project cover"/>
         </div>
     )
 }
