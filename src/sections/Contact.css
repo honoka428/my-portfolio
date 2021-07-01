@@ -43,6 +43,7 @@
 
 .actionBtn:hover {
     background:rgb(148, 199, 228);
+    color: white;
 }
 
 .actionBtn > span {

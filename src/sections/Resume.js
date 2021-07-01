@@ -23,7 +23,7 @@ const Resume = () => {
                     width={400}
                 />
             </div>
-            <button id="resume_btn"> <FiDownload/> <a style={{color: 'white', marginLeft: 10}} href="/files/Honoka_Resume.pdf" target="_blank">Resume</a></button>
+            <a id="resume_btn" href="/files/Honoka_Resume.pdf" target="_blank"> <FiDownload/> <span style={{color: 'white', marginLeft: 10}} >Resume</span></a>
         </section>
     )
 }
