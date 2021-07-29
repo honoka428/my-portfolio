@@ -8,7 +8,7 @@ const Qualcat = () => {
         <section className="section" id="projectQualcat">
             <Project
                 name="Qualcat"
-                description="A startup that offers researchers qualitative analyses of audio transcription to optimize their workflow."
+                description="Initial product designs for a startup that offers researchers qualitative analyses of audio transcription to optimize their workflow."
                 tagText={['DESIGN']}
                 img={qualcatCover}
                 tools={[<FiFigma/>]}

@@ -8,7 +8,7 @@
 #resume_btn {
     font-family: 'Montserrat';
     width: 200px;
-    height: 50px;
+    height: 40px;
     border: none;
     color: white;
     background: #83AFC8;
@@ -31,8 +31,8 @@
     padding-top: 10%;
 }
 
-/* MOBILE VIEW (425) */
-@media only screen and (max-width: 425px) {
+/* TABLET VIEW (768) */
+@media only screen and (max-width: 768px) {
     #lottie-animation-resume {
         padding-top: 40%;
     }
@@ -42,9 +42,9 @@
     }
 
     #resume_btn {
-        width: 100px;
-        height: 40px;
-        font-size: 1em;
+        width: 180px;
+        height: 45px;
+        font-size: 17px;
     }
 }
 

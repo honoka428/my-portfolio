@@ -6,14 +6,15 @@
 }
 
 .project #project-text {
-    margin-left: 120px;
+    margin-left: 11%;
     text-align: left;
 }
 
 .project #project-text h1 {
     font-weight: 700;
     color: #21273C;
-    font-size: 30px;
+    font-size: 35px;
+    line-height: 35px;
     margin: 0
 }
 
@@ -21,26 +22,28 @@
     font-weight: 300;
     color: #21273C;
     padding-top: 0;
-    width: 22vw;
-    font-size: 14px;
+    width: 30vw;
+    margin: 20px 15px 20px auto;
+    font-size: 17px;
+    line-height: 23px;
 }
 
 .project #project-text #project-tags {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .project #project-tags #tag {
     background: rgba(196, 196, 196, 0.19);
-    border: 2px solid #A7A8AC;
+    border: 2px solid #7c7c7c;
     box-sizing: border-box;
     border-radius: 3px;
     width: auto;
     padding: 0px 5px;
     font-weight: 700;
-    font-size: 0.7em;
+    font-size: 13px;
     text-align: center;
-    color: #A7A8AC;
+    color: #7c7c7c;
     line-height: 2em;
     margin-right: 10px;
 }
@@ -48,24 +51,25 @@
 .project #project-tools {
     display: flex;
     font-weight: 400;
-    margin: 5px 0;
-    font-size: 14px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    align-items: center;
+    color: #6e6e6f;
 }
 
 .project #project-tools .tech-icon {
     margin-left: 7px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .project img {
     height: 100vh;
-    transition-duration: 0.5s;
 }
 
 #website-link-btn {
     color: #83AFC8;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 17px;
     text-align: center;
     letter-spacing: 0.4px;
 }
@@ -74,65 +78,81 @@
     color: grey;
 }
 
+/* DESKTOP VIEW (1400) */
+@media only screen and (max-width: 1400px) {
+    .project img {
+        height: 90vh;
+    }
+}
+
+/* DESKTOP VIEW (1400) */
+@media only screen and (max-width: 1250px) {
+    .project img {
+        height: 80vh;
+    }
+}
+
 /* DESKTOP VIEW (1024) */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1050px) {
     .project #project-text p {
         width: 30vw
     }
 
-    .modal > .content img{
-        width: 44vw;
-        padding-top: 15%;
-    }    
+    .project img {
+        height: 70vh;
+    }
 }
 
 
 /*     TABLET VIEW     */
 @media only screen and (max-width: 768px) {
-        
+    .project {
+        flex-direction: column;
+    }
+
+    .project #project-text {
+        margin: 0;
+        text-align: center;
+        padding: 0;
+    }
+
+    .project #project-text h1 {
+        line-height: 50px;
+    }
+
     .project #project-text p {
-        font-size: 0.9em;
-        width: 29vw
+        font-size: 20px;
+        width: 75%;
+        margin: auto;
     }
 
     .project #project-tags #tag {
-        width: 8vw;
+        width: auto;
     }
 
     .project #project-text #project-tags {
         grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+
+    .project #project-text #project-tools {
+        justify-content: center;
+        margin-bottom: 10px;
     }
 
-    .project #project-text {
-        padding-left: 8em;
+    .project img {
+        height: 65vh;
+        margin-bottom: 60px;
     }
-
-    .modal {
-        width: 35vw;
-        height: 55vh;
-    }
-
-    .modal > .content img{
-        display: none;
-    }
-    .modal > .content h2 {
-        font-size: 1.3em;
-    }  
-  
-    .modal > .content {
-        display: flex;
-        margin-left: 5%;
-    }
-
-    .modal > .content #content-info {
-        padding-top: 15%;
-    }    
 }
 
 /* MOBILE VIEW (425) */
 @media only screen and (max-width: 425px) {
     .project {
-        min-height: 100vh;
+        min-height: 50vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -145,7 +165,7 @@
     
     .project #project-text h1{
         text-align: center;
-        padding-top: 5vh;
+
     }
 
     .project #project-text p{
@@ -172,6 +192,8 @@
     .project img {
         padding-top: 5vh;
         width: 90vw;
+        height: auto;
         cursor: none;
+        margin-bottom: 0;
     }
 }

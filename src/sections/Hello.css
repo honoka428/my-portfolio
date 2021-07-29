@@ -1,11 +1,23 @@
 #hello-body {
     text-align: center;
-    padding-top: 17%;
-    font-size: 1.5em;
+    padding-top: 20%;
+    font-size: 35px;
 }
 
 #lottie-scroll-animation {
-    padding-top: 9em;
+    padding-top: 200px;
+}
+
+/* TABLET VIEW (768) */
+@media only screen and (max-width: 768px) {
+    #hello-body {
+        padding-top: 35%;
+        font-size: 35px;
+    }
+    
+    #lottie-scroll-animation {
+        padding-top: 250px;
+    }
 }
 
 /* MOBILE VIEW (425) */

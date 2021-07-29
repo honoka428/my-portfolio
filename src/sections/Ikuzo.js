@@ -1,6 +1,6 @@
 import React from 'react'
 import Project from '../components/Project'
-import curiaCover from '../images/curiaCover.svg'
+import ikuzoCover from '../images/ikuzoCover.svg'
 import { FiFigma } from 'react-icons/fi';
 import { FaReact } from 'react-icons/fa';
 
@@ -9,9 +9,9 @@ const Curia = () => {
         <section className="section" id="projectCuria">
             <Project
                 name="Ikuzo"
-                description="A map editor for travellers and photographers."
+                description="Dashboard redesign of a map editors made specially for travel photographers and other content creators."
                 tagText={['DESIGN', 'DEVELOPMENT']}
-                img={curiaCover}
+                img={ikuzoCover}
                 tools={[<FiFigma/>, <FaReact/>]}
                 type="Freelance"
                 link="https://ikuzo.app"

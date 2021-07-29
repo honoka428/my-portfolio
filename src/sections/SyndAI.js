@@ -10,7 +10,7 @@ const SyndAI = () => {
         <section className="section" id="projectSyndAI">
             <Project
                 name="Synd.AI"
-                description="A startup that uses an AI algorithm to rapidly gather insights from big data."
+                description="A website redesign for a startup that uses an AI algorithm to rapidly rather insights from big data."
                 tagText={['DESIGN', 'DEVELOPMENT']}
                 img={syndAICover}
                 tools={[<FiFigma/>, <FaReact/>, <FaAws/>]}

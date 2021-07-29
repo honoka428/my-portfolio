@@ -14,7 +14,7 @@ const Project = (props) => {
                     )}
                 </div>
                 <div id="project-tools">
-                    Technologies used:
+                    Tools used:
                     { props.tools.map(tool => 
                         <div className="tech-icon">{tool}</div>
                     )}

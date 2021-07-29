@@ -5,7 +5,13 @@ html, body {
 }
 
 .section {
-    min-height: 100vh
+    min-height: 100vh;
+}
+
+@media only screen and (max-width: 425px) {
+    .section {
+        min-height: 90vh;
+    }
 }
 
 a {
