@@ -1,19 +1,19 @@
 import React from 'react'
-import { elastic as Hamburger } from 'react-burger-menu'
 import './Navigation.css'
+import CodeLinks from './CodeLinks';
 
 const Navigation = () => {
 
     return(
-        <div>
-            <nav className="left">
-                <Hamburger id="nav_links">
-                        <li><a href="/" className="active"> Hello</a></li>
-                        <li><a href="#projects" className="active">Projects</a></li>
-                        <li><a href="#resume" className="active">Resume</a></li>
-                        <li><a href="#contact"  className="active">Contact</a></li>
-                </Hamburger>
+        <div className="nav-wrapper">
+            <nav className="links">
+                <li><a href="/" className="active"> Hello</a></li>
+                <li><a href="#projectSyndAI" className="active">Projects</a></li>
+                <li><a href="#resume" className="active">Resume</a></li>
+                <li><a href="#contact"  className="active">Contact</a></li>
             </nav>
+
+            <CodeLinks/>
         </div>
     )
 }

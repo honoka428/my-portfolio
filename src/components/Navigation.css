@@ -1,80 +1,32 @@
 /* NAVIGATION */
 
-.left {
-    display: none;
+.nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    letter-spacing: 0.7px;
 }
 
-.mainNavStyles {
+.links {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     height: 20vh;
     padding-left: 2vw;
     cursor: pointer;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 1.2em;
     list-style-type: none;
+    text-transform: uppercase;
+    margin-top: 50px;
 }
-
 .is-active {
     color: #848484;
 }
 
-/* DESKTOP VIEW (1024) */
-@media only screen and (max-width: 1024px) {
-    .mainNavStyles {
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        font-size: 0.9em;
+/* TABLET VIEW (1024) */
+@media only screen and (max-width: 768px) {
+    .nav-wrapper {
+        display: none;
     }    
-}
-
-/* MOBILE VIEW (425) */
-@media only screen and (max-width: 425px) {
-    /* .left {
-        display: block;
-    } */
-
-    .mainNavStyles {
-        font-size: 1.2em;
-    }
-      
-    .bm-burger-bars {
-        background-color: #CCCCCC;
-    }
-    
-    .bm-burger-button {
-        position: absolute;
-        width: 28px;
-        height: 22px;
-        left: 20px;
-        top: 40px
-    }
-
-    .bm-cross {
-        background: #1575B4;
-    }
-    
-    /* Sidebar wrapper styles */
-    .bm-menu-wrap {
-        height: 100%;
-    }
-    
-    /* General sidebar styles */
-    .bm-menu {
-        background: rgba(255, 255, 255, 0.9);
-        padding: 20% 0 0 10% ;
-        font-size: 1.5em;
-        color: #848484;
-        font-weight: 500;
-    }
-    
-    /* Morph shape necessary with bubble or elastic */
-    .bm-morph-shape {
-        fill: rgba(255, 255, 255, 0.9);
-    }
-    
-    .bm-item {
-        display: inline-block;
-        padding-top: 10%;
-        outline: none;
-    }
 }

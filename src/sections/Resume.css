@@ -27,10 +27,6 @@
     background:rgb(148, 199, 228);
 }
 
-#lottie-animation-resume {
-    padding-top: 10%;
-}
-
 /* TABLET VIEW (768) */
 @media only screen and (max-width: 768px) {
     #lottie-animation-resume {
