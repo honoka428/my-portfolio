@@ -24,7 +24,7 @@ const Project = (props) => {
                 }
 
             </div>
-                <img src={props.img} alt="Project cover"/>
+            <img src={props.img} alt="Project cover"/>
         </div>
     )
 }

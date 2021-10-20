@@ -9,7 +9,11 @@ const Electrum = () => {
         <section className="section" id="projectElectrum">
             <Project
                 name="Electrum"
-                description="A website redesign for an open source lightweight bitcoin wallet project (pull request not merged)."
+                description="
+                    A website to showcase the features of an
+                    open source lightweight Bitcoin wallet.
+                    A PR is created for this project and still under review.
+                "
                 tagText={['DESIGN', 'DEVELOPMENT']}
                 img={electrumCover}
                 tools={[<FiFigma/>, <SiJavascript/>]}

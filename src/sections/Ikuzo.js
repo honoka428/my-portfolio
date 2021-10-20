@@ -9,7 +9,11 @@ const Curia = () => {
         <section className="section" id="projectCuria">
             <Project
                 name="Ikuzo"
-                description="Dashboard redesign of a map editors made specially for travel photographers and other content creators."
+                description="
+                    A map editor dashboard made specially for travel photographers
+                    and other content creators who have more than 1K locations to 
+                    keep track of.
+                "
                 tagText={['DESIGN', 'DEVELOPMENT']}
                 img={ikuzoCover}
                 tools={[<FiFigma/>, <FaReact/>]}
