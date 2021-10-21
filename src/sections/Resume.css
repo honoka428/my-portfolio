@@ -45,7 +45,11 @@
 }
 
 /* MOBILE VIEW (425) */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 425px) {
+    #resume_btn {
+        width: 350px;
+    }
+    
 }
 
 /* MOBILE VIEW (320) */
