@@ -10,7 +10,7 @@
     "aws-sdk": "^2.807.0",
     "classnames": "^2.2.6",
     "dotenv": "^8.2.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-bootstrap": "^0.32.1",
     "react-burger-menu": "^3.0.2",
